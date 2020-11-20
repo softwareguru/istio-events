@@ -1,0 +1,22 @@
+.text-event{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.btn h6{
+    font-size: 25px;
+}
+
+
+.btn-success{
+    background-color: #54BD83 !important;
+    padding: 10px 67px !important;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-success:hover{
+    background-color: #58c88b !important;
+}
+
