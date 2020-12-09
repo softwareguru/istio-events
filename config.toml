@@ -1,0 +1,154 @@
+
+######################## default configuration ####################
+baseURL = "https://events.istio.io/istiocon-2021/"
+title = "IstioCon 2021"
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+RemovePathAccents = true
+
+theme = "istiocon"
+# post pagination
+paginate = "10"
+
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link ="/plugins/color-switcher-design/color-switcher-design.css"
+[[params.plugins.css]]
+link = "/plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "/plugins/responsive/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.countdown.js"
+
+[[params.plugins.js]]
+link = "/plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/4a6d2efc2e.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "/about"
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+
+  [[menu.main]]
+  name = "Program"
+  URL = "/program"
+
+  [[menu.main]]
+  name = "Swag"
+  URL = "/swag"
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "/faq"
+
+
+
+#################### default parameters ################################
+[params]
+logo = "/images/logo.svg"
+home = "Home"
+
+# Meta data
+description = "IstioCon 2021 is the inaugural Istio community conference for the industry's most popular service mesh."
+image = "/images/card.png"
+twitter_user = "@beamsummit"
+email = "contact@beamsummit.org"
+author = "Software Guru"
+
+# Google Analitycs
+googleAnalytics = "G-QB7JLQ9ECY"
+
+# search for blog page
+search = true
+
+disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
+trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
+respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 
+with and does not endorse, or review the materials provided at this event."""
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = true
+label = "Live"
+label2 = "Watch now!"
+link = "/live"
+
+
+
+############################# social icon ############################
+[[params.social]]
+icon = "tf-ion-social-twitter"
+link = "https://twitter.com/beamsummit"
+
+[[params.social]]
+icon = "tf-ion-social-linkedin"
+link = "https://www.linkedin.com/company/beam-summit/"
+
+[[params.social]]
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:contact@beamsummit.org"
+
+[[params.footer_about]]
+name = "Apache Beam"
+link = "https://beam.apache.org/"
+
+[[params.footer_about]]
+name = "Apache Beam Blog"
+link = "https://beam.apache.org/blog"
+
+[[params.footer_previous]]
+name = "Beam Summit Europe 2019"
+link = "https://europe2019.beamsummit.org"
+
+[[params.footer_previous]]
+name = "Beam Summit North America 2019"
+link = "https://na2019.beamsummit.org"
+
+[[params.footer_resources]]
+name = "Code of Conduct"
+link = "/coc"
+
+[[params.footer_resources]]
+name = "Prospectus"
+link = "https://beamsummit.org/files/BeamSummit-Prospectus.pdf"
+
+[[params.footer_resources]]
+name = "Call for papers"
+link = "https://sessionize.com/beam-digital-summit-2020/"
+
+[[params.footer_resources]]
+name = "Email us"
+link = "mailto:contact@beamsummit.org"

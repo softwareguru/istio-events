@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+	<div class="page-wrapper">
+	{{- partial "header.html" . -}}
+	{{ if not .IsHome }}
+	{{ partial "page-title.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+	</div>
+
+	{{ "<!-- JS Plugins -->" | safeHTML }}
+	{{ range .Site.Params.plugins.js}}
+	<script src="{{ .link | relURL }}"></script>
+	{{ end }}
+	
+	{{ "<!-- Main Script -->" | safeHTML }}
+	{{ $script := resources.Get "js/script.js" | minify}}
+	<script src="{{ $script.Permalink }}"></script>
+	
+</body>
+
+</html>

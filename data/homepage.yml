@@ -1,0 +1,57 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "Join us for IstioCon 2021"
+  logo : "/images/logo.svg"
+  bg_image: "images/hero-background2.jpg"
+  date_time : "August 24-28, 2020"
+  venue : "100% online and free"
+  button1:
+    enable : true
+    label : "Submit a proposal"
+    link : "https://sessionize.com/istiocon-2021/"
+  button2:
+    enable : false
+    label : "Register"
+    link : ""
+
+
+############################## Event ##############################
+event_info:
+  enable : true
+  pretitle: "About Event"
+  title : "Welcome to the IstioCon 2021"
+  description : "IstioCon 2021 is the inaugural community conference for the industry's most popular service mesh. IstioCon is a community-led event, showcasing the lessons learned from running Istio in production, hands-on experiences from the Istio community, and featuring maintainers from across the Istio ecosystem. The conference offers a mix of keynotes, technical talks, lightning talks, workshops and roadmap sessions. Fun and games are also included with two social hours to take the load off and mesh with the Istio community, vendors, and maintainers!"
+  cta_text: "Register Now"
+  cta_link: ""
+  features: 
+    - number : "5"
+      label : "Days"
+      
+    - number : "15+"
+      label : "Sessions"
+
+    - number : "100%"
+      label : "Free"
+
+    - number : "Everybody"
+      label : "is welcome"
+
+
+####################### Schedule #############################
+schedule:
+  enable : false
+
+
+####################### pricing #############################
+pricing:
+  enable : false
+
+
+########################## speaker ##########################
+speakers:
+  enable : false
+  title : "Key speakers"
+  pretitle : "Speakers"
+  description: ""
+

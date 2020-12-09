@@ -1,0 +1,38 @@
+{{ $data := index .Site.Data }}
+
+<!-- About Section -->
+{{ with $data.homepage.event_info }}
+<section class="about-section" id="about-section">
+  <a id="event-info"></a>
+  <div class="anim-icons full-width">
+    <span class="icon icon-dots wow fadeInleft"></span>
+    <span class="icon icon-circle-1 wow zoomIn"></span>
+  </div>
+  <div class="auto-container">
+    <div class="row">
+      <!-- Content Column -->
+      <div class="content-column col-lg-6 col-md-12 col-sm-12">
+        <div class="inner-column">
+          <div class="sec-title">
+            <span class="title">{{ .pretitle}}</span>
+            <h2>{{ .title }}</h2>
+            <div class="text">{{ .description }}</div>
+          </div>
+          <div class="btn-box">
+            <a href="{{ .cta_link }}" class="theme-btn btn-style-three"><span
+                class="btn-title">{{ .cta_text }}</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="image-column col-lg-6 col-md-12 col-sm-12">
+        <div class="image-box">
+          <figure class="image wow fadeIn"><img src="images/resource/about-img-1.jpg" alt=""></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!--End About Section -->
