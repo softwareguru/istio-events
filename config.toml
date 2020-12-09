@@ -6,8 +6,6 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
 
-publishDir = "docs"
-
 theme = "istiocon"
 # post pagination
 paginate = "10"
