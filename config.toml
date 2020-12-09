@@ -6,6 +6,8 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
 
+publishDir = "public/istiocon-2021"
+
 theme = "istiocon"
 # post pagination
 paginate = "10"
