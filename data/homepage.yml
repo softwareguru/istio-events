@@ -4,8 +4,8 @@ banner:
   title : "Join us for IstioCon 2021"
   logo : "/images/logo.svg"
   bg_image: "images/hero-background2.jpg"
-  date_time : "August 24-28, 2020"
-  venue : "100% online and free"
+  date_time : "February 22-25, 2021"
+  venue : ""
   button1:
     enable : true
     label : "Submit a proposal"

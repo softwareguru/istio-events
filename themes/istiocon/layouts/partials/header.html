@@ -1,6 +1,6 @@
 <!-- Navigation Start -->
-<header class="header-bar">
-  <nav class="navbar navbar-expand-lg main-nav fixed-top bg-light">
+<header class="header-bar main-header header-style-two">
+  <nav class="main-menu navbar navbar-expand-lg main-nav fixed-top bg-light">
     <div class="container">
       <!-- LOGO BAR -->
       <a class="navbar-brand" href='{{ "/" | relURL }}'>
@@ -14,7 +14,7 @@
 
       <!--  MAIN MENU  -->
       <div class="collapse navbar-collapse text-center" id="navigation">
-        <ul class="navbar-nav mx-auto">
+        <ul class="navigation navbar-nav mx-auto">
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
             <li class="nav-item dropdown">
@@ -28,16 +28,16 @@
               </div>
             </li>
             {{ else }}
-            <li class="nav-item">
-              <a class="nav-link" href="{{ .URL | relURL }}">{{ .Name }}</a>
+            <li>
+              <a href="{{ .URL | relURL }}">{{ .Name }}</a>
             </li>
             {{ end }}
           {{ end }}
 
-          {{ if .Site.Params.navigation_button.enable }}
-          <li class="nav-item">
-            <a id="nav-button" target="_blank" href="{{ .Site.Params.navigation_button.link | absURL }}"
-            class="nav-link btn">{{ .Site.Params.navigation_button.label }}</a>
+          {{ with .Site.Params.navigation_button }}
+          <li>
+            <a target="_blank" href="{{ .link | absURL }}"
+            class="theme-btn btn-style-one text-white px-3">{{ .label }}</a>
           </li>
           {{ end }}
         </ul>                
@@ -48,3 +48,5 @@
   </nav>
 </header>
 <!-- Navigation End -->
+
+
