@@ -56,7 +56,7 @@ link = "/plugins/bootstrap/js/bootstrap.min.js"
 
   [[menu.main]]
   name = "FAQ"
-  URL = "/faq"
+  URL = "faq"
 
 
 
