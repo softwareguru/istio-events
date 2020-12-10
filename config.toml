@@ -52,7 +52,7 @@ link = "/plugins/bootstrap/js/bootstrap.min.js"
 
   [[menu.main]]
   name = "About"
-  URL = "#event-info"
+  URL = "about"
 
   [[menu.main]]
   name = "FAQ"
@@ -78,10 +78,7 @@ googleAnalytics = "G-QB7JLQ9ECY"
 # search for blog page
 search = true
 
-disclaimer = """Apache Beam, the Beam logo, and the Apache feather logo are either registered trademarks or 
-trademarks of The Apache Software Foundation. All other products or name brands are trademarks of their 
-respective holders, including The Apache Software Foundation. The Apache Software Foundation has no affiliation 
-with and does not endorse, or review the materials provided at this event."""
+disclaimer = ""
 
 # Preloader
 [params.preloader]
@@ -98,48 +95,33 @@ link = "https://www.crowdcast.io/e/istiocon-2021"
 ############################# social icon ############################
 [[params.social]]
 icon = "tf-ion-social-twitter"
-link = "https://twitter.com/beamsummit"
+link = "https://twitter.com/IstioMesh"
 
 [[params.social]]
-icon = "tf-ion-social-linkedin"
-link = "https://www.linkedin.com/company/beam-summit/"
-
-[[params.social]]
-icon = "tf-ion-social-youtube"
-link = "https://www.youtube.com/channel/UChNnb_YO_7B0HlW6FhAXZZQ"
+icon = "tf-ion-social-slack"
+link = "https://istio.slack.com"
 
 [[params.social]]
 icon = "fas fa-envelope"
-link = "mailto:contact@beamsummit.org"
+link = "mailto:istiocon@googlegroups.com"
 
 [[params.footer_about]]
-name = "Apache Beam"
-link = "https://beam.apache.org/"
+name = "Istio website"
+link = "https://istio.io"
 
-[[params.footer_about]]
-name = "Apache Beam Blog"
-link = "https://beam.apache.org/blog"
-
-[[params.footer_previous]]
-name = "Beam Summit Europe 2019"
-link = "https://europe2019.beamsummit.org"
-
-[[params.footer_previous]]
-name = "Beam Summit North America 2019"
-link = "https://na2019.beamsummit.org"
 
 [[params.footer_resources]]
 name = "Code of Conduct"
-link = "/coc"
+link = "coc"
 
 [[params.footer_resources]]
-name = "Prospectus"
-link = "https://beamsummit.org/files/BeamSummit-Prospectus.pdf"
+name = "Data privacy"
+link = "privacy"
 
 [[params.footer_resources]]
 name = "Call for papers"
-link = "https://sessionize.com/beam-digital-summit-2020/"
+link = "https://sessionize.com/istiocon-2021/"
 
 [[params.footer_resources]]
 name = "Email us"
-link = "mailto:contact@beamsummit.org"
+link = "mailto:isticon@googlegroups.com"
