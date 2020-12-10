@@ -112,11 +112,11 @@ link = "https://istio.io"
 
 [[params.footer_resources]]
 name = "Code of Conduct"
-link = "coc"
+link = "/istiocon-2021/coc"
 
 [[params.footer_resources]]
 name = "Data privacy"
-link = "privacy"
+link = "/istiocon-2021/privacy"
 
 [[params.footer_resources]]
 name = "Call for papers"
