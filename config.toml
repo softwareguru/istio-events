@@ -52,19 +52,7 @@ link = "/plugins/bootstrap/js/bootstrap.min.js"
 
   [[menu.main]]
   name = "About"
-  URL = "/about"
-
-  [[menu.main]]
-  name = "Speakers"
-  URL = "/speakers"
-
-  [[menu.main]]
-  name = "Program"
-  URL = "/program"
-
-  [[menu.main]]
-  name = "Swag"
-  URL = "/swag"
+  URL = "#event-info"
 
   [[menu.main]]
   name = "FAQ"
@@ -103,7 +91,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 label = "Register"
-link = ""
+link = "https://www.crowdcast.io/e/istiocon-2021"
 
 
 

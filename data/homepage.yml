@@ -37,6 +37,14 @@ event_info:
     - number : "Everybody"
       label : "is welcome"
 
+####################### Timer #############################
+timer:
+  enable : false
+
+####################### CTA CFP #############################
+cta_cfp:
+  enable : true
+
 
 ####################### Schedule #############################
 schedule:

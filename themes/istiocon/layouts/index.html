@@ -33,16 +33,11 @@
 {{ end }}
 <!-- /banner -->
 
-    <!-- Coming Soon -->
-    <section class="coming-soon-section-two">
-      <div class="auto-container" style="max-width: 700px;">
-          <div class="outer-box" style="padding: 0px 0px 40px;">
-              <div class="time-counter"><div class="time-countdown clearfix" data-countdown="02/22/2021"></div>
-          </div>
-      </div>
-      </div>
-  </section>
-  <!-- End Coming Soon -->
+<!-- timer  -->
+{{ if $data.homepage.timer.enable }}
+{{ partial "timer.html" . }}
+{{ end }}
+<!-- /timer -->
 
 
 <!-- event_info  -->
@@ -50,6 +45,12 @@
 {{ partial "event_info.html" . }}
 {{ end }}
 <!-- /event_info -->
+
+<!-- cta_cfp  -->
+{{ if $data.homepage.cta_cfp.enable }}
+{{ partial "cta_cfp.html" . }}
+{{ end }}
+<!-- /cta_cfp -->
 
 
 <!-- schedule -->
