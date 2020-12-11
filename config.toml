@@ -115,7 +115,7 @@ name = "Code of Conduct"
 link = "/istiocon-2021/coc"
 
 [[params.footer_resources]]
-name = "Data privacy"
+name = "Privacy policy"
 link = "/istiocon-2021/privacy"
 
 [[params.footer_resources]]
