@@ -44,8 +44,8 @@ link = "/plugins/jquery/jquery.js"
 link = "/plugins/jquery/jquery.countdown.js"
 [[params.plugins.js]]
 link = "/plugins/bootstrap/js/bootstrap.min.js"
-# [[params.plugins.js]]
-# link="https://kit.fontawesome.com/4a6d2efc2e.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/2e09285ae6.js"
 
 ############################## navigation ###############################
 [menu]
@@ -98,11 +98,23 @@ icon = "tf-ion-social-twitter"
 link = "https://twitter.com/IstioMesh"
 
 [[params.social]]
-icon = "tf-ion-social-slack"
+icon = "tf-ion-social-youtube"
+link = "https://www.youtube.com/channel/UC-zVlo1F3mUbExQ96fABWcQ"
+
+[[params.social]]
+icon = "fab fa-slack"
 link = "https://istio.slack.com"
 
 [[params.social]]
-icon = "fas fa-envelope"
+icon = "fab fa-discourse"
+link = "https://discuss.slack.com"
+
+[[params.social]]
+icon = "tf-ion-social-octocat"
+link = "https://github.com/istio/istio.io"
+
+[[params.social]]
+icon = "tf-ion-android-mail"
 link = "mailto:istiocon@googlegroups.com"
 
 [[params.footer_about]]
