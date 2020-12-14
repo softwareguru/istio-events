@@ -19,7 +19,7 @@
 
   {{ if .button1.enable }}
     {{ with .button1 }}
-    <div class="btn-box"><a href="{{ .link | absURL }}" class="theme-btn btn-style-two"><span class="btn-title">{{ .label }}</span></a></div>
+    <a href="{{ .link | relURL }}" class="theme-btn btn-style-two"><span class="btn-title">{{ .label }}</span></a>
     {{ end }}
   {{ end }}
 
