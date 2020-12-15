@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+ <!-- FAQ's Section -->
+ <section class="faq-section">
+    <div class="auto-container">
+        <!-- Sec Title -->
+        <div class="sec-title">
+            <span class="title">FAQ'S</span>
+            <h2> {{ .Title }}</h2>
+        </div>
+        
+        <div class="row clearfix">
+            {{ range .Data.Pages.ByTitle }}
+            <!-- Content Column -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    
+                    <!--Accordian Box-->
+                    <ul class="accordion-box">
+                     <!--Block-->
+                     <li class="accordion block wow fadeInUp">
+                        <div class="acc-btn "><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ .Params.Title}}</div>
+                        <div class="acc-content ">
+                            <div class="content">
+                                <div class="text">{{ .Params.Description }}
+                                 </div>
+                            </div>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Content Column -->
+            <div class="content-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <!--Accordian Box-->
+                    <ul class="accordion-box">
+                         <!--Block-->
+                         <li class="accordion block wow fadeInUp">
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ .Params.Title1 }}</div>
+                            <div class="acc-content">
+                                <div class="content">
+                                    <div class="text">{{ .Params.Description1 }}</a> 
+                                    </div>
+                               </div>
+                            </div>
+                        </li>
+                    
+                </ul>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        
+    </div>
+</section>
+<!-- End FAQ's Section -->
+
+{{ end }}
