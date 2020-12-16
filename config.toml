@@ -36,16 +36,50 @@ link = "/plugins/responsive/responsive.css"
 link = "/plugins/animate/animate.css"
 [[params.plugins.css]]
 link = "/plugins/flaticon/flaticon.css"
+#[[params.plugins.css]]
+#link = "/plugins/style/style.css"
+
 
 # JS Plugins
 [[params.plugins.js]]
 link = "/plugins/jquery/jquery.js"
+
 [[params.plugins.js]]
-link = "/plugins/jquery/jquery.countdown.js"
+link="/plugins/popper/popper.min.js"
+
 [[params.plugins.js]]
 link = "/plugins/bootstrap/js/bootstrap.min.js"
+
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery-ui.js"
+
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.fancybox.js"
+
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.countdown.js"
+
 [[params.plugins.js]]
 link="https://kit.fontawesome.com/2e09285ae6.js"
+
+[[params.plugins.js]]
+link="/plugins/appear/appear.js"
+
+#[[params.plugins.js]]
+#link="/plugins/owl/owl.js"
+
+[[params.plugins.js]]
+link="/plugins/wow/wow.js"
+
+[[params.plugins.js]]
+link="/plugins/parallax/parallax.min.js"
+
+[[params.plugins.js]]
+link="/plugins/script/script.js"
+
+
+
+
 
 ############################## navigation ###############################
 [menu]
