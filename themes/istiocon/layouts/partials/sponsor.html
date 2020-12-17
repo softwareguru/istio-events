@@ -7,35 +7,41 @@
  <div class="page-wrapper">
   <div class="auto-container">
       <div class="sec-title text-center">
-          <h2>Presented by:</h2><br><a href="https://cloud.google.com/"><img src="images/partners/google-logo.png" alt="" width="400"></a>
+          <h2>Presented by:</h2><br>
+            
           <br>
-          <br>
+    
           <span class="title">Partners</span>
       </div>
 
       <div class="sponsors-outer">
-        {{ partial "section_title.html" . }}
+       
           {{ range .sponsor_group }}
-          <div class="sponsors-carousel owl-carousel owl-theme">
+          <div class="sponsors">
               <!-- Client Block -->
+              <div class="row row-cols-1 row-cols-md-3">
               {{ range .sponsor }}
               {{ if and (ne .link "") (ne .link "#") }}
-              <div class="row row-cols-1 row-cols-md-2">
+             
                 <div class="col mb-4">
-                  <figure class="image-box"><a href="{{ .link }}"><img src="{{ .logo | relURL }}" alt="" width="300"></a></figure>
+                  <figure class="image-box"><a href="{{ .link }}" target="_blank"><img src="{{ .logo | relURL }}" alt="" width="280"></a></figure>
+                </div>
                   {{ else }}
-                  <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
+                  <div class="col mb-4">
+                    <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
+                  </div>
                   {{ end }}
-              </div>
+              
              {{ end }}
+            </div>
           </div>
         {{ end }}
-      </div>
     </div>
   </div>
 </div>
 </section>
 <!--End Clients Section-->
+
 
 {{ end }}
 

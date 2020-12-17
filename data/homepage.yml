@@ -55,6 +55,8 @@ sponsor:
   
     sponsor:
 
+      - logo : "images/partners/google.png"
+        link : "https://cloud.google.com/"
       - logo : "images/partners/AspenMesh.png"
         link : "https://aspenmesh.io/"
       - logo : "images/partners/solo.io.png"
