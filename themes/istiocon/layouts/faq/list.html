@@ -8,26 +8,28 @@
             <span class="title">FAQ'S</span>
             <h2> {{ .Title }}</h2>
         </div>
-        
+        {{ range .Data.Pages.ByTitle }}
         <div class="row clearfix">
-            {{ range .Data.Pages.ByTitle }}
+            
             <!-- Content Column -->
             <div class="content-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column">
                     
                     <!--Accordian Box-->
                     <ul class="accordion-box">
-                     <!--Block-->
-                     <li class="accordion block wow fadeInUp">
-                        <div class="acc-btn "><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ .Params.Title}}</div>
-                        <div class="acc-content ">
-                            <div class="content">
-                                <div class="text">{{ .Params.Description }}
-                                 </div>
-                            </div>
-                        </div>
-                    </li>
-                    </ul>
+                        <!--Block-->
+                        {{ with .Params.title }}
+                        <li class="accordion block wow fadeInUp">
+                           <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ . }}</div>
+                           {{ end }}
+                           <div class="acc-content">
+                               <div class="content">
+                                   <div class="text">{{ .Params.Description }}</a> 
+                                   </div>
+                              </div>
+                           </div>
+                       </li>
+                   </ul>
                 </div>
             </div>
 
@@ -37,8 +39,10 @@
                     <!--Accordian Box-->
                     <ul class="accordion-box">
                          <!--Block-->
+                         {{ with .Params.title1 }}
                          <li class="accordion block wow fadeInUp">
-                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ .Params.Title1 }}</div>
+                            <div class="acc-btn"><div class="icon-outer"><span class="icon icon-plus fa fa-angle-down"></span> </div>{{ . }}</div>
+                            {{ end }}
                             <div class="acc-content">
                                 <div class="content">
                                     <div class="text">{{ .Params.Description1 }}</a> 
@@ -46,13 +50,12 @@
                                </div>
                             </div>
                         </li>
-                    
-                </ul>
+                    </ul>
                 </div>
             </div>
-            {{ end }}
+            
         </div>
-        
+        {{ end }}
     </div>
 </section>
 <!-- End FAQ's Section -->
