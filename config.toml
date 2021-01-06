@@ -44,17 +44,17 @@ link = "/plugins/flaticon/flaticon.css"
 [[params.plugins.js]]
 link = "/plugins/jquery/jquery.js"
 
-[[params.plugins.js]]
-link="/plugins/popper/popper.min.js"
+#[[params.plugins.js]]
+#link="/plugins/popper/popper.min.js"
 
 [[params.plugins.js]]
 link = "/plugins/bootstrap/js/bootstrap.min.js"
 
-[[params.plugins.js]]
-link = "/plugins/jquery/jquery-ui.js"
+#[[params.plugins.js]]
+#link = "/plugins/jquery/jquery-ui.js"
 
-[[params.plugins.js]]
-link = "/plugins/jquery/jquery.fancybox.js"
+#[[params.plugins.js]]
+#link = "/plugins/jquery/jquery.fancybox.js"
 
 [[params.plugins.js]]
 link = "/plugins/jquery/jquery.countdown.js"
@@ -68,8 +68,8 @@ link="https://kit.fontawesome.com/2e09285ae6.js"
 #[[params.plugins.js]]
 #link="/plugins/owl/owl.js"
 
-[[params.plugins.js]]
-link="/plugins/wow/wow.js"
+#[[params.plugins.js]]
+#link="/plugins/wow/wow.js"
 
 #[[params.plugins.js]]
 #link="/plugins/parallax/parallax.min.js"

@@ -6,9 +6,10 @@
 <!-- banner -->
 {{ with $data.homepage.banner }}
 <section class="section banner">
-  <h2 class="hero-title">
+  <div class="auto-container">
+  <h1 class="hero-title">
     {{ .title }}
-  </h2>
+  </h1>
   {{ with .date_time }}
     <p>{{ . }}</p>
   {{ end }}  
@@ -28,7 +29,7 @@
     <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner2 mt-3 ml-4">{{ .label }}</a>
     {{ end }}
   {{ end }}
-
+</div>
 </section>
 {{ end }}
 <!-- /banner -->

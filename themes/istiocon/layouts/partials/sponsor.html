@@ -7,18 +7,16 @@
  <div class="page-wrapper">
   <div class="auto-container">
       <div class="sec-title text-center">
-          <h2>Presented by:</h2><br>
+          <h2>Partners:</h2>
             
-          <br>
-    
-          <span class="title">Partners</span>
+          <span class="title"></span>
       </div>
-
+  <!--
       <div class="sponsors-outer">
        
           {{ range .sponsor_group }}
           <div class="sponsors">
-              <!-- Client Block -->
+           
               <div class="row row-cols-1 row-cols-md-3">
               {{ range .sponsor }}
               {{ if and (ne .link "") (ne .link "#") }}
@@ -37,10 +35,35 @@
           </div>
         {{ end }}
     </div>
+   -->
+
+
+   <div class="auto-container">
+    {{ range .sponsor_group }}
+    <div class="row row-cols-1 row-cols-md-5">
+      {{ range .sponsor }}
+     
+      <div class="col mb-4" style="text-align: center;">
+        <div class="card" style="border: none;">
+         <a href="{{ .link }}"><img src="{{ .logo }}" class="image-box" width="180" alt="..."></a> 
+          <div class="card-body">
+            <h1>&nbsp&nbsp&nbsp&nbsp</h1>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+     
+    </div>
+  
+    {{ end }}
+  </div>
+
   </div>
 </div>
 </section>
 <!--End Clients Section-->
+
+
 
 
 {{ end }}
