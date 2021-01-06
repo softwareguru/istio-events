@@ -51,10 +51,10 @@ sponsor:
   enable : true
 
   sponsor_group:
-  - title : ""
-  
-    sponsor:
+  - title : "Partners"
+    slug : "partner"
 
+    sponsor:
       - logo : "images/partners/google.png"
         link : "https://cloud.google.com/"
       - logo : "images/partners/AspenMesh.png"
