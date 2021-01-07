@@ -63,10 +63,11 @@ sponsor:
         link : "https://www.solo.io/"
       - logo : "images/partners/IBM.jpg"
         link : "https://www.ibm.com/"
+      - logo : "images/partners/tetrate.png"
+        link : "https://www.tetrate.io/"
       - logo : "images/partners/redhat.png"
         link : "https://www.redhat.com/"
       
-
 
 
 ####################### Schedule #############################

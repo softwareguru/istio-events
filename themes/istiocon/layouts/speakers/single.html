@@ -2,45 +2,78 @@
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-<section class="speaker-single section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-5 mb-5 mb-md-0">
-        <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid w-100">
-      </div>
-      <div class="col-lg-8 col-md-7">
-        <div class="speaker-single-wrap">
-          <div class="speaker-header mb-2">
-            <h2>{{ .Title }}</h2>
-            <span class="text-secondary">{{ .Params.Designation }}</span>
-            <ul class="list-inline social-single mt-1">
-              {{ with .Params.twitter }}
-                {{ if ne . "" }}
-                <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i class="tf-ion-social-twitter"></i></a></li>
-                {{ end }}
-              {{ end }}  
-              {{ with .Params.linkedin }}
-                {{ if ne . "" }}
-                <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i class="tf-ion-social-linkedin"></i></a></li>
-                {{ end }}
-              {{ end }}  
-              {{ with .Params.github }}
-                {{ if ne . "" }}
-                <li class="list-inline-item"><a href="{{ . }}" target="_blank"><i class="tf-ion-social-github"></i></a></li>
-                {{ end }}
-              {{ end }}  
-            </ul>
-  
+<!-- Speker Detail -->
+<section class="speaker-detail">
+  <div class="auto-container">
+      <div class="row">
+          <div class="image-column col-lg-4 col-md-12 col-sm-12">
+              <div class="image-box">
+                  <figure class="image"><img src="{{ .Params.Image | relURL }}" alt=""></figure>
+                  <ul class="social-icon-two social-icon-colored text-center">
+                      {{ with .Params.facebook }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                      {{ end }}
+                      {{ end }}  
+
+                      {{ with .Params.instagram }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-instagram"></span></a></li>
+                      {{ end }}
+                      {{ end }}  
+
+                      {{ with .Params.twitter }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                      {{ end }}
+                      {{ end }} 
+
+                      {{ with .Params.linkedin }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-linkedin-in"></span></a></li>
+                      {{ end }}
+                      {{ end }} 
+
+                      {{ with .Params.github }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-github"></span></a></li>
+                      {{ end }}
+                      {{ end }}
+                  </ul>
+              </div>
           </div>
 
-          <div class="content">{{ .Content }}</div>
+          <div class="info-column col-lg-8 col-md-12 col-sm-12">
+              <div class="inner-column">
+                  <div class="text-box">
+                      <h3>{{ .Title }}</h3>
+                      <p>{{ .Content }}</p>
+                      <h4>Sessions by {{ .Title }}</h4>
 
-
-        </div>
+                      <!-- Sessions speaker -->
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <div class="speaker-session-info">
+                                  <h5>Day 1</h5>
+                                  <span> 10.30 - 11.30 am </span>
+                                  <p> Conference Name</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="speaker-session-info">
+                                  <h5>Day 2</h5>
+                                  <span> 12.30 - 11.30 am </span>
+                                  <p>Conference Name</p>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- Sessions speaker end -->
+                  </div>
+              </div>
+          </div>
       </div>
-    </div>
   </div>
 </section>
-
+<!--End Speker Detail -->
 
 {{ end }}
