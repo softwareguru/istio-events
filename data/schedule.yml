@@ -1,0 +1,20 @@
+schedule:
+  enable : true
+  title_outline : ""
+  title : ""
+  schedule_tab:
+    ################# tab itam loop ################
+    - title : "Day 01"
+      date_time : "22"
+      tracks: ""
+          
+    ################# tab itam loop ################
+    - title : "Day 02"
+      date_time : "25"
+      tracks: ""
+          
+  
+
+
+          
+

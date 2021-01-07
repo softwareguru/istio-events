@@ -1,7 +1,73 @@
 {{ define "main" }}
 
+
 {{ $data := index .Site.Data }}
 {{ $schedule := $data.schedule.schedule }}
+
+
+ <!-- Schedule Section Style two -->
+ <section class="schedule-section style-three">
+  <div class="auto-container">
+      <div class="sec-title text-center">
+          <span class="title">About Conference</span>
+          <h2>Schedule Plan</h2>
+      </div>
+
+      <div class="schedule-tabs style-three tabs-box">
+          <div class="btns-box">
+           
+              <!--Tabs Box-->
+              <ul class="tab-buttons clearfix">
+                {{ $.Scratch.Set "counter" 0 }}
+                {{ range $index, $element := $schedule.schedule_tab }}
+                  {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                  <li class="tab-btn {{ if eq $index 0 }} active {{ end }}" data-tab="#tab-{{$.Scratch.Get `counter`}}">
+                      <span class="day">{{ .title | markdownify }}</span>
+                      <span class="date">{{ .date_time | markdownify }}</span>
+                      <span class="month">Feb</span> 2021
+                  </li>
+                  {{ end }}
+              </ul>
+             
+          </div>
+
+          <div class="tabs-content">
+            <!--Tab-->
+            {{ $.Scratch.Set "counter" 0 }}
+            {{ range $index, $element := $schedule.schedule_tab }}
+            <div class="tab " id="tab-{{$.Scratch.Get `counter`}}">
+                <div class="schedule-timeline row">
+                 
+                    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                    {{ range sort (where (where $.Site.Pages "Section" "program") ".Params.day_num" ($.Scratch.Get `counter`)) ".Params.time_start"  }}
+                    <!-- schedule Block -->
+                    <div class="schedule-block col-lg-6 col-md-12 col-sm-12">
+
+                     
+                        <div class="inner-box">
+                            <div class="inner">
+                                <div class="date">{{ .Params.time_start }}</div>
+                                <div class="speaker-info">
+                                    <figure class="thumb"><img src="images/speaker.jpg" alt=""></figure>
+                                    <h5 class="name">{{ .Params.speaker }}</h5>
+                                </div>
+                                <h4><a href="#">{{ .Params.name_conference }}</a></h4>
+                                <div class="text">{{ .Params.description }}</div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    {{ end }}
+                    
+                </div>
+              
+            </div>
+            {{ end }}
+        </div>
+      </div>
+  </div>
+</section>
+<!--End schedule Section -->
 
 <div class="container mt-4">
   <div class="row">
