@@ -10,7 +10,7 @@ schedule:
           
     ################# tab itam loop ################
     - title : "Day 02"
-      date_time : "25"
+      date_time : "23"
       tracks: ""
           
   

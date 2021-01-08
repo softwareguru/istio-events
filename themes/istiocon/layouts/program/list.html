@@ -8,7 +8,7 @@
  <!-- Schedule Section Style two -->
  <section class="schedule-section style-three">
   <div class="auto-container">
-      <div class="sec-title text-center">
+      <div class="sec-title text-center" style="margin-top: -50px;">
           <span class="title">About Conference</span>
           <h2>Schedule Plan</h2>
       </div>
@@ -35,10 +35,11 @@
             <!--Tab-->
             {{ $.Scratch.Set "counter" 0 }}
             {{ range $index, $element := $schedule.schedule_tab }}
-            <div class="tab " id="tab-{{$.Scratch.Get `counter`}}">
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+            <div class="tab {{ if eq $index 0 }} active-tab {{ end }}" id="tab-{{$.Scratch.Get `counter`}}">
                 <div class="schedule-timeline row">
                  
-                    {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+                    
                     {{ range sort (where (where $.Site.Pages "Section" "program") ".Params.day_num" ($.Scratch.Get `counter`)) ".Params.time_start"  }}
                     <!-- schedule Block -->
                     <div class="schedule-block col-lg-6 col-md-12 col-sm-12">
@@ -48,7 +49,7 @@
                             <div class="inner">
                                 <div class="date">{{ .Params.time_start }}</div>
                                 <div class="speaker-info">
-                                    <figure class="thumb"><img src="images/speaker.jpg" alt=""></figure>
+                                    <figure class="thumb"><img src="{{ .Params.Image | relURL }}" alt=""></figure>
                                     <h5 class="name">{{ .Params.speaker }}</h5>
                                 </div>
                                 <h4><a href="#">{{ .Params.name_conference }}</a></h4>
@@ -56,7 +57,7 @@
                             </div>
                         </div>
                         
-                    </div>
+                    </div> 
                     {{ end }}
                     
                 </div>
@@ -69,7 +70,7 @@
 </section>
 <!--End schedule Section -->
 
-<div class="container mt-4">
+<!--<div class="container mt-4">
   <div class="row">
     <div class="col-lg-12">
       <nav class="nav nav-pills nav-fill" role="tablist">
@@ -90,7 +91,7 @@
         {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
         <div class="tab-pane fade {{ if eq $index 0 }} show active {{ end }} " id="scheduleTab{{$.Scratch.Get `counter`}}" role="tabpanel">
           <ul class="mt-4 time-table pl-0 list-unstyled">
-            {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.day_num" ($.Scratch.Get `counter`)) ".Params.time_start" }}
+            {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.day_num" ($.Scratch.Get `counter`)) }}
             <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
                 <div class="time">
                   <h4 id="time-{{.Params.id}}" class="text-color" >
@@ -119,7 +120,7 @@
       </div>
       </div>
     </div>
-  </div>
+  </div>-->
 </section>
 
 <script>
