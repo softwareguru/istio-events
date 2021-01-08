@@ -1,24 +1,32 @@
 {{ define "main" }}
 
-<section class="section {{ .Type }}">
-  <div class="container">
-    <div class="list-content">
-      {{ .Content }}
-    </div>
 
-    <div class="row">
-      {{ $paginator := .Paginate .Data.Pages }}
-      {{ range $paginator.Pages }}
-      <div class="col-sm-6">
-        {{ .Render "post" }}
-      </div>
-      {{ end }}
-      <div class="col-12">
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
+<!-- News Section -->
+<section class="news-section">
 
+  <div class="auto-container">
+
+      <div class="row">
+        {{ range .Data.Pages.ByTitle }}
+
+          <!-- News Block Three -->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight">
+              <div class="inner-box">
+                  <div class="image-box">
+                      <figure class="image"><a href="{{ .Params.Link }}"><img src="{{ .Params.Image | relURL }}" alt=""></a></figure>
+                  </div>
+                  <div class="lower-content">
+                      <h4><a href="{{ .Params.Link }}">{{ .Title }}</a></h4>
+                      <p>{{ .Params.Description}}</p>
+                      <div class="btn-box"><a href="{{ .Params.Link }}" class="read-more">{{ .Params.Button }}</a></div>
+                  </div>
+              </div>
+          </div>
+          {{ end }}
+      </div>
   </div>
 </section>
+<!--End News Section -->
+
 
 {{ end }}
