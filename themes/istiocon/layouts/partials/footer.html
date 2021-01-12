@@ -24,7 +24,7 @@
 					{{ range .Site.Params.footer_resources }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
 					{{ end }}
-				</ul>
+				</ul> 
 			</div>
 		</div>
 		{{ with .Site.Params.disclaimer }}
@@ -35,9 +35,13 @@
 
 		<hr>
 
+		
 		<div style="text-align: center;">
-			<strong>Produced by &nbsp;<a href="https://sg.com.mx/" target="_blank"><img src="images/partners/SG.png" alt="" width="45"> </strong></a>
+			{{ range .Site.Params.footer_produced }}
+			<strong>{{ .name }} &nbsp;<a href="{{ .link | safeURL }}" target="_blank"><img src="{{ .image | safeURL }}" alt="" width="45"> </strong></a>
+			{{ end }}
 		</div>
 	</div>
 </footer>
+
 

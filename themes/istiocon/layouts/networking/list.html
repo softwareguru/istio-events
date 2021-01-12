@@ -15,12 +15,12 @@
             <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight">
                 <div class="inner-box">
                     <div class="image-box">
-                        <figure class="image"><a href="{{ .Params.Link }}"><img src="{{ .Params.Image | relURL }}" alt=""></a></figure>
+                        <figure class="image"><a href="{{ .Params.Link }}" target="blank"><img src="{{ .Params.Image | relURL }}" alt=""></a></figure>
                     </div>
                     <div class="lower-content">
-                        <h4><a href="{{ .Params.Link }}">{{ .Title }}</a></h4>
+                        <h4><a href="{{ .Params.Link }}" target="blank">{{ .Title }}</a></h4>
                         <p>{{ .Params.Description}}</p>
-                        <div class="btn-box"><a href="{{ .Params.Link }}" class="read-more">{{ .Params.Button }}</a></div>
+                        <div class="btn-box"><a href="{{ .Params.Link }}" class="read-more" target="blank">{{ .Params.Button }}</a></div>
                     </div>
                 </div>
             </div>
