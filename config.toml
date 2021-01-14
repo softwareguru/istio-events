@@ -176,7 +176,7 @@ name = "Call for papers"
 link = "https://sessionize.com/istiocon-2021/"
 
 [[params.footer_resources]]
-name = "I want to be Partner"
+name = "Partnership program"
 link = "/istiocon-2021/partner/IstioCon 2021_ Partner Packages.pdf"
 
 [[params.footer_produced]]

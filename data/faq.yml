@@ -78,6 +78,9 @@ faq:
     - title : "Is there a code of conduct?"
       description : "Yes. IstioCon 2021 promotes and encourages a set of shared values to improve our productivity and interpersonal interactions. Only by respecting each other can we develop a productive, collaborative community. You can find the Istio Code of conduct [here](https://github.com/istio/community/blob/master/CONTRIBUTING.md#code-of-conduct)."
       
+     ################# tab itam loop ################
+    - title : "How can my company sponsor the event?"
+      description : "We have a [partnership program](https://events.istio.io/istiocon-2021/partner/IstioCon%202021_%20Partner%20Packages.pdf)."
   
           
   
