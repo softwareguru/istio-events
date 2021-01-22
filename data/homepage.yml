@@ -8,8 +8,8 @@ banner:
   venue : ""
   button1:
     enable : true
-    label : "Submit a proposal"
-    link : "https://sessionize.com/istiocon-2021/"
+    label : "Register Now!"
+    link : "https://www.crowdcast.io/e/istiocon-2021"
   button2:
     enable : false
     label : "Register"
