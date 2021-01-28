@@ -2,7 +2,7 @@
 title: "María Cruz"
 date: 2021-01-06T13:04:28-06:00
 image : /images/speakers/Maria_Cruz.jpg
-designation: Communications and Outreach Manager
+designation: Communications and Outreach Manager @ Google
 country: 
 facebook: 
 instagram: 

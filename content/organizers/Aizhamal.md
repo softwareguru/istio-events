@@ -2,7 +2,7 @@
 title: "Aizhamal Nurmamat kyzy"
 date: 2021-01-06T13:04:28-06:00
 image : /images/speakers/Aizhamal_Nurmamat.jpg
-designation: Open Source | The ASF | D&I
+designation: Open Source | The ASF | D&I @ Google
 country: 
 facebook: 
 instagram: 

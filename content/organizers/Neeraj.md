@@ -2,7 +2,7 @@
 title: "Neeraj Poddar"
 date: 2021-01-06T13:04:28-06:00
 image : /images/speakers/Neeraj-Poddar.jpg
-designation: Co-founder and Chief Architect at Aspen Mesh, F5 Networks
+designation: Co-founder and Chief Architect @ Aspen Mesh
 country: 
 facebook: 
 instagram: 
