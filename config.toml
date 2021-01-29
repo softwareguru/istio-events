@@ -95,9 +95,19 @@ link="https://kit.fontawesome.com/2e09285ae6.js"
   #weight = 2
 
   [[menu.main]]
+  name = "Networking"
+  URL = "networking"
+  weight = 3
+
+   [[menu.main]]
+  name = "Swag Bag"
+  URL = "swag"
+  weight = 4
+
+  [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 3
+  weight = 5
 
 
 
