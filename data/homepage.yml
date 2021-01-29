@@ -4,7 +4,7 @@ banner:
   title : "Join us for IstioCon 2021"
   logo : "/images/logo.svg"
   bg_image: "images/hero-background2.jpg"
-  date_time : "February 22-25, 2021"
+  date_time : "February 22-26, 2021"
   venue : ""
   button1:
     enable : true
