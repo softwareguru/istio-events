@@ -1,8 +1,8 @@
 ---
 title: "Aizhamal Nurmamat kyzy"
 date: 2021-01-06T13:04:28-06:00
-image : /images/speakers/Aizhamal_Nurmamat.jpg
-designation: Open Source | The ASF | D&I @ Google
+image : /images/organizers/aizhamal-nurmamat.jpg
+designation: Program Manager, Google Cloud
 country: 
 facebook: 
 instagram: 

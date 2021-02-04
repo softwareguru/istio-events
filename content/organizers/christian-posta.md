@@ -1,8 +1,9 @@
 ---
 title: "Christian Posta"
 date: 2021-01-06T13:04:28-06:00
-image : /images/speakers/Christian-Posta.jpg
-designation: Global Field CTO @ solo.io
+image : /images/organizers/christian-posta.jpg
+designation: Global Field CTO, Solo.io 
+committee: Steering Committee Member
 country: 
 facebook: 
 instagram: 

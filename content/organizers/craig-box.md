@@ -1,8 +1,9 @@
 ---
 title: "Craig Box"
 date: 2021-01-06T13:04:28-06:00
-image : /images/speakers/Craig_Box.jpg
-designation: Kubernetes/Istio Advocacy Lead @ Google Cloud
+image : /images/organizers/craig-box.jpg
+designation: Istio Advocacy Lead, Google Cloud
+committee: IstioCon Program Chair, Steering Committee Member
 country: 
 facebook: 
 instagram: 
