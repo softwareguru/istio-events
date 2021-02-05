@@ -2,7 +2,7 @@
 title: "Chaomeng Zhang"
 date: 2021-02-04T15:58:21-06:00
 image : "/images/speakers/chaomeng-zhang.jpg"
-designation : "Chief Architect of Huawei Cloud Application Service Mesh, Istio community member, author of Istio book: Cloud Native Service Mesh Istio"
+designation : "Chief Architect of Huawei Cloud Application Service Mesh"
 country: ""
 facebook: ""
 instagram: ""
