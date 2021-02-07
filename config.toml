@@ -93,10 +93,10 @@ link="https://kit.fontawesome.com/2e09285ae6.js"
   URL = "about"
   weight = 1
 
-  #[[menu.main]]
-  #name = "Speakers"
-  #URL = "speakers"
-  #weight = 2
+  [[menu.main]]
+  name = "Speakers"
+  URL = "speakers"
+  weight = 2
 
   [[menu.main]]
   name = "Networking"
