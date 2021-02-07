@@ -6,11 +6,11 @@ speakers:
  - Jason Webb
  - Vrushali Joshi
 time_start: 2021-02-22T18:20:00.000Z
-time_end:   2021-02-22T16:25:00.000Z
+time_end:   2021-02-22T18:45:00.000Z
 block: a
 slot: 5
-format: Adoption story
-language: English
+format: adoption
+language: english
 tags:
 ---
 

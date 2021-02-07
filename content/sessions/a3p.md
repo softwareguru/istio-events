@@ -5,12 +5,12 @@ url: /sessions/using-istio-to-build-the-next-generation-5g-platform
 speakers:
  - Neeraj Poddar
  - David Lenrow
-time_start: 2021-02-22T16:00:00.000Z
-time_end:   2021-02-22T16:40:00.000Z
+time_start: 2021-02-22T17:00:00.000Z
+time_end:   2021-02-22T17:40:00.000Z
 block: a
 slot: 3
-format: Presentation
-language: English
+format: presentation
+language: english
 tags:
 ---
 

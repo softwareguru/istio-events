@@ -6,9 +6,9 @@ speakers:
  - 
 time_start: 
 time_end:   
-block:
-slot: 
-format: 
+block: {{ substr .Name 0 1 }}
+slot: {{ substr .Name 1 1 }}
+format: {{ substr .Name 2 1 }}
 language: 
 tags:
 ---

@@ -5,11 +5,11 @@ url: /workshops/using-istio
 speakers:
  - Lee Calcote
 time_start: 2021-02-22T18:30:00.000Z
-time_end:   2021-02-22T18:30:00.000Z
+time_end:   2021-02-22T21:00:00.000Z
 block: a
 slot: 6
-format: Workshop
-language: English
+format: workshop
+language: english
 tags:
 ---
 

@@ -1,0 +1,321 @@
+﻿id,slot,title,url,speakers,start_utc,end_utc,type,language,abstract
+a1k,A1K,Opening keynote,/sessions/opening-keynote,Istio Team,2021-02-22T16:00:00.000Z,2021-02-22T16:50:00.000Z,keynote,english,"Craig Box and Lin Sun, program chairs and Istio steering committee members, welcome you to IstioCon and discuss the past, present and future of Istio."
+238506,A3P,Using Istio to build the next generation 5G platform,/sessions/using-istio-to-build-the-next-generation-5g-platform,"Neeraj Poddar, David Lenrow",2021-02-22T17:00:00.000Z,2021-02-22T17:40:00.000Z,presentation,english,"Building the next fastest, secure and reliable 5G platform is challenging in its own right but doing that while modernizing your infrastructure and onboarding Cloud-Native Functions (CNFs) from multiple vendors can be a herculean effort
+
+In this talk, we will cover how Istio can be used in 5G platforms to achieve uniform security and visibility across these CNFs deployed in multiple clusters across different sites including edge. However, rolling out Istio at this scale brings its own challenges around lifecycle management, tenant isolation, identity management and visibility beyond metrics and traces. We will cover the lessons learned and tradeoffs between various architectures, in particular:
+
+Tenancy isolation
+5G aware telemetry
+Uniform identity between legacy and workloads in the mesh
+Deep packet inspection
+
+Attendees will gain insight into how service providers use Istio at a large scale and what the future holds for a mesh everywhere world from backend to edge to devices"
+238508,A4P,I want to sketch a mesh for you,/sessions/i-want-to-sketch-a-mesh-for-you,Christian Posta,2021-02-22T17:40:00.000Z,2021-02-22T18:20:00.000Z,presentation,english,"Virtual conference presentations lack the dynamic and expressive feeling of a live talk in so many dimensions, and explaining complex concepts can be difficult. Even in person, one of the best ways to convey problems, solutions, and architecture discussions is through diagramming and white boarding. As one of the authors of Istio in Action for Manning Publishers, I've gone through many refinements of diagrams to help explain Istio.  In this talk, we'll use live diagramming, architecture sketches, demos and no slides, to illustrate how best to get started with Istio and iteratively adopt it into production. We will cover concepts like sidecar injection, the power of gateways, best practices for tying in PKI, and DNS proxying as we slowly add new workloads to a mesh. "
+237937,A5A,Istio Service Mesh at Enterprise Scale,/sessions/istio-service-mesh-at-enterprise-scale,"Jason Webb, Vrushali Joshi",2021-02-22T18:20:00.000Z,2021-02-22T18:45:00.000Z,adoption story,english,"In order to support modern, responsive, real-time experiences across thousands of microservices, we needed a solution for high-performance networking at scale. We began to accept that the limitations of our Hub and Spoke API Gateway model would be impossible to patch.  With a significant move to Kubernetes within the company and with Service Mesh technologies on the near horizon, we began the journey to bring Service Mesh to our enterprise.  We quickly discovered that deploying Istio for the enterprise comes with a host of challenges. Supporting multi-region deployments with non-flat networks and securely managing multitenant configuration across hundreds of Kubernetes clusters proved challenging. This talk details how Intuit solved these problems while deploying and managing Istio multi-cluster at scale in production."
+230993,A8P,Improving Security with Istio,/sessions/improving-security-with-istio,Alex Soto,2021-02-22T21:00:00.000Z,2021-02-22T21:40:00.000Z,presentation,english,"As we start to go toward cloud-native infrastructure and build our applications out of microservices, we must fully face the drawbacks and challenges to doing so. One of the most important aspect is securing (authentication and authorization) the services correctly.
+
+In this session, we'll show how Istio can simplify your security model when adopting (micro) services architecture.
+
+We expect most developers haven't adequately solved for these issues, so we'll take it to step by step and build up a strong understanding of Istio and how it is used to secure the service mesh."
+233299,A9P,What Envoy Hears When Istio Speaks,/sessions/what-envoy-hears-when-istio-speaks,Rob Salmond,2021-02-22T21:40:00.000Z,2021-02-22T22:20:00.000Z,presentation,english,Istio listens to Kubernetes and speaks to Envoy. We will explore these conversations and learn to understand what's being said.
+238524,AW,Using Istio Workshop,/sessions/using-istio-workshop,Lee Calcote,2021-02-22T18:30:00.000Z,2021-02-22T21:00:00.000Z,workshop,english,"Organizations that are running a handful (or more) of microservices deploy Istio to provide a substrate of secure connectivity, uniform visibility, and granular control over service requests. Operating at Layer 5, Istio fills unmet service-level needs.
+
+This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
+
+What you'll learn:
+
+- Managing telemetry, monitoring, and reporting
+- Traffic management scenarios
+- Approaches to canary deployments and securing communication
+
+You’ll be able to:
+
+- Configure and operate Istio in context of an example workloads and their common use cases
+- Manage traffic through load balancing and resilient communications
+- Enforce policies and rate limiting
+- Be confident with ongoing management of Istio
+- Understand WebAssembly filters for Envoy and deploy a custom filter"
+b1k,B1K,Welcome (replay),/sessions/welcome-(replay),,2021-02-23T01:00:00.000Z,2021-02-23T01:50:00.000Z,keynote,subtitled,"Craig Box and Lin Sun, program chairs and Istio steering committee members, welcome you to IstioCon and discuss the past, present and future of Istio."
+237704,B3T1,Introduction of the Service Mesh industry and community in China,/sessions/introduction-of-the-service-mesh-industry-and-community-in-china,Jimmy Song,2021-02-23T02:00:00.000Z,2021-02-23T02:10:00.000Z,lightning talk,chinese,"This talk will be delivered in Chinese and will cover the development of service mesh technology in China, and the use of Istio in the Chinese industry. I’ll discuss the growth of the community, and introduce ‘ServiceMesher’ -- the service mesh community group in China. This talk will also cover how to get involved in the Istio community, and what study materials are available to people who want to join. As Istio becomes more popular and widely used, this talk will highlight the ways that the Chinese community has contributed to the growth of service mesh, and how we’re all continuing to learn and grow as users, what resources we have to support our knowledge."
+238523,B3T2,《百度APP基于Istio实现基础架构升级》,/sessions/《百度app基于istio实现基础架构升级》,超 许,2021-02-23T02:10:00.000Z,2021-02-23T02:20:00.000Z,lightning talk,chinese,"Outline Content:
+① Brief history of service mesh development in Baidu.
+② Large-scale application of ISTIO in Baidu.
+③ Future.
+.
+本次分享主要介绍手百APP在微服务化背景下，如何基于现有的技术能力与 Service Mesh 技术结合，完成基础架构层服务治理能力平滑升级。
+.
+内容大纲：
+① Service Mesh在百度APP发展进程。
+1.1 遇到的问题。
+1.2 落地进程。
+1.2.1 控制面深度适配。
+1.2.2 实现控制面与数据面打通。
+1.2.3 核心流量80%接入Mesh。
+② ISTIO在百度的大规模落地。
+2.1 控制面技术架构 
+2.2 控制面深度改造
+2.3 控制面稳定性工程
+④未来展望。
+.
+听众受益点：
+Service Mesh一线大规模应用实践与基础架构平滑升级。"
+232484,B3T3,How HP set up secure and wise platform with Istio,/sessions/how-hp-set-up-secure-and-wise-platform-with-istio,John Zheng,2021-02-23T02:20:00.000Z,2021-02-23T02:30:00.000Z,lightning talk,chinese,"HP continues using istio from v0.2 to v1.8. We set up secure and wise platform with istio, it supports huge http/grpc load
+I. Connect
+All k8s clusters connect with istio multi-cluster
+II. Secure
+•	Enable mTLS
+•	Using authentication policy for JWT verify (ra)
+•	Using authorization policy to control service-to-service access. (work well even for multi-clusters)
+•	Using Envoy External Authorization
+III. Wise
+Using envoyfilter to implement requirements on platform level, reduces application workload. 
+•	Support multi-tenants (Add extra http header/ logs wisely)
+•	Verify whether JWT token in blacklist or not
+•	Different Rate Limits for each tenant
+IV. Better Performance
+•	Successful performance tuning
+•	Using grpc 
+V. CICD/Test Efficiency
+•	Implement Canary Deployments,  integrate with CI/CD
+VI. Better Observability
+Know each api response/ duration very well based on istio Access Logs. With fluentd (to format), elastic search and Prometheus, to summarize/ analyze/ alert."
+238116,B4P,Secure your microservices with Istio step by step,/sessions/secure-your-microservices-with-istio-step-by-step,JF Ding,2021-02-23T02:40:00.000Z,2021-02-23T03:20:00.000Z,presentation,chinese,"This talk will walk you through the key concepts for Istio security and show you how Istio can secure your microservices easily via a step by step demos: 
+
+1.  Deploy the micro services into kubernetes
+2.  Add services into Istio service mesh
+3.  Secure service to service communication via auto-mTLS.
+4.  Enforce service to service communication securely via PeerAuthentication
+5.  Secure ingress traffic via TLS Termination in istio ingress gateway
+6.  Secure ingress traffic via RequestAuthentication 
+7.  Authorize accesss to services via AuthorizationPolicy."
+238077,B5P,Accelerate istio-cni with ebpf,/sessions/accelerate-istio-cni-with-ebpf,Yizhou Xu,2021-02-23T03:20:00.000Z,2021-02-23T04:00:00.000Z,presentation,chinese,"Datapath between envoy(sidecar) and service is an nonnegligible part in Istio, Isito-cni inserts iptables to intercept and redirect traffic between envoy and service, which brings costs like real TCP/IP traffic over loopback and has to insert IPTables rules.
+
+eBPF is a revolutionary technology that can run sandboxed programs in the Linux kernel without changing kernel source code or loading kernel modules.Replacing iptables with ebpf  allows data traverse from Envoy‘s inbound socket to its outbound socket directly,reducing datapath over loopback interface and sparing iptable rules. 
+
+In this session, we will briefly introduce what the ebpf is and how it accelerates the  Istio with real case studies. Then we will show the performance improvement and comparison data of these cases with/witout ebpf."
+238259,B6P,Preserve Original Source Address within Istio,/sessions/preserve-original-source-address-within-istio,Zhonghu Xu,2021-02-23T04:00:00.000Z,2021-02-23T04:40:00.000Z,presentation,chinese,"Original source address is heavily relied on by many scenarios, however in service mesh, with sidecar injected and traffic proxied by a sidecar, it is naturally unable to get the original client ip address.
+
+In this presentation, Zhonghu will introduce what istio and envoy have done to help preserve original source ip both for TCP and HTTP protocols.
+And then he will present a live demo about how to achieve original src IP preserve with proxy protocol, original source filter, and TProxy."
+238535,B7P,"Performance tuning and best practices in a Knative based, large-scale serverless platform with Istio","/sessions/performance-tuning-and-best-practices-in-a-knative-based,-large-scale-serverless-platform-with-istio",Gong Zhang,2021-02-23T04:40:00.000Z,2021-02-23T05:20:00.000Z,presentation,chinese,"Istio is the default networking layer solution of Knative and it is leveraged for routing, traffic splitting, security and so on. We're now building a large-scale, multi-tenant serverless platform on top of Knative and Istio. While building it, one of the main questions was how to tune Istio together with Knative so it can unleash the maximum scalability and performance. 
+
+In this session, we will share how we detected performance bottlenecks using difficult but fruitful analysis processes, tuned and optimized Istio and our platform, and eventually reduced over 90% latency in Knative service provision scenario. Also we'll share our best-practices about how to fully leverage rich functionalities provided by Istio itself to improve performance in Knative platform, such as namespace isolation, CNI replacement, mTLS without sidecar, tunings and so on."
+238496,C1S,Going dynamic with Envoy at Atlassian,/sessions/going-dynamic-with-envoy-at-atlassian,Nicolas Meessen,2021-02-23T16:00:00.000Z,2021-02-23T16:25:00.000Z,user spotlight (featured),english,"Atlassian has been deploying Envoy to the compute nodes of its internal PaaS over the past 2 years to simplify service-to-service communication for internal developers. Today we deploy Envoy with static configuration and we want to take advantage of dynamic features like client-side routing, direct communication, and fault injection. We decided Istio was the best choice to deliver this over the next year. We’ll talk through Atlassian’s journey with service-to-service communication, Envoy and the evolution of our home-grown control planes, then walk through the analysis that led to Istio being the best decision for Atlassian’s business moving forward."
+236817,C2S,"The good, the bad, and the meshy: a journey adopting Istio across 100 clusters at T-Mobile","/sessions/the-good,-the-bad,-and-the-meshy:-a-journey-adopting-istio-across-100-clusters-at-t-mobile",Joe Searcy,2021-02-23T16:25:00.000Z,2021-02-23T16:50:00.000Z,user spotlight (featured),english,"This is a story of struggle, tradeoffs, and triumphs. Istio, as you may know, is a mission-critical piece of software for securing and connecting microservices across platforms. However, it can be daunting to introduce, operationalize, or adopt it successfully. 
+
+In this talk, we dig into T-Mobile’s journey of adopting Istio across 100+ clusters to support microservices for fraud detection, billing, sales and APIs across many teams. The journey was not all rainbows and unicorns. We cover things such as tenancy, install/upgrade, feature adoption, CI/CD integration, and architecture tradeoffs. We see first-hand lessons learned around:
+
+The importance of iteration
+Structured boundary and isolation 
+Approaches to multi-cluster
+Stateful workloads in Istio
+Team processes
+
+Attendees of this talk will leave with a better understanding of how a large organization runs Istio to secure, and observe microservices in a large-scale deployment with all of its pros and cons."
+238406,C3P,Getting Started and Beyond: Istio Multicluster with GitOps,/sessions/getting-started-and-beyond:-istio-multicluster-with-gitops,Ryota Sawada,2021-02-23T17:00:00.000Z,2021-02-23T17:40:00.000Z,presentation,english,"Istio documentation covers many scenarios how you can start up Istio and get your hands dirty with its offerings. Things become a bit more tricky when it involves multiple clusters, and even more complicated when there are other Open Source projects you need to deal with.
+
+The presentation will be mainly driven by demos. The first demo will be based on simply starting multiple KinD clusters locally, and get Istio offerings in action.
+
+The second demo will be based on GitOps setup with the similar multiple local clusters. This will involve some UI examples to showcase Istio offerings similar to bookinfo example, and backed by GitOps.
+
+Lastly, there will be a short demo with multicloud + multicluster + GitOps setup, which gives the sense of how you can get production ready multicluster setup with Istio.
+
+All the demo steps are documented in GitHub repo, and every step for each demo is curated to get the clusters up and running from scratch."
+238515,C4P,Developing & Debugging WebAssembly Filters,/sessions/developing-&-debugging-webassembly-filters,"Idit Levine, Scott Weiss",2021-02-23T17:40:00.000Z,2021-02-23T18:20:00.000Z,presentation,english,"WebAssembly filters allow users the power to extend and customize Istio to their liking. But how do organizations actually develop them? Tooling exists for traditional software development, but established methods and tooling are difficult to come by in the emerging WebAssembly ecosystem. In this talk we will attempt to answer the following, based on our experience working Istio + WebAssembly in customer environments for over one year:
+How do we write WebAssembly filters?
+How do we test WebAssembly filters?
+How do we debug WebAssembly filters?
+How do we ship WebAssembly filters?
+We will explore existing tooling and solutions for working with WebAssembly in the service mesh, and provide insight into the development processes being implemented by early adopters of WebAssembly.
+"
+235956,C5A,Large scale data ingestion using Istio/Envoy,/sessions/large-scale-data-ingestion-using-istio/envoy,Animesh Chaturvedi,2021-02-23T18:20:00.000Z,2021-02-23T18:45:00.000Z,adoption story,english,This talk will share the experience of building a data lake using Istio / Envoy.  This talk will cover why we selected Istio for building a data lake in early 2019. Our journey with Istio and go in depth the challenges we ran into scaling the ingestion pipeline to scale to process several hundred tera bytes a day.
+238514,C8P,Extending Envoy with WASM from start to finish,/sessions/extending-envoy-with-wasm-from-start-to-finish,Ed Snible,2021-02-23T21:00:00.000Z,2021-02-23T21:40:00.000Z,presentation,english,"This talk is for every engineer interested in creating traffic management and telemetry capabilities for the mesh itself.
+
+Istio has offered extensibility through WebAssembly since 1.5. User code, running in the sidecar, can implement custom traffic management and telemetry. No Istio control plane access or special builds of the sidecar are needed. C++ and JavaScript developers can write, compile, deploy and test extensions quickly, with just a bit of Istio EnvoyFilter YAML on their clusters.
+
+Yet developers I’ve talked to are not having success getting started.  Others start but get stuck factoring their idea into a framework of HTTP protocol callbacks. Even a good design is not enough—troubleshooting extensions is difficult and some developers give up in frustration.
+
+We’ll demystify the difference between Istio’s EnvoyFilter resource and Envoy’s HTTP filter chain.  Attends will learn the framework, code delivery, and troubleshooting using as few new concepts as possible."
+234362,C9T1,Local Istio Development,/sessions/local-istio-development,John Howard,2021-02-23T21:40:00.000Z,2021-02-23T21:50:00.000Z,lightning talk,english,"This talk will walk through how to run Istio locally to improve development velocity, where ""local"" includes various combinations of local Kubernetes cluster, local docker registry, running Istiod as a local binary (and in a debugger), and running the proxy locally."
+233276,C9T2,How all devs use Istio Security without knowing Istio,/sessions/how-all-devs-use-istio-security-without-knowing-istio,Isan Rivkin,2021-02-23T21:50:00.000Z,2021-02-23T22:00:00.000Z,lightning talk,english,"At SimilarWeb we use Istio in all of our Kubernetes clusters and utilize Istio's Authorization and Authentication policies for each service. 
+As a small production engineering team, we wanted to let our developer's full autonomy for writing new services with Helm without needing to know Istio internals. 
+To solve that problem we abstracted Istio completely inside a generic Helm chart for common use cases. For more complex cases create a MutatingWebhook in k8s that reads annotations from the deployments and configures the deployment to support all Istio related logic. "
+235424,C9T3,How Istio helped us investigate failures on our microservices,/sessions/how-istio-helped-us-investigate-failures-on-our-microservices,Shota Shirayama,2021-02-23T22:00:00.000Z,2021-02-23T22:10:00.000Z,lightning talk,english,"We introduced Istio on our microservices. Istio’s logs, metrics and features are very helpful for us to investigate in detail in case of failures.
+One day we had big trouble due to a node failure, and it was very hard to find the root cause about why our application had not been recovered automatically. At that time, we finally found the root cause of it on our application logic thanks to Istio and we could reproduce the same failure on development environment with Istio as well. I’d like to share this story."
+238520,C9T4,Simple Certificate Management (pilot-agent environmental variables),/sessions/simple-certificate-management-(pilot-agent-environmental-variables),Jacob Delgado,2021-02-23T22:10:00.000Z,2021-02-23T22:20:00.000Z,lightning talk,english,"There are numerous environmental variables that can be used to control the behavior of Istio. Environmental variables in Istio are considered experimental and there are no guarantees they won’t be removed in future versions of Istio.
+
+In this talk, we will explore a few related to certificates used for inter-workload communication within your service mesh:
+* Some of the pilot-agent environmental variables related to certificates
+* How to toggle them during installation using istioctl and helm"
+233986,CW,Istio Multicluster Workshop,/sessions/istio-multicluster-workshop,"Denis Jannot, Christian Posta",2021-02-23T18:30:00.000Z,2021-02-23T21:00:00.000Z,workshop,english,"This workshop is based on Istio and Gloo Mesh (https://github.com/solo-io/gloo-mesh).
+
+It's a hands-on workshop where each participant has a dedicated VM.
+
+In the VM, they deploy 3 Kubernetes clusters using Kind.
+One cluster is a management plane where Gloo Mesh is deployes, while Istio is deployed in the 2 other clusters.
+
+Then, they federate the identity of the Istio clusters, configure cross cluster communications, failover, play with WASM, ...
+
+And before each lab, we go through some slides. For example, before the identity federation, we explain them what is SPIFFE, how it's used in Istio, ...
+
+The labs are publicly available:
+https://github.com/solo-io/workshops/tree/master/gloo-mesh
+"
+K2,D1K,Istio Project Roadmap,/sessions/istio-project-roadmap,"Neeraj Poddar, Louis Ryan",2021-02-24T16:00:00.000Z,2021-02-24T16:50:00.000Z,keynote,english,#N/A
+238507,D3P,Taming Istio Configuration with Helm,/sessions/taming-istio-configuration-with-helm,Ryan Michela,2021-02-24T17:00:00.000Z,2021-02-24T17:40:00.000Z,presentation,english,"Helm. It’s not just for installation anymore! 
+
+In this session, we re-introduce Helm as a powerful tool for automating Istio day-two administrative tasks. Using Helm, we can completely rethink Istio management by creating a domain specific language for Istio configuration.  Helm lets us build a simplified facade over Istio, allowing developers to more naturally express their intentions as code instead of forcing them to think in Istio CRDs.
+
+In this session we will look at four common Istio configuration patterns, and explore how Helm dramatically simplifies their use. We will deep dive into Helm itself, teaching you how to write Helm charts perfectly tailored to your Istio developer’s needs. Finally, we’ll look at Helm gitops automation, to securely and reliably manage Istio configuration from commit to production. You will leave this session with everything you need to confidently tame Istio using Helm."
+237659,D4P,Know your peers,/sessions/know-your-peers,Alex Van Boxel,2021-02-24T17:40:00.000Z,2021-02-24T18:20:00.000Z,presentation,english,"It’s lonely in your pod, but finally, you receive that long-awaited knock on the port... but can you trust that inbound request? This session dives into an essential aspect of a service mesh, trust. We’ll dive into how certificates work into Istio, use peer authentication, and explain concepts like SPIFFE identifiers. 
+Peer thrust can also be leveraged in the application architecture.
+
+A mesh is not only for cluster administrators but also for architects and developers, making it well worth to highlight those patterns."
+238411,D5A,Sberbank Story: moving Istio from PoC to production,/sessions/sberbank-story:-moving-istio-from-poc-to-production,Igor Gustomyasov,2021-02-24T18:20:00.000Z,2021-02-24T18:45:00.000Z,adoption story,english,"50+ On-Premise Kubernetes Clusters in a Private Cloud, 500+ Compute Nodes, 10+ Istio Meshes, and 2 years of joint efforts with IBM.  This is Sberbank's journey from the technology preview stage to a production-grade Istio mesh installation. Joint speech from IBM and Sberbank representatives will cover the history of their collaboration in detail: key faced problems and solutions, main architectural decisions, and plans for the future."
+238416,D8P,Deep Dive into Istio Auth Policies,/sessions/deep-dive-into-istio-auth-policies,Lawrence Gadban,2021-02-24T21:00:00.000Z,2021-02-24T21:40:00.000Z,presentation,english,"One of the primary benefits of using Istio is its comprehensive security model, which enables users to express complex authentication and authorization policies for the services running within their mesh. While these security features are commonly used, they can cause confusion and are frequently misunderstood.
+
+This talk will explore the security mechanisms available in Istio and will dive into how these policies are translated from high-level user-facing configuration to runtime policies in the various Envoy proxies that comprise the Istio data plane.
+
+Specifically, we will look at the following:
+* Mutual TLS and how to configure peer authentication through PeerAuthentication and DestinationRule resources
+* Enforcing end-user authentication via JWTs with RequestAuthentication resources
+* Enforcing authorization rules through AuthorizationPolicy resources
+
+Attendees will leave with a clear picture of how Istio’s various auth policies are implemented in the data plane."
+238228,D9T1,5 tips for your first Istio.io contribution,/sessions/5-tips-for-your-first-istio.io-contribution,Albert Sun,2021-02-24T21:40:00.000Z,2021-02-24T21:50:00.000Z,lightning talk,english,"A first commit to Istio.io can be daunting and there is a large amount of learning and commitment required to contribute to Istio.io. By presenting my experiences, I want to encourage both people familiar and unfamiliar to Istio, to contribute. I also hope to give some insight on the PR process for contributing to Istio.io, and show some relatively easy first commit examples. I found a home in the Docs WG, and I hope to help introduce others to this community by helping with their first commit. 
+"
+237457,D9T2,Your laptop as part of the service mesh,/sessions/your-laptop-as-part-of-the-service-mesh,Lorenzo Fundaró,2021-02-24T21:50:00.000Z,2021-02-24T22:00:00.000Z,lightning talk,english,"In this talk, we will show how we used Istio’s EnvoyFilter to dynamically route requests from our QA cluster to a developer's laptop and back. This networking hack significantly eased development, especially when running end-to-end tests and helped us reduce infrastructure costs."
+235867,D9T3,Kubernetes Operator to manage rate limit istio configurations,/sessions/kubernetes-operator-to-manage-rate-limit-istio-configurations,Santiago Núñez-Cacho,2021-02-24T22:00:00.000Z,2021-02-24T22:10:00.000Z,lightning talk,english,"Wouldn't be great to have an easy way to dynamically, via istio, limit the traffic to a service in kubernetes?
+
+Figure out you have one or more ingress gateways for the incoming requests, and you want to limit the requests from a single IP, or to limit requests with an specific http header in an specific amount of time. 
+
+With this operator you just have to create and deploy a simple Custom Resource ( CR )  with your desired rate limit configuration. 
+
+The operator, from this CR, will create the necessary istio objects to use the http level rate limit filter. 
+
+"
+238413,D9T4,Prepping the sails for a ship-shape Istio Release,/sessions/prepping-the-sails-for-a-ship-shape-istio-release,"Eric Van Norman, Brian Avery",2021-02-24T22:10:00.000Z,2021-02-24T22:20:00.000Z,lightning talk,english,"Another Istio release is out!  You may be nervous, but we have been continuously improving our release qualification process to hopefully ease your concerns. In 2020, we collected feedback and used it to focus on producing higher quality and more consistent releases. We created a Definition of Done to determine what it means for releases and features to be considered stable. This has led to release notes tooling, standardized feature maturity levels and release gates. We also created a new Upgrade Workgroup to improve the stability, user experience, and test infrastructure around Istio upgrades. This talk will explore what each of these new additions means for you as a user and whether you can trust that new release or feature in your production environment. We’ll be sure to leave some time for feedback. We’d love to know how these changes are or are not addressing your concerns as well as other improvements you would like to see."
+e1k,E1K,Istio Project Roadmap (replay),/sessions/istio-project-roadmap-(replay),"Neeraj Poddar, Louis Ryan",2021-02-25T01:00:00.000Z,2021-02-25T01:50:00.000Z,,subtitled,#N/A
+235137,E3P,Federated Access Point - eBay统一流量管理方案,/sessions/federated-access-point---ebay统一流量管理方案,Jesse Meng,2021-02-25T02:00:00.000Z,2021-02-25T02:40:00.000Z,presentation,chinese,"eBay拥有上百个Kubernetes集群，承载数千个不同通络拓扑的微服务应用。部署跨地域的高可用应用，并做精细化流量管理和日常运维，是互联网公司面临的日渐严峻的挑战。
+本演讲会展示eBay如何基于Isito的统一的流量管理模型，基于集群联邦，完成跨地域，跨集群的南北和东西流量统一管理。包括智能DNS，四层和七层负载均衡配置，流量变更的灰度发布，智能化流量再平衡策略等。"
+238301,E4P,Is Your Virtual Machine Really Ready-to-go with Istio?,/sessions/is-your-virtual-machine-really-ready-to-go-with-istio?,"Kailun Qin, Haoyuan Ge",2021-02-25T02:40:00.000Z,2021-02-25T03:20:00.000Z,presentation,chinese,"Using Kubernetes and containers is the easiest and most practical way to run Istio. However, both academic and industry surveys show that massive organizations and users are still deploying their workloads in VMs to fulfill their needs like security, multi-tenancy, fitting into the existing processes and hybrid multi-clouds. To include those workloads outside of K8s, Istio has introduced VM support since 1.6.
+In this talk, we will:
+- Go through the real use cases and tumultuous odyssey of Istio’s VM integration;
+- Summarize the key VM mesh features, designs and tradeoffs introduced, e.g. WorkloadGroup, Smart DNS proxy and VM security incl. (auto) identity bootstrapping and cert provisioning etc.;
+- Analyze the limitations of the current VM workflow, with a focus on usability and security;
+- Benchmark against the performance of VM/hybrid usage and explore the bottlenecks;
+- Look into the intersections with HW acceleration technologies, such as SR-IOV, SmartNIC etc. for VM mesh."
+237701,E5P,How Is Apache SkyWalking Powering Istio Observability,/sessions/how-is-apache-skywalking-powering-istio-observability,Sheng Wu,2021-02-25T03:20:00.000Z,2021-02-25T04:00:00.000Z,presentation,chinese,"Istio provides a default observability solution through telemetry v2, which improves a lot than the Mixer v1 solution.
+Apache SkyWalking, as a widely adopted and powerful open-source APM project. It provides all tracing, metrics, and logging out of the box. For the Istio ecosystem, it provides full observability for k8s and VM environments and covers both the Data Panel and Control Panel. In this session, we are going to introduce how we do this, what is more, we bring to the end-users through these."
+236206,E6P,Extending service mesh capabilities using a streamlined way based on WASM and ORAS,/sessions/extending-service-mesh-capabilities-using-a-streamlined-way-based-on-wasm-and-oras,Xi Ning Wang,2021-02-25T04:00:00.000Z,2021-02-25T04:40:00.000Z,presentation,chinese,"With the introduction of WebAssembly (for short,WASM) support, you can extend the data plane's functionality by writing custom Filters for out-of-process Envoy proxy in service mesh. But it's not easy to build, deploy and run WASM filters within service mesh. ORAS  is a proposed implementation for the OCI Artifacts project, which aims to extend the OCI registry specification and simplify storing arbitrary content in OCI registries.  
+In this topic, we will present how to use ORAS client to push the WASM modules with the allowed media types into ACR registry, and then deploy the WASM filter into all the pods corresponding to the specified workload selection criteria. All the steps in the WASM filter deployment are using a declarative way, meaning that you can create one CRD to describe the WASM filter deployment. Then the WASM module can be loaded into the corresponding Envoy proxy in the data plane layer. Meanwhile, the Istio EnvoyFilter CR is created in the control plane layer."
+238512,E7P,Best practice：from Spring Cloud to Istio,/sessions/best-practice：from-spring-cloud-to-istio,chaomeng zhang,2021-02-25T04:40:00.000Z,2021-02-25T05:20:00.000Z,presentation,chinese,"Spring Cloud has been widely used as a micro service framework in the past several years, especially in traditional enterprise cases. Istio, as a leading service mesh solution, is gaining great popularity, and widely used in cloud-native applications. Istio help customer build a highly resilient, secure, observable and scalable microservice architecture by offloading the complexity from application code to a separate infrastructure layer.
+
+In this presentation, inspired by several typical customers’ cloud native solutions, Chaomeng will share a topic of best practice of Spring Cloud and Istio. He will explore the differences and similarities between Spring Cloud and Istio, include mechanism and working scenario, and focus on the integration and transformation solution, which makes Spring Cloud developed application running natively upon Isito without too many code changes, and gracefully offload traffic management from SDK to infrastructure and make SDK a real develop kit."
+236198,F1S,Airbnb on Istio,/sessions/airbnb-on-istio,"Weibo He, Stephen Chan",2021-02-25T16:00:00.000Z,2021-02-25T16:25:00.000Z,user spotlight (featured),english,"In this presentation, we will walk through Airbnb’s Istio Journey - why we needed a modern service mesh, how we vetted Istio as the solution, where we are today, the lessons we learnt along the way, and our future plans. We will cover topics including:
+- Airbnb’s multicluster/cell setup, problems we ran into/ideas for UX improvements
+- Airbnb’s upgrade setup for gradual rollout of newer versions of Istio
+- Airbnb’s test pipeline for vetting features we care about
+- How we handled k8s & mesh expansion in a consistent philosophy 
+- How we approached migration (zero downtime, no regression)
+- Airbnb’s learnings/pain points/future expectation with Istio
+- Current areas of open discussion - come talk to us more about this
+"
+240193,F2S,The Salesforce Service Mesh - Our Istio Journey,/sessions/the-salesforce-service-mesh---our-istio-journey,Pratima Nambiar,2021-02-25T16:25:00.000Z,2021-02-25T16:50:00.000Z,user spotlight (featured),english,"Istio and Envoy are foundational building blocks of the Salesforce Service Mesh. This presentation walks you through our service mesh journey. I will briefly talk about why we chose the service mesh design pattern, how we initially built it using envoy and our in-house control plane and our subsequent pivot to Istio. I will discuss how we are currently leveraging Istio and our plan to increase adoption of Istio to further enhance our Service Mesh platform. "
+232878,F3P,How to manage any layer-7 traffic in an Istio service mesh?,/sessions/how-to-manage-any-layer-7-traffic-in-an-istio-service-mesh?,"Huabing Zhao, 阳 唐",2021-02-25T17:00:00.000Z,2021-02-25T17:40:00.000Z,presentation,english,"Traffic management is probably the most used feature of Istio. However, handling layer-7 traffic other than HTTP and gRPC can become challenging in an Istio service mesh.  In this session, I'll discuss a few possible approaches to extend Istio's traffic management capability to other layer-7 protocols such as Dubbo, Thrift, TARS, Redis, MySql, MongoDB, etc. I'll introduce Aeraki, an open-source project that provides a framework to allow Istio to support more layer 7 protocols than just HTTP and gRPC. A demo of Thrift and Dubbo traffic version-based routing and percentage-based routing will also be shown in this session.  In the end, l'll discuss some other interesting things we are planning at Aeraki, such as on-demand xDS to the sidecars.
+
+Github: https://github.com/aeraki-framework/aeraki
+Live Demo: http://aeraki.zhaohuabing.com:3000/d/pgz7wp-Gz/aeraki-demo?orgId=1&kiosk
+Recorded Demo: Dubbo and Thrift Traffic Management https://youtu.be/vrjp-Yg3Leg"
+238519,F4P,Istio Debugging: Finding and Fixing Issues in a Multi-cluster Service Graph,/sessions/istio-debugging:-finding-and-fixing-issues-in-a-multi-cluster-service-graph,Chris Gaun,2021-02-25T17:40:00.000Z,2021-02-25T18:20:00.000Z,presentation,english,"Istio has some basic tooling to facilitate request troubleshooting, but it has something much more powerful at its core: Envoy proxy. When requests in the mesh start failing, Envoy is the definitive source for debugging information as it has a wealth of telemetry and logging that can be enabled to pinpoint problems along the request path. Trouble with certificates? Incorrect headers? Connection pooling or upstream errors? Un-routable request?
+
+In this talk, we’ll look at how to build a repeatable and automatable set of tools to quickly debug a request path across multiple hops and potentially across multiple clusters and Istio control planes. Leveraging Envoy capabilities like access logging, module debug logging, the tap filter, configuration dumps, and detailed telemetry across multiple hops in the data path combined with some best practices, you will no longer have to worry when things appear to “not be working”. "
+238414,F5A,Istio Adoption: Planning for Success & Problem Solving,/sessions/istio-adoption:-planning-for-success-&-problem-solving,Nick Nellis,2021-02-25T18:20:00.000Z,2021-02-25T18:45:00.000Z,adoption story,english,"As service mesh gains wider adoption, more and more companies are looking to bring Istio to their organization. Istio will impact many teams, from operations to developers, and it's important that they are well equipped. First you’ll hear a success story from the Square Cash team, who decided to move to Istio from Square’s homegrown Envoy service mesh. They’ll discuss why it was the right move for them, how they executed the move, and what they’d do differently if they were to do it a second time. Then we’ll generalize their learnings by exploring patterns we’ve seen firsthand for successfully bringing Istio into organizations."
+238511,F8P,Istio Product Security Working Group - What is it and why it’s important,/sessions/istio-product-security-working-group---what-is-it-and-why-it’s-important,"Jacob Delgado, Brian Avery",2021-02-25T21:00:00.000Z,2021-02-25T21:40:00.000Z,presentation,english,"The Istio Product Security Working Group operates behind a bit of secrecy given the nature of the group’s work; mostly triaging security reports and threats. In 2020, there were over 11 security bulletins released that spanned from Istio 1.3 to Istio 1.8. In this talk, we will explain why the group was created, how it operates, and its mission to make Istio more secure.
+
+Namely, we will discuss:
+* A brief history of how the group was formed
+* Why it was necessary for the group to be created
+* A look at Istio security vulnerabilities in 2020
+* How we triage security reports and fix them
+* Pro-active measures the group is working on to make Istio more secure
+
+Please join us to learn about the responsibilities of the Product Security Working Group and how to stay informed about the security of your environments. 
+"
+238400,F9T1,Istio as an API Gateway,/sessions/istio-as-an-api-gateway,Md Zannatul Ferdous Shourove,2021-02-25T21:40:00.000Z,2021-02-25T21:50:00.000Z,lightning talk,english,"Istio is the most popular Service Mesh. But API Gateways are also very important components in the Cloud Native mix. But if you go for a completely separate tool for API Gateway requirements and for other stuff use Istio, then you effectively have to maintain two different tool and build the expertise in your team for two different disciplines. But Istio can take care of almost all your API Gateway requirements(except for a few).
+
+Will describe how you can leverage the Istio native CRDs to make Istio your API Gateway."
+232067,F9T2,Service APIs and the future of Istio networking APIs,/sessions/service-apis-and-the-future-of-istio-networking-apis,John Howard,2021-02-25T21:50:00.000Z,2021-02-25T22:00:00.000Z,lightning talk,english,"This talk will describe a new API being developed by the Kubernetes SIG Network as ""an evolution of the Ingress API"", and how this will impact Istio."
+238313,F9T3,Automate mTLS communication with GoPay partners with Istio,/sessions/automate-mtls-communication-with-gopay-partners-with-istio,"Zufar Dhiyaulhaq, Vijay Dhama",2021-02-25T22:00:00.000Z,2021-02-25T22:10:00.000Z,lightning talk,english,"One of our main goals in GoPay is to automate mutual TLS communication between GoPay and our partner. We will share how we decide to use and manage Istio, change the configuration to suit our mTLS use cases, how we adapt Istio changes related to mutual TLS, and how our central certificate is managed, and how to set up automatic mutual TLS communication with Istio Egress TLS origination and Istio Gateway."
+236130,F9T4,Redis TLS Origination with the sidecar,/sessions/redis-tls-origination-with-the-sidecar,Sam Stoelinga,2021-02-25T22:10:00.000Z,2021-02-25T22:20:00.000Z,lightning talk,english,So you've actually done security well and are using an external Redis provider that only allows TLS to talk to it. You could simply configure each of your applications to use TLS from the application pod or you can use Istio to handle the TLS part. This lightning talk demonstrates how to use Istio to do TLS origination for Redis (TCP) using the sidecar instead of the egress gateway.
+236754,FW,Istio Cookbook: Kiali Recipe,/sessions/istio-cookbook:-kiali-recipe,Lucas Ponce,2021-02-25T18:30:00.000Z,2021-02-25T21:00:00.000Z,workshop,english,"Istio provides a rich feature set, including service discovery, traffic management, extended security, observability (including telemetry and distributed tracing), rolling releases and resiliency.
+
+All these features are very powerful but on the other hand they add more configuration to manage and more information to process on top of a standard kubernetes cluster.
+
+Kiali is a management console for Istio. It provides dashboards, observability and lets you operate your mesh with robust configuration and validation capabilities.
+
+This workshop will walk you through practical examples of Istio using Kiali: attendees will deploy a multi-namespace demo application and will run several scenarios learning Istio capabilities in a visual manner.
+"
+K3,G9Z,Wrap-up,/sessions/closing,Lin Sun,2021-02-26T21:40:00.000Z,2021-02-26T21:40:00.000Z,wrap up,english,Wrap-up
+241948,G1S,FICO's Istio Journey,/sessions/fico's-istio-journey,Jeet Kaul,2021-02-26T16:00:00.000Z,2021-02-26T16:25:00.000Z,user spotlight (featured),english,"FICO started it's mesh journey in 2019, picking up Istio at 0.8. It's been a bumpy road! Istio has matured a lot in that time, and the organization's deployment and usage of Istio has matured significantly too. Jeet, a VP of Engineering at FICO, will walk through FICO's journey with Istio from 2019 to today, discussing why they chose Istio initially, some of the growing pains they experienced, and what business goals they've been able to achieve because of Istio."
+238518,G2S,Istio at scale: How eBay is building a massive multitenant service mesh using Istio,/sessions/istio-at-scale:-how-ebay-is-building-a-massive-multitenant-service-mesh-using-istio,Sudheendra Murthy,2021-02-26T16:25:00.000Z,2021-02-26T16:50:00.000Z,user spotlight (featured),english,"Managing a service mesh that spans hundreds of thousands of containers across the globe is no easy feat. At high scale, achieving fast configuration convergence time to thousands of proxies, while limiting the CPU & memory utilization of control-plane & proxies is a challenging problem. This talk describes eBay's initial journey into building a scalable service mesh that provides the traffic management, load-balancing, security and observability features at scale leveraging Istio. The talk presents the federated design to manage configuration across multiple meshes in different availability zones, multiple trust domains to support workloads in different environment. The talk shares results from the extensive control-plane scale and performance tests to establish the efficacy of the design to support the massive scale, provides insights into the breaking limits of Istio control-plane and sidecar proxy and finally provides best practices & recommendations to operate Istio at scale."
+238447,G3P,Debugging and Maintaining Istio,/sessions/debugging-and-maintaining-istio,Liam White,2021-02-26T17:00:00.000Z,2021-02-26T17:40:00.000Z,presentation,english,"Since the release of Istio 1.0, a major development effort has been spent on making it easier to use.  Whether you are already running Istio in production or trying it out for the first time, it's important that you know about the latest and greatest when it comes to debugging and maintaining istio. This talk will walk you through some of the new things istio has to offer in terms of debugging and maintainability, as well as practical recipes we’ve learned from debugging Istio in the field. "
+237741,G4P,The benefits of integrating Apache Kafka with Istio on Kubernetes,/sessions/the-benefits-of-integrating-apache-kafka-with-istio-on-kubernetes,"Sebastian Toader, Zsolt Varga",2021-02-26T17:40:00.000Z,2021-02-26T18:20:00.000Z,presentation,english,"During the past several years Apache Kafka emerged as the default enterprise message bus. With Istio on its own way to becoming the service mesh ""standard"" within the enterprise, running a Kafka cluster inside a mesh became a frequent requirement. We've been running Kafka over Istio for a  few years now, and in this talk, we'd like to share our experience, the common problems and eventually the benefits that led us to make this integration possible. In this talk we'll be touching on both security and operational benefits such as:
+- On the fly certificate renewals with no service downtime
+- Secure cross-regional interaction between workloads and Kafka
+- Unified simplified configuration to enable mTLS for all components
+- Single cluster and cross-cluster workload authn/authz of K8s service accounts using Envoy WASM filters
+- Envoy WASM filters open the gates for a whole array of useful features such as Kafka protocol level metric"
+235847,G5A,Moving large scale consumer e-commerce Infrastructure to Mesh,/sessions/moving-large-scale-consumer-e-commerce-infrastructure-to-mesh,"Rajath Ramesh, Harshad Rotithor",2021-02-26T18:20:00.000Z,2021-02-26T18:45:00.000Z,adoption story,english,"In this session we will cover 
+* Previous Setup: High level overview of setup focussing on external and inter-service/component communication where we mainly used Nginx, HAProxy and Envoyproxy. 
+* Challenges and Improvements: Briefly cover the challenges and improvements which essentially was translated into set of requirements
+* Istio Onboarding and Integration: How Istio covered our requirements and steps we took and tools we built/used to on-board micro-services and manage the mesh setup. We will also cover the challenges involved in migrating, solutions derived and learnings gained. If we need to do it again, what could be done differently. 
+* Next Steps: Currently we integrated completely stateless use-cases, future plan on how we plan to on-board the stateful entities as well."
+238502,G6A,Istio is a long wild river: how to navigate it safely,/sessions/istio-is-a-long-wild-river:-how-to-navigate-it-safely,Raphael Fraysse,2021-02-26T18:45:00.000Z,2021-02-26T18:55:00.000Z,adoption story,english,"At Mercari, we have few hundreds of services running in Kubernetes. We spent the last year and a half trying to integrate Istio in our microservices infrastructure at scale, with many trial-and-error and lessons learned.
+This presentation will explain what is making Istio a long wild river and how we managed to navigate it.
+It will focus on several aspects:
+- Stabilizing Istio
+- Adopting Istio
+- Running Istio
+By sharing our learnings, we hope to make Istio a long quiet river for the community."
+238505,G7P,Leveraging Istio to Reduce Engineering Effort for API testing,/sessions/leveraging-istio-to-reduce-engineering-effort-for-api-testing,"Venky Ganti, Rahul Lahiri",2021-02-26T19:40:00.000Z,2021-02-26T20:20:00.000Z,presentation,english,"Microservices applications rely on complex interactions among services. Engineering teams must create API tests with API mocks to shift testing left. Current approaches to mock creation are manual, which is expensive and inefficient. 
+
+We illustrate how Istio can be leveraged to significantly reduce engineering effort necessary for API testing.  
+
+API tests can be built using the following Istio capabilities: 
+
+- Dynamic deployment of Envoy filters to capture relevant examples of API requests and responses.  
+
+- Observability to trace request execution flows across all microservices.  
+
+- Virtual services can switch traffic between live services and mocks with no code changes. 
+
+Developer benefits: 
+
+- Ad hoc service testing locally leveraging API data to mock producer services
+
+- Create service tests with auto-created API mocks, eliminating costly manual API mock creation
+
+- Get visibility into failed API requests from end-to-end tests with no additional effort"
+234363,G8P,Better External Authorization,/sessions/better-external-authorization,Yangmin Zhu,2021-02-26T20:20:00.000Z,2021-02-26T21:00:00.000Z,presentation,english,"I will talk about the better external authorization feature in 1.9 that allows users to easily integrate Istio with external authorization system (e.g. OPA, OAuth2).
+
+The better external authorization is the latest improvement that solves a much wanted customer request for better extensibility in the authorization policy.
+
+This feature makes it possible and greatly improves the user experience of many critical use cases, for example, integrate with industry standard auth mechanism (e.g. OAuth2), reuse existing in-house auth system (e.g. OPA) and more.
+"
+236967,G9T1,Optimal Canary Deployments using Istio and how it scores over Spring Cloud and Kubernetes,/sessions/optimal-canary-deployments-using-istio-and-how-it-scores-over-spring-cloud-and-kubernetes,Archna Gupta,2021-02-26T21:00:00.000Z,2021-02-26T21:10:00.000Z,lightning talk,english,"This talk will walk through canary deployments process and how to achieve the same using Kubernetes service orchestration or Spring Cloud Gateway focusing on the limitations of these approaches and how Istio overcomes these limitations.
+Spring cloud Gateway or Kubernetes LoadBalancer service or Ingress controllers only supports the edge service routing and not Internal routing from edge service to another service in cluster.
+This is where Istio virtual services and destination rules come to rescue – this talk with elaborate further on how Istio provides an optimal solution for canary releases in this scenario.
+"
+238503,G9T2,Extending Engarde to Bridge the Gap Between Istio Access Logs and Envoy's Documentation,/sessions/extending-engarde-to-bridge-the-gap-between-istio-access-logs-and-envoy's-documentation,Gregory Hanson,2021-02-26T21:10:00.000Z,2021-02-26T21:20:00.000Z,lightning talk,english,"Istio allows users to enable Envoy access logs. These logs provide extensive information and are one of the first steps in diagnosing networking problems in a service mesh.  Engarde is a tool which parses Istio access logs into easily readable JSON objects.  With Engarde, you get the log field names, but to the average user there are still some knowledge gaps that require a hop over to Envoy's website to understand what is shown in the logs. This extension combines Engarde with Envoy's documentation all in one place."
+236467,G9T3,Building resilient systems inside the mesh: abstraction and automation of Virtual Service generation,/sessions/building-resilient-systems-inside-the-mesh:-abstraction-and-automation-of-virtual-service-generation,Vladimir Georgiev,2021-02-26T21:20:00.000Z,2021-02-26T21:30:00.000Z,lightning talk,english,"Istio’s Virtual Service API provides a language agnostic way of implementing graceful retries on failures until a timeout budget is exhausted. Precise timeouts and retries per endpoint result in better performance. Having hundreds of gRPC services means there will be as many YAML files to be configured, tested and managed, however.
+I will explain how we built a scalable way of managing retries and timeouts across the service mesh per service per RPC. Achieved by developing an API with annotations interface for specifying the retry and timeouts parameters in the proto files where the gRPC services are defined. Our build system, Please, uses custom rules to automatically generate and validate Virtual Services during build time. Thus, solving the problem of dealing with a large number of YAML configurations. Furthermore, this approach empowers Service Owners across the organisation to easily define SLOs without the need to understand the Virtual Service API and functionality in detail."
+238457,G9T4,Building Platforms with Istio,/sessions/building-platforms-with-istio,Murugappan Chetty,2021-02-26T21:30:00.000Z,2021-02-26T21:40:00.000Z,lightning talk,english,"Optum is one of the early adopters of Istio and its been used in a number of use-cases within the organization.
+
+In this presentation, Murugappan Chetty of Optum will go over the platform that they built with kubernetes, Istio and knative, where internal users run their workloads. 
+
+Audience attending this session will get to know about
+
+- Istio features leveraged by the platform like, security, observability, traffic routing, client libraries, external dns etc.
+- Istio management - versioning, istioctl, Istio cni
+- Production use cases with metrics"
