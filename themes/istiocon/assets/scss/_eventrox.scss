@@ -4020,16 +4020,18 @@ img{
 
 .speaker-block-three .info-box{
 	position: relative;
-	display: inline-block;
+	width: 75%;
 	padding: 10px 30px;
 	padding-right: 10px;
 	background-color: #3F598B;
+	border-radius: 0 20px 80px 0;
 }
 
 .speaker-block-three .info-box:before{
 	position: absolute;
 	left: 0;
 	right: -30px;
+	width: 110%;
 	background-color: #4D6DAA;
 	content:"";
 	top: 0;
