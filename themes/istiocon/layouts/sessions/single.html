@@ -3,7 +3,7 @@
 <!-- Speaker Detail -->
 <section class="speaker-detail">
   <div class="auto-container">
-    <div class="row" style="margin-top: -50px;">
+    <div class="row mt-4">
       <div class="image-column col-lg-3 d-none d-lg-block">
         <div class="schedule-block col-lg-10 col-md-12 col-sm-12">
           <div class="sec-title text-center">
@@ -28,6 +28,7 @@
         <div class="inner-column">
           <div class="text-box">
             <h3>{{ .Title }}</h3>
+            <p class="date" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04 MST" }}{{ end }}</p>
             <div class="d-lg-none d-xl-none">
               By 
               {{ range (.GetTerms "speakers") }}
@@ -35,7 +36,7 @@
               {{ end }}  
             </div>
 
-            <p>{{ .Content }}</p>
+            <div class="content">{{ .Content }}</div>
           </div>
         </div>
       </div>

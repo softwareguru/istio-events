@@ -1,4 +1,7 @@
 {{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
 {{ $data := index .Site.Data }}
 {{ $faq := $data.faq.faq }}
 

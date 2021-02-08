@@ -1,6 +1,6 @@
 ---
-title: "Schedule (Release Candidate)"
-url: "/schedule"
+title: "Schedule (Full)"
+url: "/schedule/full"
 ---
 Times should show up in your local timezone.
 

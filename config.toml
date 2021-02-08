@@ -35,11 +35,12 @@ link ="/plugins/color-switcher-design/color-switcher-design.css"
 [[params.plugins.css]]
 link = "/plugins/themefisher-font/themefisher-font.min.css"
 [[params.plugins.css]]
-link = "/plugins/responsive/responsive.css"
-[[params.plugins.css]]
 link = "/plugins/animate/animate.css"
 [[params.plugins.css]]
 link = "/plugins/flaticon/flaticon.css"
+[[params.plugins.css]]
+link = "https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+
 #[[params.plugins.css]]
 #link = "/plugins/style/style.css"
 
@@ -48,17 +49,11 @@ link = "/plugins/flaticon/flaticon.css"
 [[params.plugins.js]]
 link = "/plugins/jquery/jquery.js"
 
-#[[params.plugins.js]]
-#link="/plugins/popper/popper.min.js"
+[[params.plugins.js]]
+link="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 
 [[params.plugins.js]]
 link = "/plugins/bootstrap/js/bootstrap.min.js"
-
-#[[params.plugins.js]]
-#link = "/plugins/jquery/jquery-ui.js"
-
-#[[params.plugins.js]]
-#link = "/plugins/jquery/jquery.fancybox.js"
 
 [[params.plugins.js]]
 link = "/plugins/jquery/jquery.countdown.js"
@@ -66,8 +61,8 @@ link = "/plugins/jquery/jquery.countdown.js"
 [[params.plugins.js]]
 link="https://kit.fontawesome.com/2e09285ae6.js"
 
-#[[params.plugins.js]]
-#link="/plugins/appear/appear.js"
+[[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
 
 #[[params.plugins.js]]
 #link="/plugins/owl/owl.js"
@@ -93,26 +88,30 @@ link="https://kit.fontawesome.com/2e09285ae6.js"
   URL = "about"
   weight = 1
 
-  #[[menu.main]]
-  #name = "Speakers"
-  #URL = "speakers"
-  #weight = 2
+  [[menu.main]]
+  name = "Schedule"
+  URL = "schedule"
+  weight = 2
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "speakers"
+  weight = 3
 
   [[menu.main]]
   name = "Networking"
   URL = "networking"
-  weight = 3
+  weight = 4
 
-   [[menu.main]]
+  [[menu.main]]
   name = "Swag Bag"
   URL = "swag"
-  weight = 4
+  weight = 5
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 5
-
+  weight = 6
 
 
 #################### default parameters ################################
@@ -146,7 +145,6 @@ label = "Register"
 link = "https://www.crowdcast.io/e/istiocon-2021"
 
 
-
 ############################# social icon ############################
 [[params.social]]
 icon = "tf-ion-social-twitter"
@@ -176,6 +174,9 @@ link = "mailto:istiocon@googlegroups.com"
 name = "Istio website"
 link = "https://istio.io"
 
+[[params.footer_resources]]
+name = "Organizers"
+link = "/istiocon-2021/organizers"
 
 [[params.footer_resources]]
 name = "Code of Conduct"
@@ -190,15 +191,11 @@ name = "Call for papers"
 link = "https://sessionize.com/istiocon-2021/"
 
 [[params.footer_resources]]
-name = "Partnership program"
-link = "/istiocon-2021/partner/IstioCon 2021_ Partner Packages (2).pdf"
+name = "Partnership opportunities"
+link = "/istiocon-2021/partner/IstioCon2021_Partner_Packages_v2.pdf"
 
 [[params.footer_produced]]
 name = "Produced by"
 image = "/istiocon-2021/images/SG.png"
 link = "https://sg.com.mx/"
-
-[[params.footer_resources]]
-name = "Email us"
-link = "mailto:istiocon@googlegroups.com"
 
