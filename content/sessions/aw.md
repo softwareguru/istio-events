@@ -13,7 +13,7 @@ language: english
 tags:
 ---
 
-"Organizations that are running a handful (or more) of microservices deploy Istio to provide a substrate of secure connectivity, uniform visibility, and granular control over service requests. Operating at Layer 5, Istio fills unmet service-level needs.
+Organizations that are running a handful (or more) of microservices deploy Istio to provide a substrate of secure connectivity, uniform visibility, and granular control over service requests. Operating at Layer 5, Istio fills unmet service-level needs.
 
 This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
 
@@ -29,5 +29,5 @@ You’ll be able to:
 - Manage traffic through load balancing and resilient communications
 - Enforce policies and rate limiting
 - Be confident with ongoing management of Istio
-- Understand WebAssembly filters for Envoy and deploy a custom filter"
+- Understand WebAssembly filters for Envoy and deploy a custom filter
 
