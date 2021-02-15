@@ -4,6 +4,7 @@ title: "Sberbank Story: moving Istio from PoC to production"
 url: /sessions/sberbank-story:-moving-istio-from-poc-to-production
 speakers:
  - Igor Gustomyasov
+ - Maksim Chudnovskii
 time_start: 2021-02-24T18:20:00.000Z
 time_end:   2021-02-24T18:45:00.000Z
 block: d

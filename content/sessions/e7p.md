@@ -1,18 +1,20 @@
 ---
 id: e7p
-title: Best practice：from Spring Cloud to Istio
-url: /sessions/best-practice：from-spring-cloud-to-istio
+title: Accelerate istio-cni with ebpf
+url: /sessions/accelerate-istio-cni-with-ebpf
 speakers:
- - Chaomeng Zhang
+ - Yizhou Xu
 time_start: 2021-02-25T04:40:00.000Z
 time_end:   2021-02-25T05:20:00.000Z
-block: e
-slot: 7
-format: presentation 
+block: b
+slot: 5
+format: presentation
 language: chinese
 tags:
 ---
 
-Spring Cloud has been widely used as a micro service framework in the past several years, especially in traditional enterprise cases. Istio, as a leading service mesh solution, is gaining great popularity, and widely used in cloud-native applications. Istio help customer build a highly resilient, secure, observable and scalable microservice architecture by offloading the complexity from application code to a separate infrastructure layer.
+Datapath between envoy(sidecar) and service is an nonnegligible part in Istio, Isito-cni inserts iptables to intercept and redirect traffic between envoy and service, which brings costs like real TCP/IP traffic over loopback and has to insert IPTables rules.
 
-In this presentation, inspired by several typical customers’ cloud native solutions, Chaomeng will share a topic of best practice of Spring Cloud and Istio. He will explore the differences and similarities between Spring Cloud and Istio, include mechanism and working scenario, and focus on the integration and transformation solution, which makes Spring Cloud developed application running natively upon Isito without too many code changes, and gracefully offload traffic management from SDK to infrastructure and make SDK a real develop kit.
+eBPF is a revolutionary technology that can run sandboxed programs in the Linux kernel without changing kernel source code or loading kernel modules.Replacing iptables with ebpf  allows data traverse from Envoy‘s inbound socket to its outbound socket directly,reducing datapath over loopback interface and sparing iptable rules. 
+
+In this session, we will briefly introduce what the ebpf is and how it accelerates the  Istio with real case studies. Then we will show the performance improvement and comparison data of these cases with/witout ebpf.

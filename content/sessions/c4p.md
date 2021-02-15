@@ -4,7 +4,7 @@ title: Developing & Debugging WebAssembly Filters
 url: /sessions/developing-&-debugging-webassembly-filters
 speakers:
  - Idit Levine
- - Scott Weiss
+ - Yuval Kohavi
 time_start: 2021-02-23T17:40:00.000Z
 time_end:   2021-02-23T18:20:00.000Z
 block: c

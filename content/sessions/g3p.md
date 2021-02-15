@@ -3,7 +3,7 @@ id: g3p
 title: Debugging and Maintainability in Istio
 url: /sessions/debugging-and-maintainability-istio
 speakers:
- - Liam White
+ - Nick Nellis
 time_start: 2021-02-26T17:00:00.000Z
 time_end: 2021-02-26T17:40:00.000Z
 block: g

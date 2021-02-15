@@ -3,7 +3,9 @@ id: f5a
 title: "Istio Adoption: Planning for Success & Problem Solving"
 url: /sessions/istio-adoption:-planning-for-success-problem-solving
 speakers:
-
+ - Geoff Flarity
+ - Jan Zantinge
+ - Liam White
 time_start: 2021-02-25T18:20:00.000Z
 time_end: 2021-02-25T18:45:00.000Z
 block: f

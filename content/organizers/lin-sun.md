@@ -2,7 +2,7 @@
 title: "Lin Sun"
 date: 2021-01-06T13:04:28-06:00
 image : /images/organizers/lin-sun.jpg
-designation: Senior Technical Staff Member and Master Inventor at IBM
+designation: Sr. Technical Staff Member and Master Inventor at IBM | Program Chair IstioCon
 committee: IstioCon Program Chair, Steering Committee Member
 country: 
 facebook: 

@@ -1,15 +1,15 @@
 ---
 id: g9z
-title: Wrap-up
-url: /sessions/wrap-up
+title: Closing remarks
+url: /sessions/closing-remarks
 speakers:
  - Lin Sun
 time_start: 2021-02-26T21:40:00.000Z
-time_end: 2021-02-26T21:40:00.000Z
+time_end: 2021-02-26T21:50:00.000Z
 block: g
 slot: 9z
 format: wrap up
 language: english
 ---
 
-Wrap-up
+Closing remarks for IstioCon with Lin Sun.
