@@ -8,18 +8,6 @@
               <div class="image-box">
                   <figure class="image"><img src="{{ .Params.Image | relURL }}" alt=""></figure>
                   <ul class="social-icon-two social-icon-colored text-center">
-                      {{ with .Params.facebook }}
-                      {{ if ne . "" }}
-                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
-                      {{ end }}
-                      {{ end }}  
-
-                      {{ with .Params.instagram }}
-                      {{ if ne . "" }}
-                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-instagram"></span></a></li>
-                      {{ end }} 
-                      {{ end }}  
-
                       {{ with .Params.twitter }}
                       {{ if ne . "" }}
                       <li><a href="{{ . }}" target="_blank"><span class="fab fa-twitter"></span></a></li>
@@ -45,14 +33,16 @@
               <div class="inner-column">
                   <div class="text-box">
                       <h3>{{ .Title }}</h3>
+                      {{ with .Params.designation }}<h5>{{.}}</h5>{{ end }}
                       <p>{{ .Content }}</p>
                       <h4>Sessions by {{ .Title }}</h4>
 
                       <!-- Sessions speaker -->
-                          {{ range .Data.Pages }}
-                              <div><a href="{{ .Permalink }}">{{ .Title }}</a></div>
-                          {{ end }}
-
+                      <ul>
+                      {{ range .Data.Pages.ByParam "id" }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                      {{ end }}
+                      </ul>
                       <!-- Sessions speaker end -->
                   </div>
               </div>

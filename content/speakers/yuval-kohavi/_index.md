@@ -11,4 +11,4 @@ linkedin: "https://www.linkedin.com/in/yuval-kohavi-0177651/"
 github: ""
 ---
 
-Yuval is chief architect at Solo.io.
+Yuval Kohavi is the chief architect at Solo.io working across the portfolio of commercial products and open source projects including Gloo-Edge and Gloo-Mesh. Prior to Solo.io Yuval held various software and customer engineering roles at EMC, Intigua and IDF.

@@ -36,14 +36,6 @@ section.register p, section.swag p {
 	}
 }
 
-.speakers-list span:after {
-	content: " & ";
-}
-
-.speakers-list span:last-child:after {
-	content: "";
-}
-
 #slackModal .modal-body a {
 	color: $secondary-color;
 	text-decoration: underline;
