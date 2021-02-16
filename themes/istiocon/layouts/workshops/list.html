@@ -1,8 +1,10 @@
 {{ define "main" }}
 
+{{ partial "page-title.html" . }}
+
 <section class="workshops section">
   <div class="container">
-    <div>
+    <div class="inner-column">
       {{ .Content }}
     </div>
     <div class="row workshop-strip">
