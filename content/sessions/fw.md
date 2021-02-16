@@ -10,6 +10,7 @@ block: f
 slot: w
 format: workshop
 language: english
+summary: "Kiali is a management console for Istio. It provides dashboards, observability, configuration and validation capabilities. This workshop will walk you through practical examples of Istio using Kiali."
 ---
 
 Istio provides a rich feature set, including service discovery, traffic management, extended security, observability (including telemetry and distributed tracing), rolling releases and resiliency.
@@ -19,3 +20,6 @@ All these features are very powerful but on the other hand they add more configu
 Kiali is a management console for Istio. It provides dashboards, observability and lets you operate your mesh with robust configuration and validation capabilities.
 
 This workshop will walk you through practical examples of Istio using Kiali: attendees will deploy a multi-namespace demo application and will run several scenarios learning Istio capabilities in a visual manner.
+
+#### Registration
+This workshop has a limited capacity of 60 attendees. If you are commited to participating, please register here: https://us02web.zoom.us/webinar/register/WN_sbRwPMNnRji1HZfzEWxhIQ

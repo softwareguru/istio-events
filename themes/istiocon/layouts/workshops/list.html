@@ -1,75 +1,28 @@
 {{ define "main" }}
 
-
-{{ $data := index .Site.Data }}
-{{ $schedule := $data.schedule.schedule }}
-
-
- <!-- Schedule Section Style two -->
- <section class="schedule-section style-three">
-  <div class="auto-container">
-    
-
-      <div class="schedule-tabs style-three tabs-box">
-          <div class="btns-box">
-           
-              <!--Tabs Box-->
-              <ul class="tab-buttons clearfix">
-                {{ $.Scratch.Set "counter" 0 }}
-                {{ range $index, $element := $schedule.schedule_tab }}
-                  {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-                  <li class="tab-btn {{ if eq $index 0 }} active {{ end }}" data-tab="#tab-{{$.Scratch.Get `counter`}}">
-                      <span class="day">{{ .title | markdownify }}</span>
-                      <span class="date">{{ .date_time | markdownify }}</span>
-                      <span class="month">Feb</span> 2021
-                  </li>
-                  {{ end }}
-              </ul>
-             
+<section class="workshops section">
+  <div class="container">
+    <div>
+      {{ .Content }}
+    </div>
+    <div class="row workshop-strip">
+      {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.format" "workshop" ) ".Params.time_start" }}
+      <div class="col-12 col-md-4 px-3 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ $time_start := .Params.time_start | time  }}
+            {{ $time_end := .Params.time_end | time  }}
+            <h6 class="card-subtitle mb-2 text-muted">Date: {{ $time_start.Format "Jan-02 15:04" }}-{{ $time_end.Format "15:04" }} UTC</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Instructor(s): {{ delimit .Params.speakers ", " " & " }}</h6>
+            <p class="card-text">{{ .Summary }}</p>
+            <p class="abstract"><a href="{{ .Permalink }}" class="card-link">See detail & register</a></p>
           </div>
-
-          <div class="tabs-content">
-            <!--Tab-->
-            {{ $.Scratch.Set "counter" 0 }}
-            {{ range $index, $element := $schedule.schedule_tab }}
-            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
-            <div class="tab {{ if eq $index 0 }} active-tab {{ end }}" id="tab-{{$.Scratch.Get `counter`}}">
-                <div class="schedule-timeline row">
-                 
-                    
-                    {{ range sort (where (where (where $.Site.Pages "Section" "sessions") ".Params.workshop" true ) ".Params.day_num" ($.Scratch.Get `counter`) ) ".Params.time_start"  }}
-                  
-                    <!-- schedule Block -->
-                    <div class="schedule-block col-lg-6 col-md-12 col-sm-12">
-
-                     
-                        <div class="inner-box">
-                            <div class="inner">
-                                <div class="date">{{ .Params.time_start }}</div>
-                                <div class="speaker-info">
-                                    <figure class="thumb"><img src="{{ .Params.Image | relURL }}" alt=""></figure>
-                                      {{ if .Params.speakers }}<h6 class="speakers-list name">{{ i18n "by" }}
-                                      {{ delimit .Params.speakers ", " " & " }} </h6>{{ end }}
-                                </div>
-                                <h4><a href="{{ .Permalink }}">{{ .Params.title }}</a></h4>
-                                <div class="text">{{ .Content }}</div>
-                            </div>
-                        </div>
-                        
-                    </div> 
-                    {{ end }}
-                    
-                </div>
-              
-            </div>
-            {{ end }}
         </div>
       </div>
+      {{ end }}
+    </div>
   </div>
 </section>
-<!--End schedule Section -->
-
-</section>
-
 
 {{ end }}

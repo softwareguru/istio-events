@@ -11,9 +11,9 @@ slot: 6
 format: workshop
 language: english
 tags:
----
+summary: "This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes."
 
-Organizations that are running a handful (or more) of microservices deploy Istio to provide a substrate of secure connectivity, uniform visibility, and granular control over service requests. Operating at Layer 5, Istio fills unmet service-level needs.
+---
 
 This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
 
@@ -31,3 +31,5 @@ You’ll be able to:
 - Be confident with ongoing management of Istio
 - Understand WebAssembly filters for Envoy and deploy a custom filter
 
+#### Registration
+This workshop has a limited capacity of 60 attendees. If you are commited to participating, please register here: https://us02web.zoom.us/webinar/register/WN_ndL2U1bDRJe9dT1pt77-jw
