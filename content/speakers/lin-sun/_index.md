@@ -2,7 +2,7 @@
 title: "Lin Sun"
 date: 2021-01-06T13:04:28-06:00
 image : /images/organizers/lin-sun.jpg
-designation: Senior Technical Staff Member and Master Inventor at IBM
+designation: Director of open source at Solo.io
 country: 
 facebook: 
 instagram: 
