@@ -4,6 +4,7 @@ title: Accelerate istio-cni with ebpf
 url: /sessions/accelerate-istio-cni-with-ebpf
 speakers:
  - Yizhou Xu
+ - Ruijing Guo
 time_start: 2021-02-25T04:40:00.000Z
 time_end:   2021-02-25T05:20:00.000Z
 block: e
