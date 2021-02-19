@@ -6,8 +6,8 @@ speakers:
  - Yizhou Xu
 time_start: 2021-02-25T04:40:00.000Z
 time_end:   2021-02-25T05:20:00.000Z
-block: b
-slot: 5
+block: e
+slot: 7
 format: presentation
 language: chinese
 tags:
