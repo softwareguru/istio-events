@@ -7,7 +7,7 @@ country: ""
 facebook: ""
 instagram: ""
 twitter: ""
-linkedin: "https://www.linkedin.com/in/santiago-nu%C3%B1ez-cacho/t"
+linkedin: "https://www.linkedin.com/in/santiago-nu%C3%B1ez-cacho"
 github: ""
 ---
 

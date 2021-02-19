@@ -6,7 +6,7 @@ designation : "Principal Architect at Enread-Tech"
 country: ""
 facebook: ""
 instagram: ""
-twitter: "https://twitter.com/harryge13	"
+twitter: "https://twitter.com/harryge13"
 linkedin: ""
 github: ""
 ---

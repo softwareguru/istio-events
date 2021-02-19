@@ -7,4 +7,4 @@ link: https://istio.slack.com/
 weight: 1
 ---
 
-Join the conversation at #istiocon channel in the [Istio Slack](https://istio.slack.com) and get all the event details while you chat with other event attendees, comment on the sessions and interact with speakers.
+Join the conversation at #istiocon channel in the [Istio Slack](https://slack.istio.io) and get all the event details while you chat with other event attendees, comment on the sessions and interact with speakers.
