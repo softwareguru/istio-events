@@ -4,6 +4,7 @@ title: Secure your microservices with Istio step by step
 url: /sessions/secure-your-microservices-with-istio-step-by-step
 speakers:
  - JF Ding
+ - Luyao Zhong
 time_start: 2021-02-23T02:40:00.000Z
 time_end:   2021-02-23T03:20:00.000Z
 block: b

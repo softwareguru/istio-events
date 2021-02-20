@@ -4,6 +4,7 @@ title: Performance tuning and best practices in a Knative based, large-scale ser
 url: /sessions/performance-tuning-and-best-practices-in-a-knative-based,-large-scale-serverless-platform-with-istio
 speakers:
  - Gong Zhang
+ - Yu Zhuang
 time_start: 2021-02-23T04:40:00.000Z
 time_end:   2021-02-23T05:20:00.000Z
 block: b
