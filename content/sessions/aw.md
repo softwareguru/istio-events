@@ -4,6 +4,7 @@ title: "Workshop: Using Istio"
 url: /workshops/using-istio
 speakers:
  - Lee Calcote
+ - Abishek Kumar
 time_start: 2021-02-22T18:30:00.000Z
 time_end:   2021-02-22T21:00:00.000Z
 block: a
@@ -15,7 +16,7 @@ summary: "This workshop introduces service mesh concepts and each aspect of Isti
 
 ---
 
-This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
+Using Meshery, this workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
 
 What you'll learn:
 
