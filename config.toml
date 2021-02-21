@@ -6,6 +6,8 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 RemovePathAccents = true
 
+googleAnalytics = "G-QB7JLQ9ECY"
+
 publishDir = "public/istiocon-2021"
 
 theme = "istiocon"
@@ -127,12 +129,10 @@ home = "Home"
 # Meta data
 description = "IstioCon 2021 is the inaugural Istio community conference for the industry's most popular service mesh."
 image = "/images/card.png"
-twitter_user = "@beamsummit"
+images = ["/images/card.png"]
+twitter_user = "@istiocon"
 email = "contact@beamsummit.org"
 author = "Software Guru"
-
-# Google Analitycs
-googleAnalytics = "G-QB7JLQ9ECY"
 
 # search for blog page
 search = true

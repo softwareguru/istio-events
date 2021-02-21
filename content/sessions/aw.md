@@ -16,7 +16,7 @@ summary: "This workshop introduces service mesh concepts and each aspect of Isti
 
 ---
 
-Using Meshery, this workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
+Using [Meshery](https://meshery.io), this workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.
 
 What you'll learn:
 
