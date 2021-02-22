@@ -19,7 +19,12 @@
                   <div class="lower-content">
                       <h4><a href="{{ .Params.Link }}" target="blank">{{ .Title }}</a></h4>
                       <p>{{ .Params.Description}}</p>
-                      <div class="btn-box"><a href="{{ .Params.Link }}" class="read-more" target="blank">{{ .Params.Button }}</a></div>
+                     
+                      {{ with .Params.Link }}
+                        <div class="btn-box">
+                          <a href="{{ . }}" class="read-more" target="blank">More</a>
+                        </div>
+                        {{ end }}
                   </div>
               </div>
           </div>
