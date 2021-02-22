@@ -7,13 +7,13 @@ banner:
   date_time : "February 22-26, 2021"
   venue : ""
   button1:
-    enable : true
+    enable : false
     label : "Register Now!"
     link : "https://www.crowdcast.io/e/istiocon-2021"
   button2:
-    enable : false
-    label : "Register"
-    link : ""
+    enable : true
+    label : "Watch now!"
+    link : "/live"
 
 
 ############################## Event ##############################

@@ -127,11 +127,11 @@ logo = "/images/logo.svg"
 home = "Home"
 
 # Meta data
-description = "IstioCon 2021 is the inaugural Istio community conference for the industry's most popular service mesh."
-image = "/images/card.png"
-images = ["/images/card.png"]
+description = "IstioCon 2021 is a community-led online conference, featuring technical talks, case studies and networking activities with Istio users and developers across the world."
+image = "/istiocon-2021/images/card.jpg"
+images = ["/istiocon-2021/images/card.jpg"]
 twitter_user = "@istiocon"
-email = "contact@beamsummit.org"
+email = "istiocon@googlegroups.com"
 author = "Software Guru"
 
 # search for blog page
@@ -146,8 +146,8 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-label = "Register"
-link = "https://www.crowdcast.io/e/istiocon-2021"
+label = "LIVE"
+link = "/live"
 
 
 ############################# social icon ############################
