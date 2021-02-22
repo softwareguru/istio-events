@@ -1,7 +1,7 @@
 ---
 title: "Luyao Zhong"
 date: 2021-02-04T17:18:54-06:00
-image : "/images/speakerw.jpg"
+image : "/images/speakers/luyao-zhong.jpg"
 designation : "Intel Cloud Software Engineer"
 country: ""
 facebook: ""
