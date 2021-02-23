@@ -1,6 +1,6 @@
 ---
 id: b5p
-title: Best practice：from Spring Cloud to Istio
+title: "Best practice: from Spring Cloud to Istio"
 url: /sessions/best-practice：from-spring-cloud-to-istio
 speakers:
  - Chaomeng Zhang

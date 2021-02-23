@@ -10,7 +10,7 @@ time_start: 2021-02-25T18:20:00.000Z
 time_end: 2021-02-25T18:45:00.000Z
 block: f
 slot: 5
-format: adoption story
+format: adoption
 language: english
 ---
 

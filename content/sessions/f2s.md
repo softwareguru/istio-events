@@ -8,7 +8,7 @@ time_start: 2021-02-25T16:25:00.000Z
 time_end: 2021-02-25T16:50:00.000Z
 block: f
 slot: 2
-format: user spotlight (featured)
+format: spotlight
 language: english
 ---
 

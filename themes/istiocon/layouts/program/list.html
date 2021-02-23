@@ -1,23 +1,20 @@
-
 {{ define "main" }}
 
-{{ partial "page-title.html" . }}
-
 <div class="container">
-    <div class="content mt-4">
-        {{ .Content }}
-    </div>  
+    <p class="text-center">
+    {{ .Params.subtitle }}
+    </p>
     {{ range .Params.blocks }}
     <div class="schedule-block">
-        <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
+        <h3><span id="date-{{ .number }}">{{ .time_start }}</span></h3>
         <div class="session-list">
-            {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
-            <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
-                <div id="time-{{.Params.id}}" class="session-time">
+            {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .number ) ".Params.time_end" }}
+            <div class="row pt-2 {{ with .Params.format }}{{ . }}{{end}}">
+                <div id="time-{{.Params.id}}" class="session-time col-3 col-md-2">
                 </div>
-                <div class="session-info">
-                    <h4><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.id}}">{{ .Params.title }}</a>{{ with .Params.language }}{{ if eq . "chinese" }} (Chinese){{ end }}{{ end }}</h4>
-                    {{ with .Params.speakers }}<p class="speakers-list">by {{ delimit . ", " " & " }}</p>{{ end }}
+                <div class="col-9 col-md-10 mb-2">
+                    <h4><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></h4>
+                    {{ if .Params.speakers }}<h6 class="speakers-list">by {{ range .Params.speakers }} <span>{{ . }}</span> {{ end }} </h6>{{ end }}
                     <div class="collapse card-abstract" id="abs-{{.Params.id}}">
                       {{ .Summary }}
                         <div><a href="{{.Permalink}}">Read more ...</a></div>
@@ -40,17 +37,17 @@
         }  
         document.getElementById(elemId).innerHTML=adjString;
     }
-    function adjBlock(elemId, date1, language) {
+    function adjBlock(elemId, date1) {
         let parseDate1 = Date.parse(date1);
         let jsDate1 = new Date(parseDate1);
         var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        let adjString = days[jsDate1.getDay()]+", February "+jsDate1.getDate()+" ("+language+")";
+        let adjString = days[jsDate1.getDay()]+", February "+jsDate1.getDate();
         document.getElementById(elemId).innerHTML=adjString;
     }
         {{ range .Params.blocks }}
       {{ $block_start := .time_start | time  }}
-      adjBlock("date-{{ .id }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ humanize .language }}");
-      {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_start" }}
+      adjBlock("date-{{ .number }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}");
+      {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .number ) ".Params.time_start" }}
         {{ $time_start := .Params.time_start | time  }}
         {{ $time_end := .Params.time_end | time  }}
         adjTime("time-{{ .Params.id }}", "{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}");

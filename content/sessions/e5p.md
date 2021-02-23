@@ -8,7 +8,7 @@ time_start: 2021-02-25T03:20:00.000Z
 time_end:   2021-02-25T04:00:00.000Z
 block: e
 slot: 5
-format: p
+format: presentation
 language: chinese
 tags:
 ---
