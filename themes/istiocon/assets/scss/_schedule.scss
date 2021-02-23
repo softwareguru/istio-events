@@ -136,3 +136,20 @@
 .networking {
 	margin-top: 1em;
 }
+
+.color-code-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.color-code-item {
+	padding: 5px; 
+	border-radius: 4px; 
+    margin-right: 1em;
+}
+
+.session-meta {
+  margin: 0;
+  font-size: 0.9em;
+}

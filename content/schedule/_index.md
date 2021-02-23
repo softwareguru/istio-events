@@ -45,4 +45,15 @@ This is the complete program. For schedules filtered by language and organized b
 * [Schedule for English sessions](/istiocon-2021/schedule/english).
 * [Schedule for Chinese sessions](/istiocon-2021/schedule/chinese).
 
-Times should show up in your local timezone.
+Color Codes:
+
+<div class="color-code-list">
+  <div class="color-code-item" style="background-color: #b0b0f0;">Keynote</div>
+  <div class="color-code-item" style="background-color: #d0d0d0;">Technical talk</div>
+  <div class="color-code-item" style="background-color: #d0f0d6;">Case study / adoption journey</div>
+  <div class="color-code-item" style="background-color: #80c9fa;">Lightning talk</div>
+  <div class="color-code-item" style="background-color: #f0f0b0;">Workshop</div>
+  <div class="color-code-item" style="background-color: #f7b8f7;">Networking/social</div>
+</div>
+<p>&nbsp;</p>	
+<p>Times should show up in your local timezone.</p>

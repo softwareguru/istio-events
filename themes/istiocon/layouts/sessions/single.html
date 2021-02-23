@@ -28,7 +28,8 @@
         <div class="inner-column">
           <div class="text-box">
             <h3>{{ .Title }}</h3>
-            <p class="date" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04 MST" }}{{ end }}</p>
+            <p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2 15:04 MST" }}{{ end }}</p>
+            <p class="session-meta" id="lang">{{ with .Params.language }}Language: {{ humanize . }}{{ end }}</p>
             <div class="d-lg-none d-xl-none">
               By 
               {{ range (.GetTerms "speakers") }}
@@ -36,7 +37,7 @@
               {{ end }}  
             </div>
 
-            <div class="content">{{ .Content }}</div>
+            <div class="content mt-4">{{ .Content }}</div>
           </div>
         </div>
       </div>
