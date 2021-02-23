@@ -10,7 +10,7 @@ time_end:   2021-02-23T03:20:00.000Z
 block: b
 slot: 4
 format: presentation 
-language: Chinese
+language: chinese
 tags:
 ---
 

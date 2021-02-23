@@ -9,7 +9,7 @@ time_end:   2021-02-22T22:20:00.000Z
 block: a
 slot: 9
 format: presentation
-language: 
+language: english
 tags:
 ---
 
