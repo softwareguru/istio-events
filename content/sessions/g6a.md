@@ -5,7 +5,7 @@ url: /sessions/istio-is-a-long-wild-river-how-to-navigate-it-safely
 speakers:
  - Raphael Fraysse
 time_start: 2021-02-26T18:45:00.000Z
-time_end: 2021-02-26T18:55:00.000Z
+time_end: 2021-02-26T19:10:00.000Z
 block: g
 slot: 6
 format: adoption
