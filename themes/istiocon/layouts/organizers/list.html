@@ -1,57 +1,72 @@
 {{ define "main" }}
 {{ partial "page-title.html" . }}
 
- <!-- Speakers Section -->
- <section class="speakers-section-three" id="speakers-section">
+<!-- Speakers Section -->
+<section class="organizers" id="speakers-section">
   <div class="auto-container">
-      <div class="sec-title text-center" style="margin-top: -6%;">
-          
-           <!--<h2>Our Organizers Team</h2>
-           <p></p>-->
 
+    <h3>Program Committee (English)</h3>
+    <div class="team-strip">
+      {{ range where .Data.Pages "Params.group" "pc" }}
+      <div class="profile-item">
+        <div class="headshot">
+          <img src="{{ .Params.image | relURL }}" alt="" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="info text-center">
+          <h4 class="mt-3">{{ .Title }}</h4>
+          <p class="designation">{{ .Params.Designation}}</p>
+        </div>
       </div>
+      {{ end }}
+    </div>
 
-      <div class="row">
-        {{ range .Data.Pages.ByTitle }}
-          <!-- Speaker Block -->
-          <div class="speaker-block-three col-xl-3 col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-          
-              <div class="inner-box h-100">
-                  <div class="image-box">
-                      <figure class="image"><a href="#"><img src="{{ .Params.Image | relURL }}" alt=""></a></figure>
-                  </div>
-                  <div class="info-box">
-                      <h4 class="name"><a href="#">{{ .Title }}</a></h4>
-                      <span class="designation">{{ .Params.Designation}}</span>
-
-                  </div>
-                  <div class="social-box">
-                      <ul class="social-links social-icon-colored">
-                        {{ with .Params.github }}
-                        {{ if ne . "" }}
-                          <li><a href="{{ . }}" target="_blank" style="background: none;"><i class="fab fa-github"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-
-                        {{ with .Params.twitter }}
-                        {{ if ne . "" }}
-                          <li><a href="{{ . }}" target="_blank" style="background: none;"><i class="fab fa-twitter"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-
-                        {{ with .Params.linkedin }}
-                        {{ if ne . "" }}
-                          <li><a href="{{ . }}" target="_blank" style="background: none;"><i class="fab fa-linkedin"></i></a></li>
-                        {{ end }}
-                        {{ end }}
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          {{ end }}
+    <h3>Program Committee (Chinese)</h3>
+    <div class="team-strip">
+      {{ range where .Data.Pages "Params.group" "cc" }}
+      <div class="profile-item">
+        <div class="headshot">
+          <img src="{{ .Params.image | relURL }}" alt="" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="info text-center">
+          <h4 class="mt-3">{{ .Title }}</h4>
+          <p class="designation">{{ .Params.Designation}}</p>
+        </div>
       </div>
+      {{ end }}
+    </div>
+
+
+    <h3>Organization</h3>
+    <div class="team-strip">
+      {{ range where .Data.Pages "Params.group" "oc" }}
+      <div class="profile-item">
+        <div class="headshot">
+          <img src="{{ .Params.image | relURL }}" alt="" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="info text-center">
+          <h4 class="mt-3">{{ .Title }}</h4>
+          <p class="designation">{{ .Params.Designation}}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <h3>Produced by Software Guru</h3>
+    <div class="team-strip">
+      {{ range where .Data.Pages "Params.group" "sg" }}
+      <div class="profile-item">
+        <div class="headshot">
+          <img src="{{ .Params.image | relURL }}" alt="" class="img-fluid rounded-circle img-thumbnail">
+        </div>
+        <div class="info text-center">
+          <h4 class="mt-3">{{ .Title }}</h4>
+          <p class="designation">{{ .Params.Designation}}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
   </div>
 </section>
-<!-- End Speakers Section -->
 
 {{ end }}

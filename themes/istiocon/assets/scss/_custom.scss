@@ -76,22 +76,34 @@ section.register p, section.swag p {
 
 
 .team-strip {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+}
+
+.organizers h3 {
+	text-align: center;
+	margin: 1em;
+}
+
+.profile-item {
+    margin: 0 2em;
+	width: 180px;
 
 	@include mobile {
-		grid-template-columns: repeat(2, 1fr);
+		width: 150px;
 	}
-
+	text-align: center;
+	justify-content: center;
 }
 
 .profile-item .headshot {
-	width:120px;
+	padding: 0 1em;
 }
-.profile-item .info {
-	margin-left: 2em;
-	align-self: center;
+
+.profile-item p {
+	font-size: 0.9em;
 }
 
 .sponsor-strip.platinum {

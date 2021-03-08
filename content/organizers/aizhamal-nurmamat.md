@@ -9,6 +9,8 @@ instagram:
 twitter: 
 linkedin: https://www.linkedin.com/in/aizhamal-n-14864363/
 github: 
+group: oc
+weight: 1
 ---
 
 
