@@ -11,6 +11,9 @@ slot: 5
 format: adoption
 language: english
 tags:
+slides: c5a-LargeScaleDataIngestion-Animesh.pdf
+video:
+
 ---
 
 This talk will share the experience of building a data lake using Istio / Envoy.  This talk will cover why we selected Istio for building a data lake in early 2019. Our journey with Istio and go in depth the challenges we ran into scaling the ingestion pipeline to scale to process several hundred tera bytes a day.

@@ -11,6 +11,8 @@ slot: 3
 format: presentation 
 language: english
 tags:
+slides: c3p-IstioMulticlusterGitOps-Ryota.pdf
+video:
 ---
 
 Istio documentation covers many scenarios how you can start up Istio and get your hands dirty with its offerings. Things become a bit more tricky when it involves multiple clusters, and even more complicated when there are other Open Source projects you need to deal with.
