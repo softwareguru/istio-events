@@ -12,6 +12,8 @@ slot: 4
 format: presentation
 language: chinese
 tags:
+slides: e4p-VMReady-KailunQin-HaoyuanGe.pdf
+video:
 ---
 
 Using Kubernetes and containers is the easiest and most practical way to run Istio. However, both academic and industry surveys show that massive organizations and users are still deploying their workloads in VMs to fulfill their needs like security, multi-tenancy, fitting into the existing processes and hybrid multi-clouds. To include those workloads outside of K8s, Istio has introduced VM support since 1.6.

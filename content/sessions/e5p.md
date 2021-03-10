@@ -11,6 +11,8 @@ slot: 5
 format: presentation
 language: chinese
 tags:
+slides: e5p-SkyWalkingObservability-ShengWu.pdf
+video:
 ---
 
 Istio provides a default observability solution through telemetry v2, which improves a lot than the Mixer v1 solution.

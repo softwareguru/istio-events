@@ -12,6 +12,8 @@ slot: 7
 format: presentation
 language: chinese
 tags:
+slides: e7p-AccelerateIstioCNIwithebpf-XuYizhou-GuoRuijing.pdf
+video:
 ---
 
 Datapath between envoy(sidecar) and service is an nonnegligible part in Istio, Isito-cni inserts iptables to intercept and redirect traffic between envoy and service, which brings costs like real TCP/IP traffic over loopback and has to insert IPTables rules.

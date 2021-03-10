@@ -11,6 +11,8 @@ slot: 3
 format: presentation
 language: english
 tags:
+slides: d3p-TamingIstioConfigurationHelm-RyanMichela.pdf
+videos:
 ---
 
 Helm. It’s not just for installation anymore!

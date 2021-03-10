@@ -11,6 +11,8 @@ slot: 8
 format: presentation
 language: english
 tags:
+slides: d8p-DeepDiveAuthPolicies-LawrenceGadban.pdf
+video:
 ---
 
 One of the primary benefits of using Istio is its comprehensive security model, which enables users to express complex authentication and authorization policies for the services running within their mesh. While these security features are commonly used, they can cause confusion and are frequently misunderstood.

@@ -12,6 +12,9 @@ slot: 1
 format: keynote
 language: english
 tags:
+slides: d1k-Istio2021Roadmap-Neeraj-Louis.pdf
+video:
+
 ---
 
 Neeraj Poddar and Louis Ryan from the Istio technical oversight committee, lead an update on the development of the project and the roadmap for 2021.
