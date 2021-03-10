@@ -11,6 +11,8 @@ slot: 5
 format: presentation 
 language: chinese
 tags:
+slides: b5p-SpringCloud-ZhangChaomeng.pdf
+video:
 ---
 
 Spring Cloud has been widely used as a micro service framework in the past several years, especially in traditional enterprise cases. Istio, as a leading service mesh solution, is gaining great popularity, and widely used in cloud-native applications. Istio help customer build a highly resilient, secure, observable and scalable microservice architecture by offloading the complexity from application code to a separate infrastructure layer.

@@ -12,6 +12,8 @@ slot: 7
 format: presentation 
 language: chinese
 tags:
+slides: b7p-PerformanceTuningKnative-GongZhang-YuZhuang.pdf
+video:
 ---
 
 Istio is the default networking layer solution of Knative and it is leveraged for routing, traffic splitting, security and so on. We're now building a large-scale, multi-tenant serverless platform on top of Knative and Istio. While building it, one of the main questions was how to tune Istio together with Knative so it can unleash the maximum scalability and performance. 

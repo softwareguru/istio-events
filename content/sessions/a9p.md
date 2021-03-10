@@ -11,6 +11,8 @@ slot: 9
 format: presentation
 language: english
 tags:
+slides: a9p-WhatEnvoyHears.pdf
+
 ---
 
 Istio listens to Kubernetes and speaks to Envoy. We will explore these conversations and learn to understand what's being said.

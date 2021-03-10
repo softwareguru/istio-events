@@ -17,10 +17,17 @@
                 </a>
               </figure>
               {{ end }}
+              
+              
             </div>
+            
 
           </div>
+          
         </div>
+
+
+        
 
 
       </div>
@@ -35,13 +42,32 @@
               {{ range (.GetTerms "speakers") }}
               <a class="speaker-inline-item" href="{{ .Permalink }}">{{ .Title }}</a>
               {{ end }}  
+
+          
             </div>
+            
+            {{ with .Params.slides }}
+            <br>
+            <div class="mb-3"><a href="/istiocon-2021/slides/{{ . }}" target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            {{ end }}
+
+            {{ with .Params.slideslink }}
+            <br>
+            <div class="mb-3"><a href="{{ . }}" target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            {{ end }}
+          
 
             <div class="content mt-4">{{ .Content }}</div>
+          
           </div>
         </div>
+       
       </div>
+      
     </div>
+
+    
+    
     {{ with .Params.video }}
     <div class="mb-3">
       <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"

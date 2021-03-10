@@ -11,6 +11,8 @@ slot: 6
 format: presentation 
 language: chinese
 tags:
+slides: b6p-PreserveOriginalAddress-ZhonghuXu.pdf
+video: 
 ---
 
 Original source address is heavily relied on by many scenarios, however in service mesh, with sidecar injected and traffic proxied by a sidecar, it is naturally unable to get the original client ip address.

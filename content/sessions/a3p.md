@@ -12,6 +12,8 @@ slot: 3
 format: presentation
 language: english
 tags:
+slides: a3p-BuildNext5GPlatform-Neeraj-Dave.pdf
+video:  
 ---
 
 Building the next fastest, secure and reliable 5G platform is challenging in its own right but doing that while modernizing your infrastructure and onboarding Cloud-Native Functions (CNFs) from multiple vendors can be a herculean effort
