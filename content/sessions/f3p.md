@@ -11,6 +11,8 @@ block: f
 slot: 3
 format: presentation
 language: english
+slides: f3p-ManageLayer7Traffic.pdf
+video:
 ---
 
 Traffic management is probably the most used feature of Istio. However, handling layer-7 traffic other than HTTP and gRPC can become challenging in an Istio service mesh.  In this session, I'll discuss a few possible approaches to extend Istio's traffic management capability to other layer-7 protocols such as Dubbo, Thrift, TARS, Redis, MySql, MongoDB, etc. I'll introduce Aeraki, an open-source project that provides a framework to allow Istio to support more layer 7 protocols than just HTTP and gRPC. A demo of Thrift and Dubbo traffic version-based routing and percentage-based routing will also be shown in this session.  In the end, l'll discuss some other interesting things we are planning at Aeraki, such as on-demand xDS to the sidecars.

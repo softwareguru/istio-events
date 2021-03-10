@@ -11,6 +11,8 @@ block: f
 slot: 8
 format: presentation
 language: english
+slides: f8p-ProductSecurityWorkingGroup.pdf
+video:
 ---
 
 The Istio Product Security Working Group operates behind a bit of secrecy given the nature of the group’s work; mostly triaging security reports and threats. In 2020, there were over 11 security bulletins released that spanned from Istio 1.3 to Istio 1.8. In this talk, we will explain why the group was created, how it operates, and its mission to make Istio more secure.
