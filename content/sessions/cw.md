@@ -13,6 +13,7 @@ format: workshop
 language: english
 tags:
 summary: "This workshop is based on Istio and Gloo Mesh. Each participant will have a dedicated VM and we will go through diferent labs."
+video: https://www.youtube.com/embed/aGGZmxXuLnE
 
 ---
 

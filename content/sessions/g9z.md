@@ -11,7 +11,7 @@ slot: 9z
 format: keynote
 language: english
 slides: g9z-ClosingRemarks.pdf
-video:
+video: 
 ---
 
 Closing remarks for IstioCon with Lin Sun.

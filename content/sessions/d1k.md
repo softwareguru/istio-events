@@ -13,7 +13,7 @@ format: keynote
 language: english
 tags:
 slides: d1k-Istio2021Roadmap-Neeraj-Louis.pdf
-video:
+video: https://www.youtube.com/embed/WmjTeN-jtdY
 
 ---
 

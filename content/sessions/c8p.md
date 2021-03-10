@@ -12,7 +12,7 @@ format: presentation
 language: english
 tags:
 slides: c8p-ExtendingEnvoyWasm-EdSnible.pdf
-video:
+video: https://www.youtube.com/embed/MZyrCMSvKlc
 ---
 
 This talk is for every engineer interested in creating traffic management and telemetry capabilities for the mesh itself.

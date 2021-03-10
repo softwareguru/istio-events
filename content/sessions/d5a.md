@@ -13,7 +13,7 @@ format: adoption
 language: english
 tags:
 slides: d5a-Istio-Sberbank.pdf
-video:
+video: https://www.youtube.com/embed/UNUj6ruT0gg
 ---
 
 50+ On-Premise Kubernetes Clusters in a Private Cloud, 500+ Compute Nodes, 10+ Istio Meshes, and 2 years of joint efforts with IBM.  This is Sberbank's journey from the technology preview stage to a production-grade Istio mesh installation. Joint speech from IBM and Sberbank representatives will cover the history of their collaboration in detail: key faced problems and solutions, main architectural decisions, and plans for the future.

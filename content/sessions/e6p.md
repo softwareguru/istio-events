@@ -12,7 +12,7 @@ format: presentation
 language: chinese
 tags:
 slides: e6p-ExtendingWASMORAS-XiNing.pdf
-video:
+video: https://www.youtube.com/embed/t8Tlg4COMEc
 ---
 
 With the introduction of WebAssembly (for short,WASM) support, you can extend the data plane's functionality by writing custom Filters for out-of-process Envoy proxy in service mesh. But it's not easy to build, deploy and run WASM filters within service mesh. ORAS  is a proposed implementation for the OCI Artifacts project, which aims to extend the OCI registry specification and simplify storing arbitrary content in OCI registries.  

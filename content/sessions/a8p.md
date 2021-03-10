@@ -12,7 +12,7 @@ format: presentation
 language: english
 tags:
 slideslink: http://dn.dev/istiomaster
-video:
+video: https://www.youtube.com/embed/E0h1rS2D86k
 ---
 
 As we start to go toward cloud-native infrastructure and build our applications out of microservices, we must fully face the drawbacks and challenges to doing so. One of the most important aspect is securing (authentication and authorization) the services correctly.

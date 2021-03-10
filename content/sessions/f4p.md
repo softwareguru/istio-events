@@ -11,6 +11,7 @@ block: f
 slot: 4
 format: presentation
 language: english
+video: https://www.youtube.com/embed/0oaiJbfIKwI
 ---
 
 Istio has some basic tooling to facilitate request troubleshooting, but it has something much more powerful at its core: Envoy proxy. When requests in the mesh start failing, Envoy is the definitive source for debugging information as it has a wealth of telemetry and logging that can be enabled to pinpoint problems along the request path. Trouble with certificates? Incorrect headers? Connection pooling or upstream errors? Un-routable request?

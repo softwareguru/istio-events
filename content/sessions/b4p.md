@@ -12,6 +12,7 @@ slot: 4
 format: presentation 
 language: chinese
 tags:
+video: https://www.youtube.com/embed/RPTm1B3CKPc
 ---
 
 This talk will walk you through the key concepts for Istio security and show you how Istio can secure your microservices easily via a step by step demos: 

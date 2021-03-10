@@ -12,7 +12,7 @@ format: presentation
 language: english
 tags:
 slides: d4p-KnowYourPeers-AlexVanBoxel.pdf
-video: 
+video: https://www.youtube.com/embed/t0Of7AJZEG4
 ---
 
 It’s lonely in your pod, but finally, you receive that long-awaited knock on the port... but can you trust that inbound request? 

@@ -13,7 +13,7 @@ format: keynote
 language: english
 tags:
 slides: a2k-ProjectUpdate-LinSun.pdf
-video: 
+video: https://www.youtube.com/embed/QNs7Fiyw4Xk
 ---
 
 Craig Box and Lin Sun, program chairs and Istio steering committee members, welcome you to IstioCon and discuss the past, present and future of Istio.

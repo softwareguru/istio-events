@@ -12,7 +12,7 @@ format: presentation
 language: chinese
 tags:
 slides: e3p-FederatedAccessPoint-JesseMeng.pdf
-video:
+video: https://www.youtube.com/embed/ckeUh4xNBdo
 ---
 
 eBay拥有上百个Kubernetes集群，承载数千个不同通络拓扑的微服务应用。部署跨地域的高可用应用，并做精细化流量管理和日常运维，是互联网公司面临的日渐严峻的挑战。

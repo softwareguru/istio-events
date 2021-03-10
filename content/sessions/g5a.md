@@ -12,7 +12,7 @@ slot: 5
 format: adoption
 language: english
 slides: g5a-MovingLargeScaleInfra-RajathHarshad.pdf
-video:
+video: https://www.youtube.com/embed/0ZigedyVx7E
 ---
 
 In this session we will cover 

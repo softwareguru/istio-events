@@ -12,6 +12,7 @@ format: presentation
 language: english
 tags:
 slides: a9p-WhatEnvoyHears.pdf
+video: https://www.youtube.com/embed/nNTpfXSCLKs
 
 ---
 

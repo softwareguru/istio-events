@@ -12,7 +12,7 @@ slot: 7
 format: presentation
 language: english
 slides: g7p-LeveragingIstioAPITesting-Venky-Rahul.pptx.pdf
-video:
+video: https://www.youtube.com/embed/fl_tYzYXwn0
 ---
 
 Microservices applications rely on complex interactions among services. Engineering teams must create API tests with API mocks to shift testing left. Current approaches to mock creation are manual, which is expensive and inefficient. 

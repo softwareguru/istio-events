@@ -10,6 +10,7 @@ block: g
 slot: 1
 format: spotlight
 language: english
+video: https://www.youtube.com/embed/1iueSRNsUww
 ---
 
 FICO started it's mesh journey in 2019, picking up Istio at 0.8. It's been a bumpy road! Istio has matured a lot in that time, and the organization's deployment and usage of Istio has matured significantly too. Jeet, a VP of Engineering at FICO, will walk through FICO's journey with Istio from 2019 to today, discussing why they chose Istio initially, some of the growing pains they experienced, and what business goals they've been able to achieve because of Istio.

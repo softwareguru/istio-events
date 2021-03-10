@@ -12,7 +12,7 @@ slot: 1
 format: spotlight
 language: english
 slides: f1s-AirbnbIstioJourney.pdf
-video:
+video: https://www.youtube.com/embed/6kDiDQW5YXQ
 ---
 
 In this presentation, we will walk through Airbnb’s Istio Journey - why we needed a modern service mesh, how we vetted Istio as the solution, where we are today, the lessons we learnt along the way, and our future plans. We will cover topics including:

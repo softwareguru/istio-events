@@ -12,7 +12,7 @@ slot: 4
 format: presentation
 language: english
 slides: g4p-Kafka-SebastianZsolt.pdf
-video:
+video: https://www.youtube.com/embed/Exbs37vToZU
 ---
 
 During the past several years Apache Kafka emerged as the default enterprise message bus. With Istio on its own way to becoming the service mesh "standard" within the enterprise, running a Kafka cluster inside a mesh became a frequent requirement. We've been running Kafka over Istio for a  few years now, and in this talk, we'd like to share our experience, the common problems and eventually the benefits that led us to make this integration possible. In this talk we'll be touching on both security and operational benefits such as:

@@ -12,7 +12,7 @@ format: adoption
 language: english
 tags:
 slides: c5a-LargeScaleDataIngestion-Animesh.pdf
-video:
+video: https://www.youtube.com/embed/-exwlWSHDfA
 
 ---
 

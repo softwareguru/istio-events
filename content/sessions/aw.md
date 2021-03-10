@@ -13,7 +13,7 @@ format: workshop
 language: english
 tags:
 summary: "This workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes."
-
+video: https://www.youtube.com/embed/T1Kwh3SRAXQ
 ---
 
 Using [Meshery](https://meshery.io), this workshop introduces service mesh concepts and each aspect of Istio. Gain hands-on experience with this popular tool as you learn how to deploy and configure Istio alongside microservices running in Kubernetes.

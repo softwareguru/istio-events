@@ -12,7 +12,7 @@ format: presentation
 language: english
 tags:
 slides: d3p-TamingIstioConfigurationHelm-RyanMichela.pdf
-videos:
+video: https://www.youtube.com/embed/eOEO-EGwENQ 
 ---
 
 Helm. It’s not just for installation anymore!

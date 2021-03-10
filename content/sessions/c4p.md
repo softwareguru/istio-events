@@ -13,7 +13,7 @@ format: presentation
 language: english
 tags:
 slides: c4p-DevelopingDebuggingWasm-Idit-Yuval.pdf
-video:
+video: https://www.youtube.com/embed/M99OYnbfi6w
 ---
 
 WebAssembly filters allow users the power to extend and customize Istio to their liking. But how do organizations actually develop them? Tooling exists for traditional software development, but established methods and tooling are difficult to come by in the emerging WebAssembly ecosystem. 

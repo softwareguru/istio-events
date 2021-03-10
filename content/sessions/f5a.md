@@ -13,7 +13,7 @@ slot: 5
 format: adoption
 language: english
 slides: f5a-IstioAdoption-CashApp.pdf
-video:
+video: https://www.youtube.com/embed/TL97Id9j7F0
 ---
 
 As service mesh gains wider adoption, more and more companies are looking to bring Istio to their organization. Istio will impact many teams, from operations to developers, and it's important that they are well equipped. First you’ll hear a success story from the Square Cash team, who decided to move to Istio from Square’s homegrown Envoy service mesh. They’ll discuss why it was the right move for them, how they executed the move, and what they’d do differently if they were to do it a second time. Then we’ll generalize their learnings by exploring patterns we’ve seen firsthand for successfully bringing Istio into organizations.

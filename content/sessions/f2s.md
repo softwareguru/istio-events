@@ -11,7 +11,7 @@ slot: 2
 format: spotlight
 language: english
 slides: f2s-SalesforceServiceMesh-PratimaNambiar.pdf
-video:
+video: https://www.youtube.com/embed/upYyX0E6Wwk
 ---
 
 Istio and Envoy are foundational building blocks of the Salesforce Service Mesh. This presentation walks you through our service mesh journey. I will briefly talk about why we chose the service mesh design pattern, how we initially built it using envoy and our in-house control plane and our subsequent pivot to Istio. I will discuss how we are currently leveraging Istio and our plan to increase adoption of Istio to further enhance our Service Mesh platform. 

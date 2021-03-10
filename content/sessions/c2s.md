@@ -12,7 +12,7 @@ format: spotlight
 language: english
 tags:
 slides: c2s-GoodBadMesh-JoeSearcy.pdf
-video:
+video: https://www.youtube.com/embed/gzrWEP87mKg
 ---
 
 This is a story of struggle, tradeoffs, and triumphs. Istio, as you may know, is a mission-critical piece of software for securing and connecting microservices across platforms. However, it can be daunting to introduce, operationalize, or adopt it successfully. 

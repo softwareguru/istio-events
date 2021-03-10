@@ -12,7 +12,7 @@ format: spotlight
 language: english
 tags:
 slides: c1s-GoingDynamicEnvoy-NicolasMeessen.pdf
-video:
+video: https://www.youtube.com/embed/iAyVhjuA1HE
 
 ---
 

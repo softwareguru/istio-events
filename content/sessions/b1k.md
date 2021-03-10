@@ -13,6 +13,7 @@ slot: 1
 format: keynote 
 language: subtitled
 tags:
+video: https://www.youtube.com/embed/qtbNnEwu0YI
 ---
 
 Opening message and project update for Chinese audience.
