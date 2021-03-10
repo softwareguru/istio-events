@@ -11,7 +11,7 @@ slot: 8
 format: presentation 
 language: english
 tags:
-slideslink: http://dn.dev/istiomaster
+slides: http://dn.dev/istiomaster
 video: https://www.youtube.com/embed/E0h1rS2D86k
 ---
 

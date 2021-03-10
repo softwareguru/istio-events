@@ -12,6 +12,7 @@ format: networking
 language: 
 summary: "Join us at gather.town on Thursday, February 25th, after the morning block (14:20 - 16:20 GMT -8), and get a portrait cartoon, play video games, and network with the Istio community."
 tags:
+draft: true
 ---
 
 Join us at gather.town on Thursday, February 25th, after the morning block (14:20 - 16:20 GMT -8), and get a portrait cartoon, play video games, and network with the Istio community.

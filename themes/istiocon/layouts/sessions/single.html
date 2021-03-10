@@ -48,14 +48,8 @@
             
             {{ with .Params.slides }}
             <br>
-            <div class="mb-3"><a href="/istiocon-2021/slides/{{ . }}" target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
-            {{ end }}
-
-            {{ with .Params.slideslink }}
-            <br>
-            <div class="mb-3"><a href="{{ . }}" target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
-            {{ end }}
-          
+            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/istiocon-2021/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            {{ end }}          
 
             <div class="content mt-4">{{ .Content }}</div>
           

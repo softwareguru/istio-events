@@ -12,6 +12,7 @@ format: networking
 language: 
 summary: "Join the office hours at gather.town on Wednesday, February 24th after the morning block from 10:45 - 13:00 GMT -8, and contact with the Istio community experts."
 tags:
+draft: true
 ---
 
 Join the office hours at gather.town on Wednesday, February 24th after the morning block from 10:45 - 13:00 GMT -8, and contact with the Istio community experts. 

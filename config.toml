@@ -91,8 +91,8 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
   weight = 1
 
   [[menu.main]]
-  name = "Schedule"
-  URL = "schedule"
+  name = "Sessions"
+  URL = "sessions"
   weight = 2
 
   [[menu.main]]
@@ -104,16 +104,6 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
   name = "Speakers"
   URL = "speakers"
   weight = 4
-
-  [[menu.main]]
-  name = "Networking"
-  URL = "networking"
-  weight = 5
-
-  [[menu.main]]
-  name = "Swag"
-  URL = "swag"
-  weight = 6
 
   [[menu.main]]
   name = "FAQ"
