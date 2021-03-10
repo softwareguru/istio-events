@@ -11,6 +11,8 @@ block: g
 slot: 5
 format: adoption
 language: english
+slides: g5a-MovingLargeScaleInfra-RajathHarshad.pdf
+video:
 ---
 
 In this session we will cover 

@@ -10,6 +10,8 @@ block: g
 slot: 8
 format: presentation
 language: english
+slides: g8p-BetterExternalAuthorization-YangminZhu.pdf
+video:
 ---
 
 I will talk about the better external authorization feature in 1.9 that allows users to easily integrate Istio with external authorization system (e.g. OPA, OAuth2).

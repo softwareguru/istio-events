@@ -11,6 +11,8 @@ block: g
 slot: 3
 format: presentation
 language: english
+slides: g3p-DebuggingIstioDoD-Adam-Nick.pdf
+video:
 ---
 
 Since the release of Istio 1.0, a major development effort has been spent on making it easier to use. Whether you are already running Istio in production or trying it out for the first time, it’s important that you know about the latest and greatest when it comes to debugging and maintaining istio.

@@ -10,6 +10,8 @@ block: g
 slot: 2
 format: spotlight
 language: english
+slides: g2s-IstioAtScale-eBay-Sudhi.pdf
+video:
 ---
 
 Managing a service mesh that spans hundreds of thousands of containers across the globe is no easy feat. At high scale, achieving fast configuration convergence time to thousands of proxies, while limiting the CPU & memory utilization of control-plane & proxies is a challenging problem. This talk describes eBay's initial journey into building a scalable service mesh that provides the traffic management, load-balancing, security and observability features at scale leveraging Istio. The talk presents the federated design to manage configuration across multiple meshes in different availability zones, multiple trust domains to support workloads in different environment. The talk shares results from the extensive control-plane scale and performance tests to establish the efficacy of the design to support the massive scale, provides insights into the breaking limits of Istio control-plane and sidecar proxy and finally provides best practices & recommendations to operate Istio at scale.

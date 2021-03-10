@@ -10,6 +10,8 @@ block: g
 slot: 6
 format: adoption
 language: english
+slides: g6a-LongWildRiver-RaphaelFraysse.pdf
+video:
 ---
 
 At Mercari, we have few hundreds of services running in Kubernetes. We spent the last year and a half trying to integrate Istio in our microservices infrastructure at scale, with many trial-and-error and lessons learned.
