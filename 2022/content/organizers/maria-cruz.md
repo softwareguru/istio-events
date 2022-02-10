@@ -10,7 +10,7 @@ twitter:
 linkedin: https://www.linkedin.com/in/macruzbar/
 github: 
 group: oc
-weight: 2
+weight: 1
 ---
 
 
