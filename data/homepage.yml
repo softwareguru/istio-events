@@ -1,41 +1,30 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "Join us for IstioCon 2021"
+  title : "IstioCon 2021 was awesome!"
   logo : "/images/logo.svg"
   bg_image: "images/hero-background2.jpg"
   date_time : "February 22-26, 2021"
   venue : ""
   button1:
-    enable : false
-    label : "Register Now!"
-    link : "https://www.crowdcast.io/e/istiocon-2021"
+    enable : true
+    label : "Watch session recordings"
+    link : "/sessions"
   button2:
     enable : true
-    label : "Watch now!"
-    link : "/live"
+    label : "Go to IstioCon 2022"
+    link : "https://events.istio.io/istiocon-2022"
 
 
 ############################## Event ##############################
 event_info:
   enable : true
-  pretitle: "About Event"
-  title : "Welcome to the IstioCon 2021"
-  description : "IstioCon 2021 is the inaugural community conference for the industry's most popular service mesh. IstioCon is a community-led event, showcasing the lessons learned from running Istio in production, hands-on experiences from the Istio community, and featuring maintainers from across the Istio ecosystem. The conference offers a mix of keynotes, technical talks, lightning talks, workshops and roadmap sessions. Fun and games are also included with two social hours to take the load off and mesh with the Istio community, vendors, and maintainers!"
-  cta_text: "Register Now"
-  cta_link: "https://www.crowdcast.io/e/istiocon-2021"
-  features: 
-    - number : "5"
-      label : "Days"
-      
-    - number : "15+"
-      label : "Sessions"
+  pretitle: ""
+  title : "About IstioCon 2021"
+  description : "IstioCon 2021 was a great success. The upcoming edition will be on April 25-29, 2022."
+  cta_text: "Check out IstioCon 2022"
+  cta_link: "https://events.istio.io/istiocon-2022"
 
-    - number : "100%"
-      label : "Free"
-
-    - number : "Everybody"
-      label : "is welcome"
 
 ####################### Timer #############################
 timer:

@@ -8,7 +8,7 @@ RemovePathAccents = true
 
 googleAnalytics = "G-QB7JLQ9ECY"
 
-publishDir = "public/istiocon-2021"
+publishDir = "../deploy/istiocon-2021"
 
 theme = "istiocon"
 # post pagination

@@ -20,13 +20,13 @@
 
   {{ if .button1.enable }}
     {{ with .button1 }}
-    <a href="{{ .link | relURL }}" target="_blank" class="theme-btn btn-style-two"><span class="btn-title">{{ .label }}</span></a>
+    <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner1 mt-3 ml-4"><span class="btn-title">{{ .label }}</span></a>
     {{ end }}
   {{ end }}
 
   {{ if .button2.enable }}
     {{ with .button2 }}
-    <a href="{{ .link | relURL }}" target="_blank" class="btn btn-banner2 mt-3 ml-4">{{ .label }}</a>
+    <a href="{{ .link | relURL }}" class="btn btn-banner2 mt-3 ml-4">{{ .label }}</a>
     {{ end }}
   {{ end }}
 </div>
