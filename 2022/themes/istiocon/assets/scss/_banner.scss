@@ -1,0 +1,71 @@
+.section.banner {
+  background-color: #000a54;
+  background-image: url(/istiocon-2021/images/hero-background2.jpg);
+  background-size: cover;
+
+  height: 80vh;
+  padding-top: 25vh;
+
+  text-align: center;
+  color: white;
+
+  .hero-title {
+    width: 400px;
+    margin: 0.5em auto;
+    display: flex;
+    color: white;
+    font-size: 56px;
+  }
+
+  @media (max-width:550px) {
+    
+    .hero-title {
+      width: 300px;
+      margin-top: 10px;
+      font-size: 46px;
+    }
+    
+  }
+
+  p {
+    font-size: 1.8em;
+    margin: 1.2em auto;
+  }
+
+  @media (max-height:720px) {
+    height: 720px;
+  }
+
+  .scroll-link {
+    margin-top: 30px;
+  }
+
+  .scroll-link img {
+    height: 30px;
+  }
+
+
+  .btn-banner1 {
+    background-color: $gray-light;
+    color: $yellow2;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      color: $yellow2;
+      background-color: #e0e0e0;
+    }
+  }
+
+  .btn-banner2 {
+    background-color: #ff2040;
+    color: $white;
+    font-weight: 500;
+    letter-spacing: .1em;
+
+    &:hover {
+      background-color: #ff4060;
+      color: $white;
+    }
+  }
+}

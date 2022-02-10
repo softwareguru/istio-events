@@ -69,8 +69,8 @@ node_modules/
 
 themes/docsy
 public
-public-old
-public/istiocon-2021
+deploy/istiocon-2021
+deploy/istiocon-2022
 resources
 *Zone.Identifier
 .hugo_build.lock

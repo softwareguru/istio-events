@@ -1,0 +1,86 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "Welcome to IstioCon 2022!"
+  logo : "/images/logo.svg"
+  bg_image: "images/hero-background2.jpg"
+  date_time : "April 25-29, 2022"
+  venue : ""
+  button1:
+    enable : true
+    label : "Register"
+    link : "https://www.crowdcast.io/e/istiocon-2022"
+  button2:
+    enable : true
+    label : "Join our CFP"
+    link : "https://sessionize.com/istiocon-2022/"
+
+
+############################## Event ##############################
+event_info:
+  enable : true
+  pretitle: ""
+  title : "Sponsor IstioCon"
+#  description : "This year’s IstioCon features content from introductory to advanced levels, split into four main topic tracks. We encourage you to share real world examples, case studies, and success stories that can inspire newcomers to use Istio in production."
+  description: "Support IstioCon 2022 and reach more than 4,000 technology professionals from all over the world."
+  cta_text: "Prospectus"
+  cta_link: "/istiocon-2022/partner/IstioCon2022-Prospectus.pdf"
+
+
+####################### Timer #############################
+timer:
+  enable : false
+
+####################### CTA CFP #############################
+cta_cfp:
+  enable : false
+
+
+####################### Clients Section #############################
+sponsor:
+  enable : false
+
+  sponsor_group:
+  - title : "Partners"
+    slug : "partner"
+
+    sponsor:
+      - logo : "images/partners/google.png"
+        link : "https://cloud.google.com/"
+      - logo : "images/partners/AspenMesh.png"
+        link : "https://aspenmesh.io/"
+      - logo : "images/partners/solo.io.png"
+        link : "https://www.solo.io/"
+      - logo : "images/partners/IBM.jpg"
+        link : "https://www.ibm.com/"
+      - logo : "images/partners/tetrate.png"
+        link : "https://www.tetrate.io/"
+      - logo : "images/partners/redhat.png"
+        link : "https://www.redhat.com/"
+      - logo : "images/partners/CISCO.png"
+        link : "https://www.cisco.com/"
+      - logo : "images/partners/manning.png"
+        link : "https://www.manning.com/"
+      - logo : "images/partners/rancher-federal.png"
+        link : "https://rancherfederal.com/"
+      
+
+
+####################### Schedule #############################
+schedule:
+  enable : false
+
+  
+
+####################### pricing #############################
+pricing:
+  enable : false
+
+
+########################## speaker ##########################
+speakers:
+  enable : false
+  title : "Key speakers"
+  pretitle : "Speakers"
+  description: ""
+

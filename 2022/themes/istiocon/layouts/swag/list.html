@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ partial "page-title.html" . }}
+
+
+<!-- News Section -->
+<section class="news-section">
+
+  <div class="auto-container">
+
+      <div class="row">
+        {{ range .Data.Pages.ByTitle }}
+
+          <!-- News Block Three -->
+          <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight">
+              <div class="inner-box h-100">
+                  <div class="image-box">
+                      <figure class="image"><a href="{{ .Params.Link }}" target="blank"><img src="{{ .Params.Image | relURL }}"  alt="" style="padding: 55px;"></a></figure>
+                  </div>
+                  <div class="lower-content">
+                      <h4><a href="{{ .Params.Link }}" target="blank">{{ .Title }}</a></h4>
+                      <p>{{ .Params.Description}}</p>
+                     
+                      {{ with .Params.Link }}
+                        <div class="btn-box">
+                          <a href="{{ . }}" class="read-more" target="blank">More</a>
+                        </div>
+                        {{ end }}
+                  </div>
+              </div>
+          </div>
+          {{ end }}
+      </div>
+  </div>
+</section>
+<!--End News Section -->
+
+
+{{ end }}
