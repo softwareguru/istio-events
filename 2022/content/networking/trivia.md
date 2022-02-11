@@ -5,6 +5,7 @@ image: /images/networking/trivia.jpg
 button: More
 link: 
 weight: 3
+draft: true
 ---
 
 Challenge your techie skills by participating at the event trivia at the #istiocon slack channel, and win a $100usd gift card.

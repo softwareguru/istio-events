@@ -1,6 +1,7 @@
 ---
 title: "Schedule (Full)"
 url: "/schedule/full"
+draft: true
 ---
 Times should show up in your local timezone.
 

@@ -34,41 +34,41 @@
     <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
 
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Event",
-      "name": "{{ .Site.Title }}",
-      "startDate": "2021-02-22T11:00-05:00",
-          "endDate": "2021-02-26T19:00-05:00",
-          "eventStatus": "https://schema.org/EventScheduled",
-          "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-          "location": {
-            "@type": "VirtualLocation",
-            "url": "https://events.istio.io/istiocon-2022"
-            },
-          "image": [
-          "https://events.istio.io/istiocon-2022/images/card.jpg"
-           ],
-          "description": "{{ .Site.Params.description }}",
-          "offers": {
-            "@type": "Offer",
-            "url": "https://events.istio.io/istiocon-2022/register",
-            "price": "0",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "validFrom": "2021-01-01T12:00"
-          },
-          "performer": {
-            "@type": "PerformingGroup",
-            "name": "Istio Community"
-          },
-          "organizer": {
-            "@type": "Organization",
-            "name": "Software Guru",
-            "url": "https://devrel.sg.com.mx"
-          }
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "{{ .Site.Title }}",
+        "startDate": "{{ .Site.Params.start_date }}",
+        "endDate": "{{ .Site.Params.end_date }}",
+      "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": {{ .Site.BaseURL }}
+        },
+        "image": [ {{ index .Site.Params.images 0 | absURL }} ],
+        "description": "{{ .Site.Params.description }}",
+        "offers": {
+          "@type": "Offer",
+          "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2022-02-01T12:00"
+        },
+        "performer": {
+          "@type": "PerformingGroup",
+          "name": "Istio Community"
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Software Guru",
+          "url": "https://devrel.sg.com.mx"
         }
-        </script>
+      }
+    </script>
+  
+
 
   </head>
   

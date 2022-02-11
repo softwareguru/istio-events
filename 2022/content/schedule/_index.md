@@ -38,6 +38,8 @@ blocks:
     language: english
     time_start: 2021-02-26T16:00:00.000Z
 
+draft: true
+
 ---
 
 This is the complete program. For schedules filtered by language and organized by day please choose:

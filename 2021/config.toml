@@ -129,6 +129,11 @@ search = true
 
 disclaimer = ""
 
+[sitemap]
+  changefreq = 'yearly'
+  filename = 'sitemap.xml'
+  priority = 0.4
+
 # Preloader
 [params.preloader]
 enable = false

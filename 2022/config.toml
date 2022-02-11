@@ -8,7 +8,7 @@ RemovePathAccents = true
 
 publishDir = "../deploy/istiocon-2022"
 
-googleAnalytics = "G-QB7JLQ9ECY"
+googleAnalytics = "G-D8NGVLNE22"
 
 theme = "istiocon"
 # post pagination
@@ -109,10 +109,20 @@ twitter_user = "@istiocon"
 email = "istiocon@googlegroups.com"
 author = "Software Guru"
 
+start_date = "2022-04-25T10:00-05:00"
+end_date = "2022-04-29T14:00-05:00"
+
+
 # search for blog page
 search = true
 
 disclaimer = ""
+
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.7
+
 
 # Preloader
 [params.preloader]

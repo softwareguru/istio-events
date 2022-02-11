@@ -14,6 +14,7 @@ blocks:
     language: chinese
     time_start: 2021-02-25T01:00:00.000Z
 
+draft: true
 ---
 
 This schedule only shows sessions in Chinese. See the [full program here](/istiocon-2021/schedule).

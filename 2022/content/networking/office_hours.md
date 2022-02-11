@@ -5,6 +5,7 @@ image: /images/networking/office-hours.jpg
 button: More
 link: https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021
 weight: 2
+draft: true
 ---
 
 Join the office hours at gather.town on Wednesday, February 24th, from 10:45 - 13:00 GMT -8, and contact with the Istio community experts. [Link to Office hours](https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021).
