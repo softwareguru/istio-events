@@ -125,12 +125,17 @@ section.register p, section.swag p {
 }
 
 .sponsor-strip.gold {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 	justify-items: center;
 	align-items: center;
+	flex-wrap: wrap;
+
+	.sponsor-item {
+		width: 280px;
+		margin: 0px 50px 25px 50px;
+	}
+
 
 	@include tablet {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -160,12 +165,17 @@ section.register p, section.swag p {
 
 }
 .sponsor-strip.community {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-gap: 30px;
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 	justify-items: center;
 	align-items: center;
+	flex-wrap: wrap;
+
+	.sponsor-item {
+		width: 260px;
+		margin: 0px 25px 20px 25px;
+	}
+
 
 	@include tablet {
 		grid-template-columns: 1fr 1fr 1fr;
