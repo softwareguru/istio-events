@@ -33,6 +33,7 @@
     <link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
     <link rel="icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
 
+    {{ if .IsHome }}    
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -67,7 +68,7 @@
         }
       }
     </script>
-  
+    {{ end }}  
 
 
   </head>
