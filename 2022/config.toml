@@ -121,7 +121,7 @@ disclaimer = ""
 [sitemap]
   changefreq = 'weekly'
   filename = 'sitemap.xml'
-  priority = 0.7
+  priority = 0.6
 
 
 # Preloader
@@ -182,7 +182,7 @@ link = "https://sessionize.com/istiocon-2022/"
 
 [[params.footer_resources]]
 name = "Prospectus"
-link = "/istiocon-2022/partner/IstioCon2022-Prospectus.pdf"
+link = "/istiocon-2022/partners/IstioCon2022-Prospectus.pdf"
 
 [[params.footer_produced]]
 name = "Produced by"
