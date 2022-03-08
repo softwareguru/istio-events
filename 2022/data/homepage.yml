@@ -54,6 +54,12 @@ sponsor:
       - logo : "images/partners/redhat.png"
         link : "https://www.redhat.com/"
 
+  - title : "Silver"
+    slug : "gold"
+
+    sponsor:
+      - logo : "images/partners/AspenMesh.png"
+        link : ""
 
 
   - title : "Community"

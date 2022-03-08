@@ -148,12 +148,11 @@ section.register p, section.swag p {
 }
 
 .sponsor-strip.silver {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-gap: 40px;
-	justify-content: space-between;
+	display: flex;
+	justify-content: center;
 	justify-items: center;
 	align-items: center;
+	flex-wrap: wrap;
 
 	@include tablet {
 		grid-template-columns: 1fr 1fr 1fr;
