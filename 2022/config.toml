@@ -131,8 +131,8 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-label = "Join our CFP"
-link = "https://sessionize.com/istiocon-2022/"
+label = "Register"
+link = "https://www.crowdcast.io/e/istiocon-2022"
 
 
 ############################# social icon ############################
