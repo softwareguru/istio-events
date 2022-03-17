@@ -59,7 +59,9 @@ sponsor:
 
     sponsor:
       - logo : "images/partners/AspenMesh.png"
-        link : ""
+        link : "https://aspenmesh.io/"
+      - logo : "images/partners/IBM.jpg"
+        link : "https://www.ibm.com/"
 
 
   - title : "Community"
