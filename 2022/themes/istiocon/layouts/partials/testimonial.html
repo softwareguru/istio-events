@@ -1,0 +1,39 @@
+{{ $data := index .Site.Data }}
+
+{{ with $data.homepage.testimonial }}
+
+<!--Clients Section-->
+<section class="sponsors mb-4">
+  <div class="page-wrapper">
+    <div class="auto-container">
+      <div class="sec-title text-center mt-4">
+        <h2>What out participants say</h2>
+      </div>
+
+      {{ range .sponsor_group }}
+      <div class="mb-5">
+        <center>
+        <h4 class="mb-4 letter-spacing ">{{ .title | markdownify }}</h4>
+      </center>
+        <div class="sponsor-strip {{ .slug }}">
+          {{ range .sponsor }}
+          <div class="sponsor-item">
+            {{ if and (ne .link "") (ne .link "#") }}
+            <a href="{{ .link }}"><img src="{{ .logo | relURL }}" alt="" class="img-fluid"></a>
+            {{ else }}
+            <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+      
+
+    </div>
+  </div>
+</section>
+<!--End Clients Section-->
+
+
+{{ end }}

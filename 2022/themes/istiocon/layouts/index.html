@@ -87,6 +87,12 @@
 {{ end }}
 <!-- /speaker -->
 
+<!-- testimonial 
+{{ if $data.homepage.testimonial.enable }}
+{{ partial "testimonial.html" . }}
+{{ end }}
+testimonial -->
+
 <!-- sponsor -->
 {{ if $data.homepage.sponsor.enable }}
 {{ partial "sponsor.html" . }}
