@@ -1,8 +1,8 @@
 ---
-title: "Schedule (Full)"
-url: "/schedule/full"
-draft: true
+title: "Schedule"
+url: "/schedule/grid"
+draft: false
 ---
 Times should show up in your local timezone.
 
-<script type="text/javascript" src="https://sessionize.com/api/v2/58yh3ne1/view/GridSmart"></script>
+<script type="text/javascript" src="https://sessionize.com/api/v2/rh5brc6t/view/GridSmart"></script>
