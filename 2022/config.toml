@@ -91,6 +91,16 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
   weight = 1
 
   [[menu.main]]
+  name = "Program"
+  URL = "schedule/grid"
+  weight = 1
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "speakers"
+  weight = 1
+
+  [[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 7
