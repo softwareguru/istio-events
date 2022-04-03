@@ -1,7 +1,7 @@
 ---
 title: "Workshops"
 description: "IstioCon will offer hands-on workshops to help you develop your skills with Istio."
-draft: true
+draft: false
 ---
 
 We will be offering hands-on workshops to help you develop your skills with Istio.

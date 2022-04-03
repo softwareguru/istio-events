@@ -96,32 +96,57 @@
 
 .session-info {
 	padding: 12px;
-	border-radius: 10px
+	border-radius: 10px;
+	color: #ffffff;
+	background-color: #a0a0a0;
+	cursor: pointer;
+}
+
+a.session-title  {
+	color: #ffffff;
+	font-weight: 600;
+}
+
+a.session-title:hover {
+  color: #ffffff;
+}
+
+a.details-link {
+	font-size: 1.1em;
+	font-weight: 600;
+	text-decoration: underline;
+	color: #ffffff;
 }
 
 .session-info p {
 	margin: 0;
 }
 
+/*
 .keynote .session-info {
+	background-color: #516baa;
+}
+.use-case .session-info {
 	background-color: #b0b0f0;
 }
 
-.presentation .session-info {
-	background-color: #d0d0d0;
+.infrastructure-networking .session-info {
+	background-color: #e8cd12;
 }
 
-.adoption .session-info,
-.spotlight .session-info {
-	background-color: #d0f0d6;
+.tools-features-functionality .session-info {
+	background-color: #80c9fa;
+}
+.tech-evolution-whats-next .session-info {
+	background-color: #d647d6;
 }
 
-.workshop .session-info {
-	background-color: #f0f0b0;
+.getting-started .session-info {
+	background-color: #80c090;
 }
+*/
 
 .lightning .session-info {
-	background-color: #80c9fa;
 	border-radius: 0px;
 }
 
@@ -129,9 +154,6 @@
 	margin:0;
 }
 
-.networking .session-info {
-	background-color: #f7b8f7;
-}
 
 .networking {
 	margin-top: 1em;
@@ -140,13 +162,19 @@
 .color-code-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+}
+
+.color-code-list button {
+	text-transform: none;
 }
 
 .color-code-item {
-	padding: 5px; 
-	border-radius: 4px; 
+	padding: 10px 18px !important; 
+	border-radius: 6px; 
     margin-right: 1em;
+	line-height: 100%;
+	border: none;
+	color: white;
 }
 
 .session-meta {

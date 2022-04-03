@@ -225,7 +225,7 @@ color:#ffffff;
 }
 
 .btn-style-one:hover{
-	color:#ff4060;
+	background-color: #ff2040;
 	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 	-moz-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 	-ms-box-shadow: 0 10px 30px rgba(0,0,0,0.10);
@@ -233,38 +233,6 @@ color:#ffffff;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.10);
 }
 
-.btn-style-one:before{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	content: "";
-	background-color: #ffffff;
-	-webkit-transform: scale(0, 1);
-	-ms-transform: scale(0, 1);
-	transform: scale(0, 1);
-	-webkit-transform-origin: top right;
-	-ms-transform-origin: top right;
-	transform-origin: top right;
-    -webkit-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition: transform 500ms cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-    -webkit-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -moz-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    -o-transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000);
-    transition-timing-function: cubic-bezier(0.860, 0.000, 0.070, 1.000); /* easeInOutQuint */
-}
-
-.btn-style-one:hover:before{
-	-webkit-transform: scale(1, 1);
-	-ms-transform: scale(1, 1);
-	transform: scale(1, 1);
-	-webkit-transform-origin: bottom left;
-	-ms-transform-origin: bottom left;
-	transform-origin: bottom left;
-}
 
 /* Button style two*/
 
@@ -4508,16 +4476,11 @@ img{
 
 .schedule-block h4 a{
 	display: inline-block;
-	color: #466bb0;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
 	transition: all 300ms ease;
-}
-
-.schedule-block h4 a:hover{
-	color: #f14b59;
 }
 
 .schedule-block .text{
@@ -4664,31 +4627,6 @@ img{
 	border-color: #e6275a;
 }
 
-/* color */
-
-.schedule-section.style-three .schedule-block:nth-child(4n + 1) .date,
-.schedule-section.style-two .schedule-block:nth-child(4n + 1) .date,
-.schedule-block:nth-child(4n + 1) h4 a:hover{
-	color: #0C48B9;
-}
-
-.schedule-section.style-three .schedule-block:nth-child(4n + 2) .date,
-.schedule-section.style-two .schedule-block:nth-child(4n + 2) .date,
-.schedule-block:nth-child(4n + 2) h4 a:hover{
-	color: #466BB0;
-}
-
-.schedule-section.style-three .schedule-block:nth-child(4n + 3) .date,
-.schedule-section.style-two .schedule-block:nth-child(4n + 3) .date,
-.schedule-block:nth-child(4n + 3) h4 a:hover{
-	color: #4c35a9;
-}
-
-.schedule-section.style-three .schedule-block:nth-child(4n + 4) .date,
-.schedule-section.style-two .schedule-block:nth-child(4n + 4) .date,
-.schedule-block:nth-child(4n + 4) h4 a:hover{
-	color: #e6275a;
-}
 
 
 /***

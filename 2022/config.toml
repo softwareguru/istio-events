@@ -86,24 +86,24 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
 [menu]
 
   [[menu.main]]
-  name = "About"
-  URL = "about"
+  name = "Program"
+  URL = "program"
   weight = 1
 
   [[menu.main]]
-  name = "Program"
-  URL = "schedule/grid"
-  weight = 1
+  name = "Workshops"
+  URL = "workshops"
+  weight = 2
 
   [[menu.main]]
   name = "Speakers"
   URL = "speakers"
-  weight = 1
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 7
+  weight = 4
 
 
 #################### default parameters ################################
@@ -173,6 +173,10 @@ link = "mailto:istiocon@googlegroups.com"
 [[params.footer_about]]
 name = "Istio website"
 link = "https://istio.io"
+
+[[params.footer_resources]]
+name = "About"
+link = "/istiocon-2022/about"
 
 [[params.footer_resources]]
 name = "Organizers"

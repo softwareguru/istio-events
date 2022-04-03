@@ -1,6 +1,6 @@
 ---
 title: "Speakers"
-url: "/speakers"
+url: "/speakers-sessionize"
 draft: false
 ---
 

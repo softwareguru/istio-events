@@ -8,7 +8,7 @@
       {{ .Content }}
     </div>
     <div class="row workshop-strip">
-      {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.format" "workshop" ) ".Params.time_start" }}
+      {{range sort (where (where .Site.RegularPages "Section" "sessions") ".Params.session_type" "Workshop" ) ".Params.time_start" }}
       <div class="col-12 col-md-4 px-3 mb-3">
         <div class="card">
           <div class="card-body">
@@ -18,7 +18,7 @@
             <h6 class="card-subtitle mb-2 text-muted">Date: {{ $time_start.Format "Jan-02 15:04" }}-{{ $time_end.Format "15:04" }} UTC</h6>
             <h6 class="card-subtitle mb-2 text-muted">Instructor(s): {{ delimit .Params.speakers ", " " & " }}</h6>
             <p class="card-text">{{ .Summary }}</p>
-            <p class="abstract"><a href="{{ .Permalink }}" class="card-link">See detail & register</a></p>
+            <p class="abstract"><a href="{{ .Permalink }}" class="card-link">See details & register</a></p>
           </div>
         </div>
       </div>
