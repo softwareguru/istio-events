@@ -15,8 +15,6 @@ theme = "istiocon"
 paginate = "10"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
 speaker = "speakers"
 
 # output
