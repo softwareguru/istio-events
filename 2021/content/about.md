@@ -6,9 +6,6 @@ url: "/about"
 ---
 
 
-IstioCon 2021 is the inaugural community conference for the industry's most popular service mesh. IstioCon is a community-led event, showcasing the lessons learned from running Istio in production, hands-on experiences from the Istio community, and featuring maintainers from across the Istio ecosystem. 
+IstioCon 2021 was the inaugural conference for the global community of [Istio](https://istio.io). It was held on February 2021. 
 
-IstioCon offers a mix of keynotes, technical talks, lightning talks, workshops and roadmap sessions. Fun and games are also included with social activities to take the load off and mesh with the Istio community, vendors, and maintainers! 
-
-### About Istio
-Istio is an open source service mesh that helps organizations run distributed, microservices-based apps anywhere. Istio enables organizations to secure, connect, and monitor microservices, so they can modernize their enterprise apps more swiftly and securely.
+For the most recent edition of IstioCon visit https://events.istio.io

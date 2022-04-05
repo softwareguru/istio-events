@@ -15,8 +15,6 @@ theme = "istiocon"
 paginate = "10"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
 speaker = "speakers"
 
 # output
@@ -95,20 +93,7 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
   URL = "sessions"
   weight = 2
 
-  [[menu.main]]
-  name = "Workshops"
-  URL = "workshops"
-  weight = 3
 
-  [[menu.main]]
-  name = "Speakers"
-  URL = "speakers"
-  weight = 4
-
-  [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 7
 
 
 #################### default parameters ################################
@@ -141,8 +126,8 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-label = "LIVE"
-link = "/live"
+label = "Check out IstioCon 2022"
+link = "https://events.istio.io/istiocon-2022"
 
 
 ############################# social icon ############################

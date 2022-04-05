@@ -2,7 +2,7 @@
 title: Frequently Asked Questions
 date: '2019-09-10T07:51:25.000+00:00'
 url: "/faq"
-
+draft: true
 ---
 ### How do I register for this event?
 Visit the registration page here and enter your information. Once you’ve registered, watch for a confirmation email that contains your login information for the conference. There is no cost to attend IstioCon 2021.
