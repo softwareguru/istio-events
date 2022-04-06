@@ -122,29 +122,44 @@ a.details-link {
 	margin: 0;
 }
 
-/*
-.keynote .session-info {
+button.all {
+	background-color: #b0b0b0;
+}
+
+.btn-lang.used, .btn-track.used {
+	background-color: #505050 !important;
+}
+
+.btn-lang.english { 
+    background-color: #8080f0;
+}
+
+.btn-lang.chinese { 
+    background-color: #e09090;
+}
+
+.keynote .session-info, button.keynote {
 	background-color: #516baa;
 }
-.use-case .session-info {
+.use-case .session-info, button.use-case {
 	background-color: #b0b0f0;
 }
 
-.infrastructure-networking .session-info {
+.infrastructure-networking .session-info, button.infrastructure-networking {
 	background-color: #e8cd12;
 }
 
-.tools-features-functionality .session-info {
+.tools-features-functionality .session-info, button.tools-features-functionality {
 	background-color: #80c9fa;
 }
-.tech-evolution-whats-next .session-info {
+.tech-evolution-whats-next .session-info, button.tech-evolution-whats-next {
 	background-color: #d647d6;
 }
 
-.getting-started .session-info {
+.getting-started .session-info, button.getting-started {
 	background-color: #80c090;
 }
-*/
+
 
 .lightning .session-info {
 	border-radius: 0px;
@@ -171,6 +186,7 @@ a.details-link {
 .color-code-item {
 	padding: 10px 18px !important; 
 	border-radius: 6px; 
+	margin-bottom: 1em;
     margin-right: 1em;
 	line-height: 100%;
 	border: none;
@@ -184,4 +200,11 @@ a.details-link {
 
 .sz-session__title {
 	color: white;
+}
+
+.filter-legend {
+	font-size: 1em;
+	font-style: italic;
+	color: #404040;
+	line-height: 200%;
 }

@@ -60,23 +60,37 @@
 </script>
 <script>
 
-    function showLang(lang) {
+    function showLang(obj, lang) {
+
+        document.getElementsByClassName("btn-lang").forEach(block => { block.classList.remove('used'); });
+
         if (lang == "all") {
-            document.getElementsByClassName("schedule-block").forEach(block => { block.style.display = 'block' });        
+            document.getElementsByClassName("schedule-block").forEach(block => { block.style.display = 'block' });
+            document.getElementById("active-lang-filter").innerHTML="";
+
         }
         else {
             document.getElementsByClassName("schedule-block").forEach(block => { block.style.display = 'none' });        
-            document.getElementsByClassName("schedule-block "+lang).forEach(block => { block.style.display = 'block' });        
+            document.getElementsByClassName("schedule-block "+lang).forEach(block => { block.style.display = 'block' });                    
+            document.getElementById("active-lang-filter").innerHTML="Active filter: "+lang;
+            obj.classList.add('used');
         }
+
     }
 
-    function showTrack(track) {
+    function showTrack(obj,track) {
+
+        document.getElementsByClassName("btn-track").forEach(block => { block.classList.remove('used'); });
+
         if (track == "all") {
             document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'grid' });        
+            document.getElementById("active-track-filter").innerHTML="";
         }
         else {
             document.getElementsByClassName("session-item").forEach(block => { block.style.display = 'none' });        
             document.getElementsByClassName("session-item "+track).forEach(block => { block.style.display = 'grid' });        
+            document.getElementById("active-track-filter").innerHTML="Active filter: "+track;
+            obj.classList.add('used');
         }
     }
 
