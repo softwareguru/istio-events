@@ -1,17 +1,17 @@
 ---
-id: a7
+id: f1a
 title: "Create resilient multi-cluster, multi-regional and multi-tenant architectures with Istio and K8s"
 url: /sessions/create-resilient-multi-cluster-architectures
 speakers:
  - Ameer Abbas
-time_start: 2022-04-25T19:50:00.000Z
-time_end: 2022-04-25T20:25:00.000Z
+time_start: 2022-04-28T15:00:00.000Z
+time_end: 2022-04-28T15:35:00.000Z
 session_type: Presentation
 track: Infrastructure & networking
 track_slug: infrastructure-networking
 language: English
-block: a
-slot: 7
+block: f
+slot: 1a
 ---
 
 Building distributed applications is hard! Building globally scalable distributed applications is harder! Maintaining and growing these services as your business grows is even harder!

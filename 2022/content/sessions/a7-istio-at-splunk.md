@@ -1,17 +1,17 @@
 ---
-id: f1a
+id: a7
 title: "Istio at Splunk: How we learned to love it."
 url: /sessions/istio-at-splunk
 speakers:
  - Bernard Van De Walle
-time_start: 2022-04-28T15:00:00.000Z
-time_end: 2022-04-28T15:35:00.000Z
+time_start: 2022-04-25T19:50:00.000Z
+time_end: 2022-04-25T20:25:00.000Z
 session_type: Presentation
 track: Use case
 track_slug: use-case
 language: English
-block: f
-slot: 1a
+block: a
+slot: 7
 ---
 
 Splunk is heavily using Istio for the last 3 years, using it as our baseline for network ingress, policy and authentication.
