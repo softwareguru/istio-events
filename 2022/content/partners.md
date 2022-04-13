@@ -1,7 +1,7 @@
 ---
-title: Partners
+title: Sponsors and partners
 url: "/partners"
 layout: partners
 ---
 
-Thank you to our partners
+Thank you to our sponsors and partners.

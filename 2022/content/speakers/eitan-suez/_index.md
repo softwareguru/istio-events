@@ -1,6 +1,6 @@
 ---
 title: "Eitan Suez"
-designation: "Explainer"
+designation: "Tech explainer, Tetrate"
 image: /images/speakers/eitan-suez.jpg
 twitter: ""
 linkedin: "https://www.linkedin.com/in/eitan-suez-2336b26/"

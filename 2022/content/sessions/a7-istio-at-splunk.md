@@ -1,6 +1,6 @@
 ---
 id: a7
-title: "Istio at Splunk: How we learned to love it."
+title: "Istio at Splunk: How we learned to love it"
 url: /sessions/istio-at-splunk
 speakers:
  - Bernard Van De Walle
