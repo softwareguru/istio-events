@@ -1,6 +1,6 @@
 ---
 title: "Luyao Zhong"
-designation: "Intel Could Sofeware Engineer"
+designation: "Intel Cloud Software Engineer"
 image: /images/speakers/luyao-zhong.jpg
 twitter: ""
 linkedin: ""

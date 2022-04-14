@@ -1,6 +1,6 @@
 ---
 title: "Gregory Hanson"
-designation: "Staff Software Engineer @ IBM"
+designation: "Software Engineer @ Solo.io"
 image: /images/speakers/gregory-hanson.jpg
 twitter: "https://twitter.com/gihanson"
 linkedin: "https://www.linkedin.com/in/grhanson/"
