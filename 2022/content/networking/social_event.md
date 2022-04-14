@@ -1,11 +1,13 @@
 ---
-title: "Social event"
+title: "Networking event"
 date: 2021-01-06T18:26:06-06:00
-image: /images/networking/gather.jpg
+image: /images/networking/networking.png
 button: More
-link: https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021
+link: https://www.weve.co/experiences/space-escape
 weight: 3
-draft: true
+draft: false
 ---
 
-Join us at gather.town on Thursday, February 25th, after the morning block (14:20 - 16:20 GMT -8), and get a portrait cartoon, play video games, and network with the Istio community. [Link to the event](https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021).
+During this virtual 1 hour experience, you and your team are sent on an important mission to Mars! With a guided host, race the clock to make your way through the different rooms of the spaceship to save the day. The winning team will get a surprise gift!
+
+***Note: As we have limited spots, we will share via email the registration form with the event participants.***

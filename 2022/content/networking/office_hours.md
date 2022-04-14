@@ -1,11 +1,13 @@
 ---
-title: "Office hours"
+title: "Swag bag"
 date: 2021-01-06T18:26:06-06:00
-image: /images/networking/office-hours.jpg
+image: /images/networking/swag.png
 button: More
-link: https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021
+link: /istiocon-2022/swag/
 weight: 2
-draft: true
+draft: false
 ---
 
-Join the office hours at gather.town on Wednesday, February 24th, from 10:45 - 13:00 GMT -8, and contact with the Istio community experts. [Link to Office hours](https://gather.town/app/5pbEUrugjMUWseRm/istiocon2021).
+Gifts for everyone!
+
+Thanks to our sponsors and event organizers, you will get books, discounts, gift cards, and much more. Visit the swag bag page and discover all the gifts available for you.

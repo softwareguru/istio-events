@@ -18,13 +18,13 @@
                   </div>
                   <div class="lower-content">
                       <h4><a href="{{ .Params.Link }}" target="blank">{{ .Title }}</a></h4>
-                      <p>{{ .Params.Description}}</p>
+                      <p class="module line-clamp">{{ .Params.Description}}</p>
+                      <a href="{{.Permalink}}"><p>See more...</p></a>
                      
-                      {{ with .Params.Link }}
                         <div class="btn-box">
-                          <a href="{{ . }}" class="read-more" target="blank">More</a>
+                          <a href="{{ .Params.Link }}" class="read-more" target="blank">{{ .Params.Button}}</a>
                         </div>
-                        {{ end }}
+                 
                   </div>
               </div>
           </div>
