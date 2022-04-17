@@ -62,6 +62,8 @@ sponsor:
         link : "https://aspenmesh.io/"
       - logo : "images/partners/IBM.jpg"
         link : "https://www.ibm.com/"
+      - logo : "images/partners/intel-logo.png"
+        link : "https://www.intel.com/"
 
 
   - title : "Community"
