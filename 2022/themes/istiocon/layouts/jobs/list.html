@@ -18,7 +18,8 @@
                   </div>
                   <div class="lower-content">
                       <h4><a href="{{ .Params.Link }}" target="blank">{{ .Title }}</a></h4>
-                      <p>{{ .Params.Description}}</p>
+                      <p class="module line-clamp">{{ .Summary }}</p>
+                      <a href="{{.Permalink}}"><p>See more...</p></a>
                      
                
                         <div class="btn-box">
