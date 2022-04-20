@@ -27,4 +27,4 @@ In this workshop, you will learn how to go beyond just deploying an application 
  * Consistently apply policies to secure your environment
  * Reduce administrative complexity for you and your team
 
-This guide is intended for platform administrators and service operators with basic knowledge of Kubernetes. Some knowledge of service mesh is helpful, but not necessary.
+This workshop is intended for platform administrators and service operators with basic knowledge of Kubernetes. Some knowledge of service mesh is helpful, but not necessary.
