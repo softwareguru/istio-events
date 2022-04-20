@@ -7,17 +7,17 @@ IstioCon 2022 will feature Listening Sessions, where the Istio Community invites
 
 **All listening sessions are from 18:00 to 18:30 UTC (11 to 11:30 PDT).**
 
-* ### Tuesday, April 26th - Istio Upgrades  
+* ### [Tuesday, April 26th - Istio Upgrades](/istiocon-2022/sessions/listening-upgrades)  
   Led by Sam Naser, Jacob Delgado  
   Scope: Are upgrades getting easier?  How easy is easy enough?  Are helm and revision based upgrades catching on?  What is still painful?  How often do you upgrade?  How often would you like to?  Are patches easier than minor upgrades?  
   [Join Google Meet](https://meet.google.com/ncg-kawc-nqe)
 
-* ### Wednesday, April 27th - Telemetry API
+* ### [Wednesday, April 27th - Telemetry API](/istiocon-2022/sessions/listening-telemetry)
   Led by Douglas Reid, Neeraj Poddar  
   Scope: We’ve been looking for feedback from users on the Telemetry API for some time now, and it’s been difficult to find users with experience. This session might need to cover other telemetry topics as well to appeal to enough attendees.  
   [Join Google Meet](https://meet.google.com/ncg-kawc-nqe)
 
-* ### Thursday, April 28th - Istio Community
+* ### [Thursday, April 28th - Istio Community](/istiocon-2022/sessions/listening-community)
   Led by Eric Van Norman, Mitch Connors  
   Scope: What are we doing as a community, how can we do better?  
   [Join Google Meet](https://meet.google.com/ncg-kawc-nqe)
