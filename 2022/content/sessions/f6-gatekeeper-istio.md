@@ -5,8 +5,8 @@ url: /sessions/gatekeeper-istio
 speakers:
  - Mathieu Benoit
  - Ernest Wong
-time_start: 2022-04-28T19:50:00.000Z
-time_end: 2022-04-28T20:25:00.000Z
+time_start: 2022-04-28T19:10:00.000Z
+time_end: 2022-04-28T19:45:00.000Z
 session_type: Presentation
 track: Tools, features & functionality
 track_slug: tools-features-functionality
