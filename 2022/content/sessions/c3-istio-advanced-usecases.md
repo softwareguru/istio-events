@@ -4,8 +4,9 @@ title: "Istio Advanced Usecases"
 url: /sessions/istio-advanced-usecases
 speakers:
  - Rama Chavali
-time_start: 2022-04-28T19:50:00.000Z
-time_end: 2022-04-28T20:25:00.000Z
+ - Devesh Kandpal
+time_start: 2022-04-26T16:40:00.000Z
+time_end: 2022-04-26T17:15:00.000Z
 session_type: Presentation
 track: Use case
 track_slug: use-case
