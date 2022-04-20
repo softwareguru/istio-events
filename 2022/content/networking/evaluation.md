@@ -1,7 +1,7 @@
 ---
 title: "Feedback"
 date: 2021-01-06T18:26:06-06:00
-image: /images/networking/feedback.jpg
+image: /images/networking/feedback.png
 button: 
 link: 
 draft: false
