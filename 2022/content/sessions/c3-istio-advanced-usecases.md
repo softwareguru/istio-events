@@ -1,6 +1,6 @@
 ---
 id: c3
-title: "Istio Advanced Usecases"
+title: Istio Advanced Usecases
 url: /sessions/istio-advanced-usecases
 speakers:
  - Rama Chavali
@@ -11,7 +11,7 @@ session_type: Presentation
 track: Use case
 track_slug: use-case
 language: English
-block: 3
+block: c
 slot: 3
 ---
 
