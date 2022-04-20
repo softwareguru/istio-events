@@ -1,5 +1,5 @@
 ---
-id: f6
+id: c3
 title: "Istio Advanced Usecases"
 url: /sessions/istio-advanced-usecases
 speakers:
@@ -11,8 +11,8 @@ session_type: Presentation
 track: Use case
 track_slug: use-case
 language: English
-block: f
-slot: 6
+block: 3
+slot: 3
 ---
 
 Salesforce is onboarding several open source stacks onto Service Mesh. As part of that, we have been solving a lot of advanced usecases with the features supported by Istio. This presentation walks you through how we have used Istio features to onboard these open source stacks onto Mesh. This presentation specifically covers
