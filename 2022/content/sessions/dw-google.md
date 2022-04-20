@@ -4,7 +4,7 @@ title: Manage and Secure Distributed Services with Anthos Service Mesh
 url: /sessions/workshop-anthos
 speakers:
  - Christine Kim
- - Michael Aasen
+ - Mike Coleman
  - Mathieu Benoit
  - Nim Jayawardena
 time_start: 2022-04-27T18:00:00.000Z
