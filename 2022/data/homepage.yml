@@ -7,13 +7,13 @@ banner:
   date_time : "April 25-29, 2022"
   venue : ""
   button1:
-    enable : true
-    label : "Watch now!"
-    link : "/live"
-  button2:
     enable : false
     label : "Join our CFP"
     link : "https://sessionize.com/istiocon-2022/"
+  button2:
+    enable : true
+    label : "Watch now!"
+    link : "/live"
 
 
 ############################## Event ##############################
