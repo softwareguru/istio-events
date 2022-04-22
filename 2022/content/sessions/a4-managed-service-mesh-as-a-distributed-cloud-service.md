@@ -4,6 +4,7 @@ title: "Managed service mesh as a distributed cloud service"
 url: /sessions/managed-service-mesh-as-a-distributed-cloud-service
 speakers:
  - Gergő Huszty
+ - Tong Li
 time_start: 2022-04-25T17:20:00.000Z
 time_end: 2022-04-25T17:55:00.000Z
 session_type: Presentation
