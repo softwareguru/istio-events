@@ -3,7 +3,7 @@ title: "Slack - Event chat"
 date: 2021-01-06T18:26:06-06:00
 image: /images/networking/slack.jpg
 button: More
-link: https://join.slack.com/t/istio/shared_invite/zt-12um7jrmu-aBOOBOiljSr86T3oa_Ne1Q
+link: https://slack.istio.io/
 weight: 1
 draft: false
 ---
