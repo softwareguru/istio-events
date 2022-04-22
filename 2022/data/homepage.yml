@@ -8,8 +8,8 @@ banner:
   venue : ""
   button1:
     enable : true
-    label : "Register"
-    link : "https://www.crowdcast.io/e/istiocon-2022"
+    label : "Watch now!"
+    link : "/live"
   button2:
     enable : false
     label : "Join our CFP"
