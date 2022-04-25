@@ -4,6 +4,7 @@ title: "Istio multi-cluster traffic management speed up automobile company new b
 url: /sessions/istio-multi-cluster-traffic-management
 speakers:
  - Chaomeng Zhang
+ - Liu Kexing
 time_start: 2022-04-28T03:20:00.000Z
 time_end: 2022-04-28T03:55:00.000Z
 session_type: Presentation
