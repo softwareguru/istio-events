@@ -170,7 +170,7 @@ link = "https://www.youtube.com/channel/UC-zVlo1F3mUbExQ96fABWcQ"
 
 [[params.social]]
 icon = "fab fa-slack"
-link = "https://istio.slack.com"
+link = "https://slack.istio.io/"
 
 [[params.social]]
 icon = "fab fa-discourse"
