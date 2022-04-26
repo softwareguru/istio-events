@@ -3,7 +3,7 @@ title: "Rate the event and sessions"
 date: 2021-01-06T18:26:06-06:00
 image: /images/networking/feedback.png
 button: 
-link: /istiocon-2022/survery/
+link: /istiocon-2022/survey/
 draft: false
 weight: 5
 ---
