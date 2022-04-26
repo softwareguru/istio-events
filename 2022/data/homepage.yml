@@ -64,6 +64,8 @@ sponsor:
         link : "https://www.ibm.com/"
       - logo : "images/partners/intel-logo.png"
         link : "https://www.intel.com/"
+      - logo : "images/partners/Airbnb.jpeg"
+        link : "https://careers.airbnb.com/"
 
 
   - title : "Community"
