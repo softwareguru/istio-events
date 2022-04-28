@@ -4,7 +4,7 @@ title: "Listening session: Community"
 url: /sessions/listening-community
 speakers:
 time_start: 2022-04-28T18:00:00.000Z
-time_end: 2022-04-28T18:30:00.000Z
+time_end: 2022-04-28T18:29:00.000Z
 session_type: listening
 track: listening session
 track_slug: listening
