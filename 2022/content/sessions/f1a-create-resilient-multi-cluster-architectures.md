@@ -12,6 +12,8 @@ track_slug: infrastructure-networking
 language: English
 block: f
 slot: 1a
+slides: f1a-ReliabilityMesh.pdf
+video: https://youtu.be/_8FNsvoECPU
 ---
 
 Building distributed applications is hard! Building globally scalable distributed applications is harder! Maintaining and growing these services as your business grows is even harder!

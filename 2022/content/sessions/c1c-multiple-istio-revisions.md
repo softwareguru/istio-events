@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 1c
+slides:
+video: https://youtu.be/-dToLB9sKkw
 ---
 
 Installing multiple Istio control plane revisions in different namespaces might be your first instinct to ensure better hygiene in production but you can run into unexpected challenges in doing so.

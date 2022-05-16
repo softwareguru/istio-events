@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: English
 block: f
 slot: 2
+slides: f2-ScalingMultiCluster.pdf
+video: https://youtu.be/1mexM7iOkTE
 ---
 
 Scaling systems to handle high throughput is an art and a journey fraught with several hurdles and blockers. We shall demonstrate how every little configuration can cause a huge impact at very high RPS, how we managed to beat 500K RPS with minimum latency and how we geared the system to be capable of handling upto 1M RPS. We shall show using the example deployment topology of Istio Service Mesh, how we addressed the issues of connection handling, load balancing shortcomings, cross cluster pitfalls, side effects of HPA, uneven resource utilization, etc.and achieved a smooth response graph at very high throughputs.

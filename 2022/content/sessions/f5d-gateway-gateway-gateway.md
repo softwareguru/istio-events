@@ -12,6 +12,8 @@ track_slug: getting-started
 language: English
 block: f
 slot: 5d
+slides: f5d-Gateway.pdf
+video: https://youtu.be/HSXujcVk0N8
 ---
 
 The Istio and Kubernetes landscapes are rife with jargon, and high on the list of overloaded terms is the word "gateway". This term has multiple specific meanings that are both distinct and related to each other. In this talk we will quickly run through the different uses of the word Gateway, what they mean, how they're related, and how to pick them out when you see them used in context.

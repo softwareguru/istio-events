@@ -12,6 +12,9 @@ language: English
 block: f
 slot: 4l
 summary: In this listening session we are looking for your feedback on the Istio Community and what we can do to improve. 
+slides:
+video: 
+draft: true
 ---
 
 In this listening session we are looking for your feedback on the Istio Community and what we can do to improve as a community. 

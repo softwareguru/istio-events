@@ -12,6 +12,8 @@ track_slug: use-case
 language: English
 block: a
 slot: 7
+slides: a7-IstioSplunk.pdf
+video: https://youtu.be/O2IamfjFk7E
 ---
 
 Splunk is heavily using Istio for the last 3 years, using it as our baseline for network ingress, policy and authentication.

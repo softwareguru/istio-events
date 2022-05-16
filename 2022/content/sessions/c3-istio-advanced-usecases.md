@@ -13,6 +13,8 @@ track_slug: use-case
 language: English
 block: c
 slot: 3
+slides: c3-AdvancedUsecases.pdf
+video: https://youtu.be/JBKG_PiD0C8
 ---
 
 Salesforce is onboarding several open source stacks onto Service Mesh. As part of that, we have been solving a lot of advanced usecases with the features supported by Istio. This presentation walks you through how we have used Istio features to onboard these open source stacks onto Mesh. This presentation specifically covers

@@ -13,6 +13,8 @@ track_slug: use-case
 language: Chinese
 block: b
 slot: 2
+slides:
+video: https://youtu.be/scpZnVWMQto
 ---
 
 In this presentation, we will talk about how we upgraded our microservices architecture by using istio in large scale clusters. Including:  

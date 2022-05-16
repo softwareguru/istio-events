@@ -12,7 +12,10 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 5c
+slides: c5c-ImprovingRateLimit.pdf
+video: https://youtu.be/cdWQSLbHZxk
 ---
+
 
 Managing Rate limit configuration in Istio is a tedious task since currently, we are setting up the EnvoyFilter object to configure the rate limit function.
  

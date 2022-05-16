@@ -12,6 +12,8 @@ track_slug: infrastructure-networking
 language: Chinese
 block: e
 slot: 3
+slides:
+video: https://youtu.be/yR5Pm_6aiyo
 ---
 
 介绍istio中的服务/配置数据流转和推送的流程，分析该过程中的性能点和可能的性能瓶颈。

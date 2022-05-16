@@ -12,6 +12,9 @@ language: English
 block: c
 slot: 4l
 summary: We would love to have your feedback on Istio upgrades. Are upgrades getting easier? What is still painful?
+slides:
+video: 
+draft: true
 ---
 
 In this listening session we are looking for your feedback on Istio upgrades. Some of the items on which we would like to know your opinion are:

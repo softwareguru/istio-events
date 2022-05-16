@@ -12,6 +12,8 @@ track_slug:
 language: English
 block: c
 slot: 1b
+slides:
+video: https://youtu.be/lvW7CsvpCx8
 ---
 
 Join us for this message by Tetrate with an announcement of new tools available for the Istio Community as well as an overview of the Tetrate offering.

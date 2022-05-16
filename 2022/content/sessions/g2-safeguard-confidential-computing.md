@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: English
 block: g
 slot: 2
+slides: g2-SafeguardConfidential.pdf
+video: https://youtu.be/MtNJKOPPk0M
 ---
 
 Security is a key feature for Isito service mesh. Service-to-service communication can be secured automatically without application code change. In the mesh edge side, the ingress and egress gateway can help you do TLS termination or origination as well. Private keys are important parts to fullfill all these functions and currently they are all exposed in clear text. This exposes rich attack surface for your service mesh. In this talk you will learn about confidential computing and how you can leverage it to improve the overall security level for Istio service mesh.

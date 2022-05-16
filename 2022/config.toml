@@ -83,35 +83,42 @@ link="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Program"
-  URL = "program"
-  weight = 1
 
   [[menu.main]]
-  name = "Workshops"
-  URL = "workshops"
-  weight = 2
+  name = "Sessions"
+  URL = "sessions"
+  weight = 1
+
+
+  #[[menu.main]]
+  #name = "Program"
+  #URL = "program"
+  #weight = 1
+
+  #[[menu.main]]
+  #name = "Workshops"
+  #URL = "workshops"
+  #weight = 2
 
   [[menu.main]]
   name = "Speakers"
   URL = "speakers"
   weight = 3
 
-  [[menu.main]]
-  name = "Swag Bag"
-  URL = "swag"
-  weight = 6
+  #[[menu.main]]
+  #name = "Swag Bag"
+  #URL = "swag"
+  #weight = 6
 
-  [[menu.main]]
-  name = "Jobs"
-  URL = "jobs"
-  weight = 5
+  #[[menu.main]]
+  #name = "Jobs"
+  #URL = "jobs"
+  #weight = 5
 
-  [[menu.main]]
-  name = "Networking"
-  URL = "networking"
-  weight = 4
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "networking"
+  #weight = 4
 
 
   [[menu.main]]

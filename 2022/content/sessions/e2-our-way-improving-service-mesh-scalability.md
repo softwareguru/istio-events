@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: Chinese
 block: e
 slot: 2
+slides: 
+video: https://youtu.be/5OLcaTDSoK8
 ---
 
 In this session Zhonghu and Leng Xue will share how their they improved istio scalability to 10 Million sidecars. They introduced an intelligent way to make istio aware of service connectivity, so istio and envoy can achieve lazy xds pushing, which saves more than 99% memory cost of sidecars. This solution is quite different from others and is more efficient and light-weighted, they have made it production-ready in Huawei Application Service Mesh.  

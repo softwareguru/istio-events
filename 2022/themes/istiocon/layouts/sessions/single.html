@@ -48,7 +48,7 @@
             
             {{ with .Params.slides }}
             <br>
-            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/istiocon-2021/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
+            <div class="mb-3"><a href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/istiocon-2022/slides/{{ . }}{{ end }}' target="_blanck" download><i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download slides</a></div>
             {{ end }}          
 
             <div class="content mt-4">{{ .Content }}</div>
@@ -61,11 +61,10 @@
     </div>
 
     
-    
     {{ with .Params.video }}
     <div class="mb-3">
       <iframe id="video-iframe" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"
-        allowtransparency="true" src="{{ . }}?navlinks=false&embed=true"
+        allowtransparency="true" src='{{ replace . "https://youtu.be" "https://www.youtube.com/embed"}}'
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
         webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
     </div>

@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 7
+slides: c7-AuthPatterns.pdf
+video: https://youtu.be/aVsvL9EClHU
 ---
 
 One of the great things about Istio is that it provides a solid mechanism for service to service auth within a mesh using mTLS and AuthorizationPolicy

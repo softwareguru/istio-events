@@ -11,7 +11,7 @@ track_slug: use-case
 language: English
 block: g
 slot: 5
-
+draft: true
 ---
 
 Join us for the IstioCon wrap-up where we will do the raffles for giveaways.

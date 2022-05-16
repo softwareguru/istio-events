@@ -13,6 +13,8 @@ language: English
 block: f
 slot: w
 summary: We will explore many Istio concepts (multi-cluster topologies, identity federation, authorization, and more) and demonstrate how Gloo Mesh can simplify the management of a complex heterogeneous service mesh with a particular focus on multi-tenancy.
+slides:
+video: 
 ---
 
 <a class="theme-btn btn-style-one text-white px-3 mb-2" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_eXGzvWLATrmcbs990NmHzA">Register for this workshop</a>

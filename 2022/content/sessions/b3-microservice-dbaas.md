@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: Chinese
 block: b
 slot: 3
+slides:
+video: https://youtu.be/NyIleb63pCk
 ---
 
 Database as a Service (DBaaS) saw a significant growth YoY. One reason for the growth of DBaaS is explosive growth of data. The pandemic created strong data growth.

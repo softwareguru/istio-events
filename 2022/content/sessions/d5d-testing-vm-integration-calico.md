@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: English
 block: d
 slot: 5d
+slides: d5d-VMIntegrationCalico.pdf
+video: https://youtu.be/uqB6_9zmM-w
 ---
 
 Istio provides native Virtual Machine integration for legacy applications which requires IP connectivity to the East/West gateway deployed in the mesh, and optionally connectivity to the pod networking for enhanced performance.

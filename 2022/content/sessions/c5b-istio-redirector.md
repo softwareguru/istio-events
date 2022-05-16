@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 5b
+slides: c5b-Istio-redirector.pdf
+video: https://youtu.be/nqJTGZGYiDo
 ---
 
 Let your SEO managers handles HTTP redirections at scale on your mesh. 

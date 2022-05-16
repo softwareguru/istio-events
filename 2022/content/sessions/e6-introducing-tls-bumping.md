@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: Chinese
 block: e
 slot: 6
+slides:
+video: https://youtu.be/LoHk03Kg5_A
 ---
 
 Enterprise would like to apply SASE functions to their Service Mesh cluster. TLS bumping is fundamental because SASE functions need to inspect the encrypted content of the traffic. TLS bumping provides functionalities for certificates auto-generation and management in Service Mesh, which avoids certificates pre-generation and update from control plane. In this topic we will present TLS bumping concepts and how to integrate Service Mesh with SASE functions.

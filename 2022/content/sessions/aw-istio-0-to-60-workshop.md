@@ -14,6 +14,8 @@ language: English
 block: a
 slot: w
 summary: This workshop consists of a series of labs that together comprise a hands-on tour of Istio from 0 to 60, so to speak.
+slides: aw-TetrateWorkshop.pdf
+video: 
 ---
 
 <div class="theme-btn btn-style-one text-white px-3 mb-2" target="_blank" href="#">Registration for this workshop has closed</div>

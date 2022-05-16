@@ -16,6 +16,8 @@ language: English
 block: d
 slot: w
 summary: Learn how to run distributed services on multiple Google Kubernetes Engine (GKE) clusters in Google Cloud Platform (GCP) using Anthos Service Mesh (ASM).
+slides: dw-AnthosWorkshop.pdf
+video: 
 ---
 
 <a class="theme-btn btn-style-one text-white px-3 mb-2" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_Ai0kok2RTCO-ki6SB4XkEw">Register for this workshop</a>

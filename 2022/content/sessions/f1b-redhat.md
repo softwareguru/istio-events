@@ -1,5 +1,5 @@
 ---
-id: f4r
+id: f1b
 title: Red Hat loves Istio!
 url: /sessions/redhat-loves-istio
 speakers:
@@ -12,6 +12,8 @@ track_slug:
 language: English
 block: f
 slot: 4r
+slides:
+video: https://youtu.be/IKywsguo96Y
 ---
 
 Join us for this short message from Red Hat for the Istio community.

@@ -12,6 +12,8 @@ track_slug: infrastructure-networking
 language: Chinese
 block: b
 slot: 6
+slides:
+video: https://youtu.be/5DVRgbFyc8U
 ---
 
 Replacing iptables rules with eBPF to allow data being transported directly from inbound sockets to outbound sockets to shorten the datapath between sidecars and services.

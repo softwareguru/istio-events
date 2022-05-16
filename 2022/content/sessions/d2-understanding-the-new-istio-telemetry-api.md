@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: English
 block: d
 slot: 2
+slides:
+video: https://youtu.be/2L6Htij1zGE
 ---
 
 We have introduced the new Telemetry API in v1.11 which provides a flexible and uniform way for configuring how telemetry is generated in the mesh. Since the initial release, we have made continuous improvements in functionality by adding support for various telemetry types and expanding to more providers. In this session, we will go over the motivations and use cases that drove the design of the new API and deep dive into the following aspects:

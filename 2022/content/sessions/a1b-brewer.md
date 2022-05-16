@@ -14,6 +14,8 @@ track_slug: keynote
 language: English
 block: a
 slot: 1b
+slides: 
+video: https://youtu.be/1V7c9Z4vlRg
 ---
 
 It's been clear for some time now that perimeter based network security is not sufficient to secure your application. Large enterprises have moved to a zero-trust model, where security is based on identity, rather than network location, and traffic is encrypted every time it touches the network, but the challenges to operating such a system can be overwhelming. How do you manage secure secret rotation at scale for every instance of every client and service? How do you mitigate replay attacks, and authorize access to services not only based on service identity, but on end user identity as well? 

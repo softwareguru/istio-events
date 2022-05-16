@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: Chinese
 block: e
 slot: 5
+slides:
+video: https://youtu.be/FAc1jxReC7w
 ---
 
 背景

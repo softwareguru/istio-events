@@ -13,6 +13,8 @@ language: English
 block: c
 slot: w
 summary: This hands-on lab will showcase how the Istio Service Mesh allows developers and IT staff to gain a deep understanding of their Kubernetes native applications based on Quarkus and Spring Boot.
+slides: cw-redhat.pdf
+video: 
 ---
 
 <a class="theme-btn btn-style-one text-white px-3 mb-2" target="_blank" href="https://us02web.zoom.us/webinar/register/WN_DjUn8vIIR52Y_pYaPDVURQ">Register for this workshop</a>

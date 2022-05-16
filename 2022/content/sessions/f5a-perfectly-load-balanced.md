@@ -13,6 +13,8 @@ track_slug: getting-started
 language: English
 block: f
 slot: 5a
+slides: f5a-PerfectlyLB.pdf
+video: https://youtu.be/RJTcIwIootw
 ---
 
 Have you read about Load Balancing while onboarding to Istio, but never tried it out? Or maybe you just want to learn more about how Istio uses its Envoy sidecar proxies to support Load Balancing. This talk will discuss why we need Load Balancing, its benefits, and how you can stress test your service mesh so you don't risk your own traffic. We'll demo a simple multi-cluster setup of an online store sample app – Online Boutique – to showcase some Load Balancing capabilities. You will walk away with an understanding of Istio's load balancing options.

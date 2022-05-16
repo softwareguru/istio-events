@@ -12,6 +12,8 @@ track_slug: getting-started
 language: English
 block: g
 slot: 1c
+slides: g1c-Contributing.pdf
+video: https://youtu.be/vlxNtlAx1To
 ---
 
 Are you interested in contributing to Istio and wondering how to get started or would you like to learn more about our community? 

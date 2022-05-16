@@ -12,6 +12,8 @@ track_slug:
 language: English
 block: g
 slot: 1b
+slides: 
+video: https://youtu.be/5bcHp3E5i4A
 ---
 
 Join us for this short message from Google Cloud for the Istio community.

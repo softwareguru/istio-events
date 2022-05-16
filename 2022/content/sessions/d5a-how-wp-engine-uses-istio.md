@@ -12,6 +12,8 @@ track_slug: use-case
 language: English
 block: d
 slot: 5a
+slides: d5a-WPEngine.pdf
+video: https://youtu.be/aI-o1KYwBhs
 ---
 
 WP Engine has adopted Istio as a core technology for its internal microservices platform over the past 2 years, enabling internal engineers to ship products and features quickly and reliably. The platform has a multi-tenant architecture and uses various technologies such as containerized builds, GitOps deployments, and automated policy enforcement all in conjunction with Istio to meet our business and technical goals.

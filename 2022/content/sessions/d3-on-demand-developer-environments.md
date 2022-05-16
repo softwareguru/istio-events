@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: English
 block: d
 slot: 3
+slides: d3-OndemandDeveloperEnvironment
+video: https://youtu.be/p9ayBEQSnq0
 ---
 
 In a micro-service architecture - development and testing changes, in a service or set of services involved in a feature, without affecting stability of shared environments like staging, pre-prod, etc. is challenging. 

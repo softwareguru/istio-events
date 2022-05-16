@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: Chinese
 block: b
 slot: 4
+slides:
+video: https://youtu.be/HlqND67lVXw
 ---
 
 This session will introduce Tencent music's service mesh practice with Istio and Aeraki. Including:

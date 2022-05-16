@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: English
 block: a
 slot: 5
+slides: a5-LessonsLearned.pdf
+video: https://youtu.be/nrFyn-BJqCU
 ---
 
 As Istio adoption becomes mainstream within your organization, new challenges surrounding multi-tenancy and security across multi-cluster will naturally start to grow:

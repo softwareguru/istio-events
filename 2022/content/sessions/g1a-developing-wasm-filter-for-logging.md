@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: English
 block: g
 slot: 1a
+slides: 
+video: https://youtu.be/2CKHXhypCXs
 ---
 
 WebAssembly (WASM) filters enable users to extend Envoy functionality. In this talk, we will discuss Proxy-WASM, Go SDK, our experience writing a Go-based WASM filter, problems we encountered writing a WASM filter at Splunk and a way to build a singleton WASM filter.

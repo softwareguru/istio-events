@@ -13,6 +13,8 @@ track_slug: keynote
 language: English
 block: d
 slot: 1a
+slides:
+video: https://youtu.be/OKO3vPsESi8
 ---
 
 Istio roadmap update.

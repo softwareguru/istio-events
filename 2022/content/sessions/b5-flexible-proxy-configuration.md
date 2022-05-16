@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: Chinese
 block: b
 slot: 5
+slides:
+video: https://youtu.be/OeYDNQ7BiCs
 ---
 
 As the scale of the cluster managed by the service mesh grows and the needs of diverse business scenarios, the proxy configuration corresponding to each different workload will also be different. Although global configuration and Pod Annotation configuration can complete diversified settings, when the number of Pods increases, it becomes more difficult for user to manage the proxy configuration.

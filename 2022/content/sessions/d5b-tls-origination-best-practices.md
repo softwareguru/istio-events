@@ -12,6 +12,8 @@ track_slug: getting-started
 language: English
 block: d
 slot: 5b
+slides: d5b-TLSOrigination.pdf
+video: https://youtu.be/sjTeP-UF_8Y
 ---
 
 Quick dive for beginners on TLS origination to improve security. This talk will focus on settings that may not be expected for new users with a focus on validating settings. I will touch on what settings Istio uses by default and how to configure Destination Rules to correctly check certificates.

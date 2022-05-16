@@ -12,6 +12,8 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 5d
+slides: c5d-ApacheAPISIX.pdf
+video: https://youtu.be/n1xZBVC3H7M
 ---
 
 Apache APISIX is the world's most active open source cloud-native high-performance gateway. In this session I will share how Apache APISIX works with Istio to evolve from a north-south gateway to a full-traffic proxy.

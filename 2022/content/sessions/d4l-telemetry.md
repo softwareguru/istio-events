@@ -12,6 +12,9 @@ language: English
 block: d
 slot: 4l
 summary: We are looking for your feedback on the Telemetry API. If you have experience with Telemetry, we would to know your thoughts on what we are doing. 
+slides:
+video:
+draft: true
 ---
 
 In this listening session we are looking for your feedback on the Telemetry API. If you have experience with Telemetry, we would love your feedback. 

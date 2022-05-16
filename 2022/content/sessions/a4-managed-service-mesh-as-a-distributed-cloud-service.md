@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: English
 block: a
 slot: 4
+slides: a4-ManagedMesh.pdf
+video: https://youtu.be/YcSXyrWqspg
 ---
 
 The external control plane deployment model in Istio enabled some new use cases for mesh management. The ownership and the management of the control plane may belong to a completely different entity, other than the end-user.

@@ -12,6 +12,8 @@ track_slug: tech-evolution-whats-next
 language: English
 block: c
 slot: 2
+slides: c2-Upgraded3k.pdf
+video: https://youtu.be/R86ZsYH7Ka4
 ---
 
 Keeping Istio up to date can be quite a chore. With monthly patch releases and quarterly minor releases, many users fall behind on upgrades, exposing their traffic to known CVEs and bugs. Upgrades can feel risky and unpredictable, with gateways acting as a single point of failure, and proxies upgrading unexpectedly. 

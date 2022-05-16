@@ -13,6 +13,8 @@ track_slug: infrastructure-networking
 language: Chinese
 block: e
 slot: 4
+slides: e4-TrafficMgmt.pdf
+video: https://youtu.be/4-K2Tz5o1go
 ---
 
 smart, a brand to fully transform from fuel vehicles to electric vehicles, is committed to exploring the best solutions for future urban transportation. On its IT infrastructure, cloud-native technologies such as Kubernetes and service mesh help simplify the technology stack, accelerate business innovation, and greatly improve the efficiency of new business development, deployment, operation and maintenance.

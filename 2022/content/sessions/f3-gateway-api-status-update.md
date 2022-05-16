@@ -12,6 +12,8 @@ track_slug: infrastructure-networking
 language: English
 block: f
 slot: 3
+slides: f3-K8sGatewayAPIs.pdf
+video: https://youtu.be/VC0Hu-kYG6Y
 ---
 
 In this talk, we will discuss the status of adoption of The [Gateway API](http://gateway-api.org/) within Istio.

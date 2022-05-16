@@ -13,6 +13,8 @@ track_slug: keynote
 language: English
 block: a
 slot: 1a
+slides: a1-welcome.pdf
+video: https://youtu.be/6hWDlYSujLo
 ---
 
 An overview of the current state of the project.

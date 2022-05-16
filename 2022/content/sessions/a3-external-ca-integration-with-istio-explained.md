@@ -13,6 +13,8 @@ track_slug: tools-features-functionality
 language: English
 block: a
 slot: 3
+slides: a3-ExternalCAIntegration.pdf
+video: https://youtu.be/k-3bKbVqvhg
 ---
 
 Most organizations already have their PKI system in place before they adopt Istio or any service mesh. There are a few approaches in the Istio community, either plugging in your intermediate CA as secrets manually, or use the istio-csr open source project, or leverage Kubernetes CA or Kubernetes Certificate Signing Request (CSR) API. This talk dives into the few approaches out there in the service mesh community to tackle this challenge and the tradeoffs among them.
