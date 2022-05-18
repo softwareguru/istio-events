@@ -13,7 +13,7 @@ track_slug: tools-features-functionality
 language: English
 block: c
 slot: 4
-slides: 
+slides: c4-security-best-practices.pdf
 video: https://youtu.be/-uMGXgo2Jho
 ---
 

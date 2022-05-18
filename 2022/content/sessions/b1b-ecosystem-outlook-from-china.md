@@ -17,6 +17,8 @@ block: b
 slot: 1b
 slides: 
 video: https://youtu.be/WbjhcyjbQPs
+slides: b1b-ChinaPanel.pdf
+
 ---
 
 This panel focuses on the development of Istio's open source ecology and technology in China. We will do an in-depth discussion on the hot technologies and open source practices in the Istio field at this stage, such as ebpf, proxyless, custom protocol access, open source products and ecological development, etc.

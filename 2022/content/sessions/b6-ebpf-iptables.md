@@ -12,7 +12,7 @@ track_slug: infrastructure-networking
 language: Chinese
 block: b
 slot: 6
-slides:
+slides: b6-ebpf-iptables.pdf
 video: https://youtu.be/5DVRgbFyc8U
 ---
 

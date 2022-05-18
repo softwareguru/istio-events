@@ -13,7 +13,7 @@ track_slug: tools-features-functionality
 language: Chinese
 block: e
 slot: 6
-slides:
+slides: e6-TlsBumping.pdf
 video: https://youtu.be/LoHk03Kg5_A
 ---
 

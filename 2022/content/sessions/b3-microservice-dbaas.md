@@ -13,7 +13,7 @@ track_slug: tools-features-functionality
 language: Chinese
 block: b
 slot: 3
-slides:
+slides: b3-microservice-dbaas.pdf
 video: https://youtu.be/NyIleb63pCk
 ---
 
