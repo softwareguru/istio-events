@@ -1,7 +1,7 @@
 ---
 id: d5a
 title: "Sberbank Story: moving Istio from PoC to production"
-url: /sessions/sberbank-story:-moving-istio-from-poc-to-production
+url: /sessions/sberbank-story-moving-istio-from-poc-to-production
 speakers:
  - Igor Gustomyasov
  - Maksim Chudnovskii

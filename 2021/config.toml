@@ -179,6 +179,10 @@ link = "https://sessionize.com/istiocon-2021/"
 name = "Partnership opportunities"
 link = "/istiocon-2021/partner/IstioCon2021_Partner_Packages_v2.pdf"
 
+[[params.footer_resources]]
+name = "Event Report"
+link = "/istiocon-2021/event-report/IstioCon2021-Report.pdf"
+
 [[params.footer_produced]]
 name = "Produced by"
 image = "/istiocon-2021/images/SG.png"

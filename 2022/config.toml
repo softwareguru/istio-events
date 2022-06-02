@@ -219,6 +219,10 @@ link = "https://sessionize.com/istiocon-2022/"
 name = "Prospectus"
 link = "/istiocon-2022/partners/IstioCon2022-Prospectus.pdf"
 
+[[params.footer_resources]]
+name = "Event Report"
+link = "/istiocon-2022/event-report/IstioCON 2022 Report.pdf"
+
 [[params.footer_produced]]
 name = "Produced by"
 image = "/istiocon-2022/images/SG.png"

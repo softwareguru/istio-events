@@ -1,7 +1,7 @@
 ---
 id: c3p
 title: "Getting Started and Beyond: Istio Multicluster with GitOps"
-url: /sessions/getting-started-and-beyond:-istio-multicluster-with-gitops
+url: /sessions/getting-started-and-beyond-istio-multicluster-with-gitops
 speakers:
  - Ryota Sawada
 time_start: 2021-02-23T17:00:00.000Z

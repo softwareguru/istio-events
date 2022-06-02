@@ -1,7 +1,7 @@
 ---
 id: f5a
 title: "Istio Adoption: Planning for Success & Problem Solving"
-url: /sessions/istio-adoption:-planning-for-success-problem-solving
+url: /sessions/istio-adoption-planning-for-success-problem-solving
 speakers:
  - Geoff Flarity
  - Jan Zantinge
