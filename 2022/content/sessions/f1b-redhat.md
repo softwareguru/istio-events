@@ -13,7 +13,7 @@ language: English
 block: f
 slot: 4r
 slides:
-video: https://youtu.be/IKywsguo96Y
+video: https://youtu.be/_gPJC-7v1lk
 ---
 
 Join us for this short message from Red Hat for the Istio community.

@@ -12,8 +12,8 @@ banner:
     link : "https://sessionize.com/istiocon-2022/"
   button2:
     enable : true
-    label : "Watch now!"
-    link : "/live"
+    label : "Check out the 2022 sessions"
+    link : "/sessions"
 
 
 ############################## Event ##############################

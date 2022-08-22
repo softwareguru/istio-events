@@ -13,7 +13,7 @@ language: English
 block: d
 slot: 1b
 slides:
-video: https://youtu.be/5QFsPYVoTsI
+video: https://youtu.be/U6U_vdT6Sn4
 ---
 
 Join us for this short message where Solo.io will share their perspective of where Istio is today and where it is headed.

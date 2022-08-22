@@ -162,8 +162,8 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-label = "Register"
-link = "https://www.crowdcast.io/e/istiocon-2022"
+label = "Watch"
+link = "https://youtube.com/playlist?list=PL7wB27eZmdffL2cyYauEuxcOTyGtSv4gy"
 
 
 ############################# social icon ############################

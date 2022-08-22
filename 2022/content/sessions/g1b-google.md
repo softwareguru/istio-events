@@ -1,6 +1,6 @@
 ---
 id: g1b
-title: Message from Google Cloud
+title: Why did we build Anthos?
 url: /sessions/google-message
 speakers:
 
@@ -13,7 +13,8 @@ language: English
 block: g
 slot: 1b
 slides: 
-video: https://youtu.be/5bcHp3E5i4A
+video: https://youtu.be/SpJNfXpKjAM
+
 ---
 
-Join us for this short message from Google Cloud for the Istio community.
+Anthos is Google’s fully managed Istio-compliant service mesh. In this short message we explain the main problems that Anthos seeks to solve.
